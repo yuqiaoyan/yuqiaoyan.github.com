@@ -1,0 +1,1557 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'recess',
+1 verbose cli   'connect',
+1 verbose cli   'uglify-js',
+1 verbose cli   'jshint',
+1 verbose cli   '-g' ]
+2 info using npm@1.1.49
+3 info using node@v0.8.7
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'recess', null ]
+7 silly cache add name=undefined spec="recess" args=["recess",null]
+8 verbose parsed url { pathname: 'recess', path: 'recess', href: 'recess' }
+9 verbose cache add [ 'connect', null ]
+10 silly cache add name=undefined spec="connect" args=["connect",null]
+11 verbose parsed url { pathname: 'connect', path: 'connect', href: 'connect' }
+12 verbose cache add [ 'uglify-js', null ]
+13 silly cache add name=undefined spec="uglify-js" args=["uglify-js",null]
+14 verbose parsed url { pathname: 'uglify-js', path: 'uglify-js', href: 'uglify-js' }
+15 verbose cache add [ 'jshint', null ]
+16 silly cache add name=undefined spec="jshint" args=["jshint",null]
+17 verbose parsed url { pathname: 'jshint', path: 'jshint', href: 'jshint' }
+18 silly lockFile d0d1f171-recess recess
+19 verbose lock recess /Users/boyu/.npm/d0d1f171-recess.lock
+20 silly lockFile d31cae06-uglify-js uglify-js
+21 verbose lock uglify-js /Users/boyu/.npm/d31cae06-uglify-js.lock
+22 silly lockFile da5c03cb-jshint jshint
+23 verbose lock jshint /Users/boyu/.npm/da5c03cb-jshint.lock
+24 silly lockFile d0d1f171-recess recess
+25 silly lockFile f11a107f-connect connect
+26 verbose lock connect /Users/boyu/.npm/f11a107f-connect.lock
+27 silly lockFile d31cae06-uglify-js uglify-js
+28 silly lockFile da5c03cb-jshint jshint
+29 verbose addNamed [ 'recess', '' ]
+30 verbose addNamed [ null, '' ]
+31 silly lockFile e131134d-recess recess@
+32 verbose lock recess@ /Users/boyu/.npm/e131134d-recess.lock
+33 silly lockFile f11a107f-connect connect
+34 silly addNameRange { name: 'recess', range: '', hasData: false }
+35 verbose addNamed [ 'uglify-js', '' ]
+36 verbose addNamed [ null, '' ]
+37 silly lockFile 679a1028-uglify-js uglify-js@
+38 verbose lock uglify-js@ /Users/boyu/.npm/679a1028-uglify-js.lock
+39 verbose addNamed [ 'jshint', '' ]
+40 verbose addNamed [ null, '' ]
+41 silly lockFile a02a2468-jshint jshint@
+42 verbose lock jshint@ /Users/boyu/.npm/a02a2468-jshint.lock
+43 verbose url raw recess
+44 verbose url resolving [ 'https://registry.npmjs.org/', './recess' ]
+45 verbose url resolved https://registry.npmjs.org/recess
+46 info retry registry request attempt 1 at 15:50:56
+47 http GET https://registry.npmjs.org/recess
+48 silly addNameRange { name: 'uglify-js', range: '', hasData: false }
+49 verbose addNamed [ 'connect', '' ]
+50 verbose addNamed [ null, '' ]
+51 silly lockFile 6c45e0f3-connect connect@
+52 verbose lock connect@ /Users/boyu/.npm/6c45e0f3-connect.lock
+53 silly addNameRange { name: 'jshint', range: '', hasData: false }
+54 verbose url raw uglify-js
+55 verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js' ]
+56 verbose url resolved https://registry.npmjs.org/uglify-js
+57 info retry registry request attempt 1 at 15:50:56
+58 http GET https://registry.npmjs.org/uglify-js
+59 silly addNameRange { name: 'connect', range: '', hasData: false }
+60 verbose url raw jshint
+61 verbose url resolving [ 'https://registry.npmjs.org/', './jshint' ]
+62 verbose url resolved https://registry.npmjs.org/jshint
+63 info retry registry request attempt 1 at 15:50:56
+64 http GET https://registry.npmjs.org/jshint
+65 verbose url raw connect
+66 verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
+67 verbose url resolved https://registry.npmjs.org/connect
+68 info retry registry request attempt 1 at 15:50:56
+69 http GET https://registry.npmjs.org/connect
+70 http 200 https://registry.npmjs.org/uglify-js
+71 silly registry.get cb [ 200,
+71 silly registry.get   { vary: 'Accept',
+71 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+71 silly registry.get     etag: '"78C3WVKWU3V7K9JV8NZE85B56"',
+71 silly registry.get     date: 'Wed, 22 Aug 2012 19:50:56 GMT',
+71 silly registry.get     'content-type': 'application/json',
+71 silly registry.get     'content-length': '20584' } ]
+72 silly addNameRange number 2 { name: 'uglify-js', range: '', hasData: true }
+73 silly addNameRange versions [ 'uglify-js',
+73 silly addNameRange   [ '0.0.1',
+73 silly addNameRange     '0.0.2',
+73 silly addNameRange     '0.0.3',
+73 silly addNameRange     '0.0.4',
+73 silly addNameRange     '0.0.5',
+73 silly addNameRange     '1.0.1',
+73 silly addNameRange     '1.0.2',
+73 silly addNameRange     '1.0.3',
+73 silly addNameRange     '1.0.4',
+73 silly addNameRange     '1.0.5',
+73 silly addNameRange     '1.0.6',
+73 silly addNameRange     '1.0.7',
+73 silly addNameRange     '1.1.0',
+73 silly addNameRange     '1.1.1',
+73 silly addNameRange     '1.2.0',
+73 silly addNameRange     '1.2.1',
+73 silly addNameRange     '1.2.2',
+73 silly addNameRange     '1.2.3',
+73 silly addNameRange     '1.2.4',
+73 silly addNameRange     '1.2.5',
+73 silly addNameRange     '1.2.6',
+73 silly addNameRange     '1.3.0',
+73 silly addNameRange     '1.3.1',
+73 silly addNameRange     '1.3.2',
+73 silly addNameRange     '1.3.3' ] ]
+74 verbose addNamed [ 'uglify-js', '1.3.3' ]
+75 verbose addNamed [ '1.3.3', '1.3.3' ]
+76 silly lockFile 7890c84d-uglify-js-1-3-3 uglify-js@1.3.3
+77 verbose lock uglify-js@1.3.3 /Users/boyu/.npm/7890c84d-uglify-js-1-3-3.lock
+78 silly lockFile d9a7949c-rg-uglify-js-uglify-js-1-3-3-tgz https://registry.npmjs.org/uglify-js/-/uglify-js-1.3.3.tgz
+79 verbose lock https://registry.npmjs.org/uglify-js/-/uglify-js-1.3.3.tgz /Users/boyu/.npm/d9a7949c-rg-uglify-js-uglify-js-1-3-3-tgz.lock
+80 verbose addRemoteTarball [ 'https://registry.npmjs.org/uglify-js/-/uglify-js-1.3.3.tgz',
+80 verbose addRemoteTarball   'ddd3e98aa27f5f47e589cfb3f95cddba26096190' ]
+81 info retry fetch attempt 1 at 15:50:57
+82 verbose fetch to= /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665057584-0.06207094853743911/tmp.tgz
+83 http GET https://registry.npmjs.org/uglify-js/-/uglify-js-1.3.3.tgz
+84 http 200 https://registry.npmjs.org/uglify-js/-/uglify-js-1.3.3.tgz
+85 http 200 https://registry.npmjs.org/recess
+86 silly registry.get cb [ 200,
+86 silly registry.get   { vary: 'Accept',
+86 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+86 silly registry.get     etag: '"52QD4ATF90QTGG4SDEXDZJFN4"',
+86 silly registry.get     date: 'Wed, 22 Aug 2012 19:50:56 GMT',
+86 silly registry.get     'content-type': 'application/json',
+86 silly registry.get     'content-length': '23968' } ]
+87 silly addNameRange number 2 { name: 'recess', range: '', hasData: true }
+88 silly addNameRange versions [ 'recess',
+88 silly addNameRange   [ '0.1.0',
+88 silly addNameRange     '1.0.0',
+88 silly addNameRange     '1.0.1',
+88 silly addNameRange     '1.0.2',
+88 silly addNameRange     '1.0.3',
+88 silly addNameRange     '1.0.4',
+88 silly addNameRange     '1.1.0',
+88 silly addNameRange     '1.1.1',
+88 silly addNameRange     '1.1.3',
+88 silly addNameRange     '1.1.4',
+88 silly addNameRange     '1.1.5',
+88 silly addNameRange     '1.1.6' ] ]
+89 verbose addNamed [ 'recess', '1.1.6' ]
+90 verbose addNamed [ '1.1.6', '1.1.6' ]
+91 silly lockFile 12b8eafd-recess-1-1-6 recess@1.1.6
+92 verbose lock recess@1.1.6 /Users/boyu/.npm/12b8eafd-recess-1-1-6.lock
+93 silly lockFile f77af7f5-pmjs-org-recess-recess-1-1-6-tgz https://registry.npmjs.org/recess/-/recess-1.1.6.tgz
+94 verbose lock https://registry.npmjs.org/recess/-/recess-1.1.6.tgz /Users/boyu/.npm/f77af7f5-pmjs-org-recess-recess-1-1-6-tgz.lock
+95 verbose addRemoteTarball [ 'https://registry.npmjs.org/recess/-/recess-1.1.6.tgz',
+95 verbose addRemoteTarball   '0b1ffaff9fe87082bc126dbca3f9ebdf739a459f' ]
+96 info retry fetch attempt 1 at 15:50:59
+97 verbose fetch to= /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665059190-0.7376571872737259/tmp.tgz
+98 http GET https://registry.npmjs.org/recess/-/recess-1.1.6.tgz
+99 http 200 https://registry.npmjs.org/recess/-/recess-1.1.6.tgz
+100 silly shasum updated bytes 40960
+101 silly shasum updated bytes 2656
+102 info shasum 0b1ffaff9fe87082bc126dbca3f9ebdf739a459f
+102 info shasum /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665059190-0.7376571872737259/tmp.tgz
+103 verbose tar unpack /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665059190-0.7376571872737259/tmp.tgz
+104 silly lockFile 1082611b-59190-0-7376571872737259-package /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665059190-0.7376571872737259/package
+105 verbose lock /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665059190-0.7376571872737259/package /Users/boyu/.npm/1082611b-59190-0-7376571872737259-package.lock
+106 silly gunzTarPerm modes [ '777', '666' ]
+107 silly gunzTarPerm extractEntry package.json
+108 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+109 silly gunzTarPerm extractEntry .npmignore
+110 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+111 silly gunzTarPerm extractEntry README.md
+112 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+113 silly gunzTarPerm extractEntry LICENSE
+114 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+115 silly gunzTarPerm extractEntry .travis.yml
+116 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+117 silly gunzTarPerm extractEntry benchmark/index.js
+118 silly gunzTarPerm modified mode [ 'benchmark/index.js', 420, 438 ]
+119 silly gunzTarPerm extractEntry benchmark/benchmark.less
+120 silly gunzTarPerm modified mode [ 'benchmark/benchmark.less', 420, 438 ]
+121 silly gunzTarPerm extractEntry bin/recess
+122 silly gunzTarPerm modified mode [ 'bin/recess', 493, 511 ]
+123 silly gunzTarPerm extractEntry lib/core.js
+124 silly gunzTarPerm modified mode [ 'lib/core.js', 420, 438 ]
+125 silly gunzTarPerm extractEntry lib/index.js
+126 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+127 silly gunzTarPerm extractEntry lib/min.js
+128 silly gunzTarPerm modified mode [ 'lib/min.js', 420, 438 ]
+129 silly gunzTarPerm extractEntry lib/util.js
+130 silly gunzTarPerm modified mode [ 'lib/util.js', 420, 438 ]
+131 silly gunzTarPerm extractEntry lib/compile/inline-images.js
+132 silly gunzTarPerm modified mode [ 'lib/compile/inline-images.js', 420, 438 ]
+133 silly gunzTarPerm extractEntry lib/compile/prefix-whitespace.js
+134 silly gunzTarPerm modified mode [ 'lib/compile/prefix-whitespace.js', 420, 438 ]
+135 silly gunzTarPerm extractEntry lib/compile/strict-property-order.js
+136 silly gunzTarPerm modified mode [ 'lib/compile/strict-property-order.js', 420, 438 ]
+137 silly gunzTarPerm extractEntry lib/compile/zero-units.js
+138 silly gunzTarPerm modified mode [ 'lib/compile/zero-units.js', 420, 438 ]
+139 silly gunzTarPerm extractEntry lib/lint/inline-images.js
+140 silly gunzTarPerm modified mode [ 'lib/lint/inline-images.js', 420, 438 ]
+141 silly gunzTarPerm extractEntry lib/lint/no-IDs.js
+142 silly gunzTarPerm modified mode [ 'lib/lint/no-IDs.js', 420, 438 ]
+143 silly gunzTarPerm extractEntry lib/lint/no-JS-prefix.js
+144 silly gunzTarPerm modified mode [ 'lib/lint/no-JS-prefix.js', 420, 438 ]
+145 silly gunzTarPerm extractEntry lib/lint/no-overqualifying.js
+146 silly gunzTarPerm modified mode [ 'lib/lint/no-overqualifying.js', 420, 438 ]
+147 silly gunzTarPerm extractEntry lib/lint/no-underscores.js
+148 silly gunzTarPerm modified mode [ 'lib/lint/no-underscores.js', 420, 438 ]
+149 silly gunzTarPerm extractEntry lib/lint/no-universal-selectors.js
+150 silly gunzTarPerm modified mode [ 'lib/lint/no-universal-selectors.js', 420, 438 ]
+151 silly gunzTarPerm extractEntry lib/lint/strict-property-order.js
+152 silly gunzTarPerm modified mode [ 'lib/lint/strict-property-order.js', 420, 438 ]
+153 silly gunzTarPerm extractEntry lib/lint/zero-units.js
+154 silly gunzTarPerm modified mode [ 'lib/lint/zero-units.js', 420, 438 ]
+155 silly gunzTarPerm extractEntry makefile
+156 silly gunzTarPerm modified mode [ 'makefile', 420, 438 ]
+157 silly gunzTarPerm extractEntry test/index.js
+158 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+159 silly gunzTarPerm extractEntry test/compiled/preboot.css
+160 silly gunzTarPerm modified mode [ 'test/compiled/preboot.css', 420, 438 ]
+161 silly gunzTarPerm extractEntry test/compiled/blog.css
+162 silly gunzTarPerm modified mode [ 'test/compiled/blog.css', 420, 438 ]
+163 silly gunzTarPerm extractEntry test/compiled/no-IDs.css
+164 silly gunzTarPerm modified mode [ 'test/compiled/no-IDs.css', 420, 438 ]
+165 silly gunzTarPerm extractEntry test/compiled/no-JS.css
+166 silly gunzTarPerm modified mode [ 'test/compiled/no-JS.css', 420, 438 ]
+167 silly gunzTarPerm extractEntry test/compiled/no-overqualifying.css
+168 silly gunzTarPerm modified mode [ 'test/compiled/no-overqualifying.css', 420, 438 ]
+169 silly gunzTarPerm extractEntry test/compiled/no-underscores.css
+170 silly gunzTarPerm modified mode [ 'test/compiled/no-underscores.css', 420, 438 ]
+171 silly gunzTarPerm extractEntry test/compiled/inline-images.css
+172 silly gunzTarPerm modified mode [ 'test/compiled/inline-images.css', 420, 438 ]
+173 silly gunzTarPerm extractEntry test/compiled/prefixes.css
+174 silly gunzTarPerm modified mode [ 'test/compiled/prefixes.css', 420, 438 ]
+175 silly gunzTarPerm extractEntry test/compiled/property-order.css
+176 silly gunzTarPerm modified mode [ 'test/compiled/property-order.css', 420, 438 ]
+177 silly gunzTarPerm extractEntry test/compiled/simple.css
+178 silly gunzTarPerm modified mode [ 'test/compiled/simple.css', 420, 438 ]
+179 silly gunzTarPerm extractEntry test/compiled/universal-selectors.css
+180 silly gunzTarPerm modified mode [ 'test/compiled/universal-selectors.css', 420, 438 ]
+181 silly gunzTarPerm extractEntry test/compiled/zero-units.css
+182 silly gunzTarPerm modified mode [ 'test/compiled/zero-units.css', 420, 438 ]
+183 silly gunzTarPerm extractEntry test/fixtures/preboot.less
+184 silly gunzTarPerm modified mode [ 'test/fixtures/preboot.less', 420, 438 ]
+185 silly gunzTarPerm extractEntry test/fixtures/blog.css
+186 silly gunzTarPerm modified mode [ 'test/fixtures/blog.css', 420, 438 ]
+187 silly gunzTarPerm extractEntry test/fixtures/no-IDs.css
+188 silly gunzTarPerm modified mode [ 'test/fixtures/no-IDs.css', 420, 438 ]
+189 silly gunzTarPerm extractEntry test/fixtures/no-JS.css
+190 silly gunzTarPerm modified mode [ 'test/fixtures/no-JS.css', 420, 438 ]
+191 silly gunzTarPerm extractEntry test/fixtures/no-overqualifying.css
+192 silly gunzTarPerm modified mode [ 'test/fixtures/no-overqualifying.css', 420, 438 ]
+193 silly gunzTarPerm extractEntry test/fixtures/no-underscores.css
+194 silly gunzTarPerm modified mode [ 'test/fixtures/no-underscores.css', 420, 438 ]
+195 silly gunzTarPerm extractEntry test/fixtures/inline-images.css
+196 silly gunzTarPerm modified mode [ 'test/fixtures/inline-images.css', 420, 438 ]
+197 silly gunzTarPerm extractEntry test/fixtures/prefixes.css
+198 silly gunzTarPerm modified mode [ 'test/fixtures/prefixes.css', 420, 438 ]
+199 silly gunzTarPerm extractEntry test/fixtures/property-order.css
+200 silly gunzTarPerm modified mode [ 'test/fixtures/property-order.css', 420, 438 ]
+201 silly gunzTarPerm extractEntry test/fixtures/simple.css
+202 silly gunzTarPerm modified mode [ 'test/fixtures/simple.css', 420, 438 ]
+203 silly gunzTarPerm extractEntry test/fixtures/sprite.png
+204 silly gunzTarPerm modified mode [ 'test/fixtures/sprite.png', 420, 438 ]
+205 silly gunzTarPerm extractEntry test/fixtures/universal-selectors.css
+206 silly gunzTarPerm modified mode [ 'test/fixtures/universal-selectors.css', 420, 438 ]
+207 silly gunzTarPerm extractEntry test/fixtures/zero-units.css
+208 silly gunzTarPerm modified mode [ 'test/fixtures/zero-units.css', 420, 438 ]
+209 silly gunzTarPerm extractEntry test/sprite.png
+210 silly gunzTarPerm modified mode [ 'test/sprite.png', 420, 438 ]
+211 silly gunzTarPerm extractEntry test/types/compile.js
+212 silly gunzTarPerm modified mode [ 'test/types/compile.js', 420, 438 ]
+213 silly gunzTarPerm extractEntry test/types/errors.js
+214 silly gunzTarPerm modified mode [ 'test/types/errors.js', 420, 438 ]
+215 silly gunzTarPerm extractEntry test/types/lint.js
+216 silly gunzTarPerm modified mode [ 'test/types/lint.js', 420, 438 ]
+217 verbose read json /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665059190-0.7376571872737259/package/package.json
+218 silly lockFile 1082611b-59190-0-7376571872737259-package /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665059190-0.7376571872737259/package
+219 verbose from cache /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665059190-0.7376571872737259/package/package.json
+220 verbose tar pack [ '/Users/boyu/.npm/recess/1.1.6/package.tgz',
+220 verbose tar pack   '/var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665059190-0.7376571872737259/package' ]
+221 verbose tarball /Users/boyu/.npm/recess/1.1.6/package.tgz
+222 verbose folder /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665059190-0.7376571872737259/package
+223 silly lockFile 26dce0fb-oyu-npm-recess-1-1-6-package-tgz /Users/boyu/.npm/recess/1.1.6/package.tgz
+224 verbose lock /Users/boyu/.npm/recess/1.1.6/package.tgz /Users/boyu/.npm/26dce0fb-oyu-npm-recess-1-1-6-package-tgz.lock
+225 silly lockFile 26dce0fb-oyu-npm-recess-1-1-6-package-tgz /Users/boyu/.npm/recess/1.1.6/package.tgz
+226 silly lockFile c50856b6-rs-boyu-npm-recess-1-1-6-package /Users/boyu/.npm/recess/1.1.6/package
+227 verbose lock /Users/boyu/.npm/recess/1.1.6/package /Users/boyu/.npm/c50856b6-rs-boyu-npm-recess-1-1-6-package.lock
+228 silly lockFile c50856b6-rs-boyu-npm-recess-1-1-6-package /Users/boyu/.npm/recess/1.1.6/package
+229 verbose tar unpack /Users/boyu/.npm/recess/1.1.6/package.tgz
+230 silly lockFile c50856b6-rs-boyu-npm-recess-1-1-6-package /Users/boyu/.npm/recess/1.1.6/package
+231 verbose lock /Users/boyu/.npm/recess/1.1.6/package /Users/boyu/.npm/c50856b6-rs-boyu-npm-recess-1-1-6-package.lock
+232 silly gunzTarPerm modes [ '777', '666' ]
+233 silly gunzTarPerm extractEntry package.json
+234 silly gunzTarPerm extractEntry .npmignore
+235 silly gunzTarPerm extractEntry README.md
+236 silly gunzTarPerm extractEntry LICENSE
+237 silly gunzTarPerm extractEntry .travis.yml
+238 silly gunzTarPerm extractEntry benchmark/index.js
+239 silly gunzTarPerm extractEntry benchmark/benchmark.less
+240 silly gunzTarPerm extractEntry bin/recess
+241 silly gunzTarPerm extractEntry lib/core.js
+242 silly gunzTarPerm extractEntry lib/index.js
+243 silly gunzTarPerm extractEntry lib/min.js
+244 silly gunzTarPerm extractEntry lib/util.js
+245 silly gunzTarPerm extractEntry lib/compile/inline-images.js
+246 silly gunzTarPerm extractEntry lib/compile/prefix-whitespace.js
+247 silly gunzTarPerm extractEntry lib/compile/strict-property-order.js
+248 silly gunzTarPerm extractEntry lib/compile/zero-units.js
+249 silly gunzTarPerm extractEntry lib/lint/inline-images.js
+250 silly gunzTarPerm extractEntry lib/lint/no-IDs.js
+251 silly gunzTarPerm extractEntry lib/lint/no-JS-prefix.js
+252 silly gunzTarPerm extractEntry lib/lint/no-overqualifying.js
+253 silly gunzTarPerm extractEntry lib/lint/no-underscores.js
+254 silly gunzTarPerm extractEntry lib/lint/no-universal-selectors.js
+255 silly gunzTarPerm extractEntry lib/lint/strict-property-order.js
+256 silly gunzTarPerm extractEntry lib/lint/zero-units.js
+257 silly gunzTarPerm extractEntry makefile
+258 silly gunzTarPerm extractEntry test/index.js
+259 silly gunzTarPerm extractEntry test/compiled/preboot.css
+260 silly gunzTarPerm extractEntry test/compiled/blog.css
+261 silly gunzTarPerm extractEntry test/compiled/no-IDs.css
+262 silly gunzTarPerm extractEntry test/compiled/no-JS.css
+263 silly gunzTarPerm extractEntry test/compiled/no-overqualifying.css
+264 silly gunzTarPerm extractEntry test/compiled/no-underscores.css
+265 silly gunzTarPerm extractEntry test/compiled/inline-images.css
+266 silly gunzTarPerm extractEntry test/compiled/prefixes.css
+267 silly gunzTarPerm extractEntry test/compiled/property-order.css
+268 silly gunzTarPerm extractEntry test/compiled/simple.css
+269 silly gunzTarPerm extractEntry test/compiled/universal-selectors.css
+270 silly gunzTarPerm extractEntry test/compiled/zero-units.css
+271 silly gunzTarPerm extractEntry test/fixtures/preboot.less
+272 silly gunzTarPerm extractEntry test/fixtures/blog.css
+273 silly gunzTarPerm extractEntry test/fixtures/no-IDs.css
+274 silly gunzTarPerm extractEntry test/fixtures/no-JS.css
+275 silly gunzTarPerm extractEntry test/fixtures/no-overqualifying.css
+276 silly gunzTarPerm extractEntry test/fixtures/no-underscores.css
+277 silly gunzTarPerm extractEntry test/fixtures/inline-images.css
+278 silly gunzTarPerm extractEntry test/fixtures/prefixes.css
+279 silly gunzTarPerm extractEntry test/fixtures/property-order.css
+280 silly gunzTarPerm extractEntry test/fixtures/simple.css
+281 silly gunzTarPerm extractEntry test/fixtures/sprite.png
+282 silly gunzTarPerm extractEntry test/fixtures/universal-selectors.css
+283 silly gunzTarPerm extractEntry test/fixtures/zero-units.css
+284 silly gunzTarPerm extractEntry test/sprite.png
+285 silly gunzTarPerm extractEntry test/types/compile.js
+286 silly gunzTarPerm extractEntry test/types/errors.js
+287 silly gunzTarPerm extractEntry test/types/lint.js
+288 verbose read json /Users/boyu/.npm/recess/1.1.6/package/package.json
+289 silly lockFile c50856b6-rs-boyu-npm-recess-1-1-6-package /Users/boyu/.npm/recess/1.1.6/package
+290 silly shasum updated bytes 40960
+291 silly shasum updated bytes 2666
+292 info shasum b23f92257f63936d30084657160192766d4e4745
+292 info shasum /Users/boyu/.npm/recess/1.1.6/package.tgz
+293 verbose from cache /Users/boyu/.npm/recess/1.1.6/package/package.json
+294 verbose chmod /Users/boyu/.npm/recess/1.1.6/package.tgz 666
+295 verbose chown /Users/boyu/.npm/recess/1.1.6/package.tgz [ 501, 20 ]
+296 silly lockFile f77af7f5-pmjs-org-recess-recess-1-1-6-tgz https://registry.npmjs.org/recess/-/recess-1.1.6.tgz
+297 silly lockFile 12b8eafd-recess-1-1-6 recess@1.1.6
+298 silly lockFile e131134d-recess recess@
+299 http 200 https://registry.npmjs.org/connect
+300 silly registry.get cb [ 200,
+300 silly registry.get   { vary: 'Accept',
+300 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+300 silly registry.get     etag: '"2PRU7AFUL65X2B5HMDK7QY2S7"',
+300 silly registry.get     date: 'Wed, 22 Aug 2012 19:50:56 GMT',
+300 silly registry.get     'content-type': 'application/json',
+300 silly registry.get     'content-length': '100202' } ]
+301 silly addNameRange number 2 { name: 'connect', range: '', hasData: true }
+302 silly addNameRange versions [ 'connect',
+302 silly addNameRange   [ '0.0.1',
+302 silly addNameRange     '0.0.2',
+302 silly addNameRange     '0.0.3',
+302 silly addNameRange     '0.0.4',
+302 silly addNameRange     '0.0.5',
+302 silly addNameRange     '0.0.6',
+302 silly addNameRange     '0.1.0',
+302 silly addNameRange     '0.2.0',
+302 silly addNameRange     '0.2.1',
+302 silly addNameRange     '0.2.2',
+302 silly addNameRange     '0.2.3',
+302 silly addNameRange     '0.2.4',
+302 silly addNameRange     '0.2.5',
+302 silly addNameRange     '0.2.6',
+302 silly addNameRange     '0.2.7',
+302 silly addNameRange     '0.3.0',
+302 silly addNameRange     '0.4.0',
+302 silly addNameRange     '0.5.0',
+302 silly addNameRange     '0.5.1',
+302 silly addNameRange     '0.5.2',
+302 silly addNameRange     '0.5.3',
+302 silly addNameRange     '0.5.4',
+302 silly addNameRange     '0.5.5',
+302 silly addNameRange     '0.5.6',
+302 silly addNameRange     '0.5.7',
+302 silly addNameRange     '0.5.8',
+302 silly addNameRange     '0.5.9',
+302 silly addNameRange     '0.5.10',
+302 silly addNameRange     '1.0.0',
+302 silly addNameRange     '1.0.1',
+302 silly addNameRange     '1.0.2',
+302 silly addNameRange     '1.0.3',
+302 silly addNameRange     '1.0.4',
+302 silly addNameRange     '1.0.5',
+302 silly addNameRange     '1.0.6',
+302 silly addNameRange     '1.1.0',
+302 silly addNameRange     '1.1.1',
+302 silly addNameRange     '1.1.2',
+302 silly addNameRange     '1.1.3',
+302 silly addNameRange     '1.1.4',
+302 silly addNameRange     '1.1.5',
+302 silly addNameRange     '1.2.0',
+302 silly addNameRange     '1.2.1',
+302 silly addNameRange     '1.2.2',
+302 silly addNameRange     '1.2.3',
+302 silly addNameRange     '1.3.0',
+302 silly addNameRange     '1.4.0',
+302 silly addNameRange     '1.4.1',
+302 silly addNameRange     '1.4.2',
+302 silly addNameRange     '1.4.3',
+302 silly addNameRange     '1.4.4',
+302 silly addNameRange     '1.4.5',
+302 silly addNameRange     '1.4.6',
+302 silly addNameRange     '1.5.0',
+302 silly addNameRange     '1.5.1',
+302 silly addNameRange     '1.5.2',
+302 silly addNameRange     '1.6.0',
+302 silly addNameRange     '1.6.1',
+302 silly addNameRange     '1.6.2',
+302 silly addNameRange     '1.6.3',
+302 silly addNameRange     '1.6.4',
+302 silly addNameRange     '1.7.0',
+302 silly addNameRange     '1.7.1',
+302 silly addNameRange     '1.7.2',
+302 silly addNameRange     '1.7.3',
+302 silly addNameRange     '1.8.0',
+302 silly addNameRange     '1.8.1',
+302 silly addNameRange     '1.8.2',
+302 silly addNameRange     '1.8.3',
+302 silly addNameRange     '1.8.4',
+302 silly addNameRange     '1.8.5',
+302 silly addNameRange     '2.0.0',
+302 silly addNameRange     '2.0.1',
+302 silly addNameRange     '2.0.2',
+302 silly addNameRange     '2.0.3',
+302 silly addNameRange     '1.8.6',
+302 silly addNameRange     '2.1.0',
+302 silly addNameRange     '2.1.1',
+302 silly addNameRange     '2.1.2',
+302 silly addNameRange     '1.8.7',
+302 silly addNameRange     '2.1.3',
+302 silly addNameRange     '2.2.0',
+302 silly addNameRange     '2.2.1',
+302 silly addNameRange     '2.2.2',
+302 silly addNameRange     '2.3.0',
+302 silly addNameRange     '2.3.1',
+302 silly addNameRange     '2.3.2',
+302 silly addNameRange     '2.3.3',
+302 silly addNameRange     '1.9.0',
+302 silly addNameRange     '1.9.1',
+302 silly addNameRange     '2.3.4',
+302 silly addNameRange     '2.3.5',
+302 silly addNameRange     '2.3.6',
+302 silly addNameRange     '2.3.7',
+302 silly addNameRange     '1.9.2',
+302 silly addNameRange     '2.3.8',
+302 silly addNameRange     '2.3.9',
+302 silly addNameRange     '2.4.0',
+302 silly addNameRange     '2.4.1',
+302 silly addNameRange     '2.4.2',
+302 silly addNameRange     '2.4.3',
+302 silly addNameRange     '2.4.4' ] ]
+303 verbose addNamed [ 'connect', '2.4.4' ]
+304 verbose addNamed [ '2.4.4', '2.4.4' ]
+305 silly lockFile c3f4df6e-connect-2-4-4 connect@2.4.4
+306 verbose lock connect@2.4.4 /Users/boyu/.npm/c3f4df6e-connect-2-4-4.lock
+307 silly lockFile 63aa5e9f-js-org-connect-connect-2-4-4-tgz https://registry.npmjs.org/connect/-/connect-2.4.4.tgz
+308 verbose lock https://registry.npmjs.org/connect/-/connect-2.4.4.tgz /Users/boyu/.npm/63aa5e9f-js-org-connect-connect-2-4-4-tgz.lock
+309 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect/-/connect-2.4.4.tgz',
+309 verbose addRemoteTarball   '8031201b70e7f41b988a75c4c94777079c44c70f' ]
+310 info retry fetch attempt 1 at 15:51:06
+311 verbose fetch to= /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665066368-0.6280411537736654/tmp.tgz
+312 http GET https://registry.npmjs.org/connect/-/connect-2.4.4.tgz
+313 silly shasum updated bytes 40960
+314 silly shasum updated bytes 40960
+315 silly shasum updated bytes 5307
+316 info shasum ddd3e98aa27f5f47e589cfb3f95cddba26096190
+316 info shasum /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665057584-0.06207094853743911/tmp.tgz
+317 verbose tar unpack /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665057584-0.06207094853743911/tmp.tgz
+318 silly lockFile 4227f892-7584-0-06207094853743911-package /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665057584-0.06207094853743911/package
+319 verbose lock /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665057584-0.06207094853743911/package /Users/boyu/.npm/4227f892-7584-0-06207094853743911-package.lock
+320 silly gunzTarPerm modes [ '777', '666' ]
+321 silly gunzTarPerm extractEntry docstyle.css
+322 silly gunzTarPerm modified mode [ 'docstyle.css', 420, 438 ]
+323 silly gunzTarPerm extractEntry bin/
+324 silly gunzTarPerm modified mode [ 'bin/', 493, 511 ]
+325 silly gunzTarPerm extractEntry bin/uglifyjs
+326 silly gunzTarPerm modified mode [ 'bin/uglifyjs', 493, 511 ]
+327 silly gunzTarPerm extractEntry README.html
+328 silly gunzTarPerm modified mode [ 'README.html', 420, 438 ]
+329 silly gunzTarPerm extractEntry .npmignore
+330 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+331 silly gunzTarPerm extractEntry test/
+332 silly gunzTarPerm modified mode [ 'test/', 493, 511 ]
+333 silly gunzTarPerm extractEntry test/beautify.js
+334 silly gunzTarPerm modified mode [ 'test/beautify.js', 484, 502 ]
+335 silly gunzTarPerm extractEntry test/unit/
+336 silly gunzTarPerm modified mode [ 'test/unit/', 493, 511 ]
+337 silly gunzTarPerm extractEntry test/unit/compress/
+338 silly gunzTarPerm modified mode [ 'test/unit/compress/', 493, 511 ]
+339 silly gunzTarPerm extractEntry test/unit/compress/expected/
+340 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/', 493, 511 ]
+341 silly gunzTarPerm extractEntry test/unit/compress/expected/issue48.js
+342 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue48.js', 420, 438 ]
+343 silly gunzTarPerm extractEntry test/unit/compress/expected/issue29.js
+344 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue29.js', 420, 438 ]
+345 silly gunzTarPerm extractEntry test/unit/compress/expected/if.js
+346 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/if.js', 420, 438 ]
+347 silly gunzTarPerm extractEntry test/unit/compress/expected/issue68.js
+348 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue68.js', 420, 438 ]
+349 silly gunzTarPerm extractEntry test/unit/compress/expected/ifreturn2.js
+350 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/ifreturn2.js', 420, 438 ]
+351 silly gunzTarPerm extractEntry test/unit/compress/expected/issue28.js
+352 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue28.js', 420, 438 ]
+353 silly gunzTarPerm extractEntry test/unit/compress/expected/assignment.js
+354 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/assignment.js', 420, 438 ]
+355 silly gunzTarPerm extractEntry test/unit/compress/expected/issue349.js
+356 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue349.js', 420, 438 ]
+357 silly gunzTarPerm extractEntry test/unit/compress/expected/if-not.js
+358 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/if-not.js', 420, 438 ]
+359 silly gunzTarPerm extractEntry test/unit/compress/expected/issue54.1.js
+360 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue54.1.js', 420, 438 ]
+361 silly gunzTarPerm extractEntry test/unit/compress/expected/issue16.js
+362 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue16.js', 420, 438 ]
+363 silly gunzTarPerm extractEntry test/unit/compress/expected/forstatement.js
+364 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/forstatement.js', 420, 438 ]
+365 silly gunzTarPerm extractEntry test/unit/compress/expected/issue372.js
+366 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue372.js', 420, 438 ]
+367 silly gunzTarPerm extractEntry test/unit/compress/expected/array3.js
+368 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/array3.js', 420, 438 ]
+369 silly gunzTarPerm extractEntry test/unit/compress/expected/concatstring.js
+370 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/concatstring.js', 420, 438 ]
+371 silly gunzTarPerm extractEntry test/unit/compress/expected/array2.js
+372 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/array2.js', 420, 438 ]
+373 silly gunzTarPerm extractEntry test/unit/compress/expected/var.js
+374 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/var.js', 420, 438 ]
+375 silly gunzTarPerm extractEntry test/unit/compress/expected/array4.js
+376 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/array4.js', 420, 438 ]
+377 silly gunzTarPerm extractEntry test/unit/compress/expected/issue69.js
+378 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue69.js', 420, 438 ]
+379 silly gunzTarPerm extractEntry test/unit/compress/expected/issue21.js
+380 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue21.js', 420, 438 ]
+381 silly gunzTarPerm extractEntry test/unit/compress/expected/issue20.js
+382 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue20.js', 420, 438 ]
+383 silly gunzTarPerm extractEntry test/unit/compress/expected/with.js
+384 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/with.js', 420, 438 ]
+385 silly gunzTarPerm extractEntry test/unit/compress/expected/strict-equals.js
+386 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/strict-equals.js', 420, 438 ]
+387 silly gunzTarPerm extractEntry test/unit/compress/expected/issue11.js
+388 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue11.js', 420, 438 ]
+389 silly gunzTarPerm extractEntry test/unit/compress/expected/1e21.js
+390 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/1e21.js', 420, 438 ]
+391 silly gunzTarPerm extractEntry test/unit/compress/expected/issue27.js
+392 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue27.js', 420, 438 ]
+393 silly gunzTarPerm extractEntry test/unit/compress/expected/infinite.js
+394 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/infinite.js', 420, 438 ]
+395 silly gunzTarPerm extractEntry test/unit/compress/expected/array1.js
+396 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/array1.js', 420, 438 ]
+397 silly gunzTarPerm extractEntry test/unit/compress/expected/issue17.js
+398 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue17.js', 420, 438 ]
+399 silly gunzTarPerm extractEntry test/unit/compress/expected/issue10.js
+400 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue10.js', 420, 438 ]
+401 silly gunzTarPerm extractEntry test/unit/compress/expected/empty-blocks.js
+402 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/empty-blocks.js', 420, 438 ]
+403 silly gunzTarPerm extractEntry test/unit/compress/expected/issue353.js
+404 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue353.js', 420, 438 ]
+405 silly gunzTarPerm extractEntry test/unit/compress/expected/issue13.js
+406 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue13.js', 420, 438 ]
+407 silly gunzTarPerm extractEntry test/unit/compress/expected/issue4.js
+408 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue4.js', 420, 438 ]
+409 silly gunzTarPerm extractEntry test/unit/compress/expected/null_string.js
+410 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/null_string.js', 420, 438 ]
+411 silly gunzTarPerm extractEntry test/unit/compress/expected/const.js
+412 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/const.js', 420, 438 ]
+413 silly gunzTarPerm extractEntry test/unit/compress/expected/issue278.js
+414 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue278.js', 420, 438 ]
+415 silly gunzTarPerm extractEntry test/unit/compress/expected/issue9.js
+416 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue9.js', 420, 438 ]
+417 silly gunzTarPerm extractEntry test/unit/compress/expected/issue34.js
+418 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue34.js', 420, 438 ]
+419 silly gunzTarPerm extractEntry test/unit/compress/expected/issue30.js
+420 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue30.js', 420, 438 ]
+421 silly gunzTarPerm extractEntry test/unit/compress/expected/issue14.js
+422 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue14.js', 420, 438 ]
+423 silly gunzTarPerm extractEntry test/unit/compress/expected/whitespace.js
+424 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/whitespace.js', 420, 438 ]
+425 silly gunzTarPerm extractEntry test/unit/compress/expected/issues222_324.js
+426 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issues222_324.js', 420, 438 ]
+427 silly gunzTarPerm extractEntry test/unit/compress/expected/issue50.js
+428 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue50.js', 420, 438 ]
+429 silly gunzTarPerm extractEntry test/unit/compress/expected/ifreturn.js
+430 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/ifreturn.js', 420, 438 ]
+431 silly gunzTarPerm extractEntry test/unit/compress/expected/issue53.js
+432 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue53.js', 420, 438 ]
+433 silly gunzTarPerm extractEntry test/unit/compress/expected/issue25.js
+434 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/issue25.js', 420, 438 ]
+435 silly gunzTarPerm extractEntry test/unit/compress/expected/mangle.js
+436 silly gunzTarPerm modified mode [ 'test/unit/compress/expected/mangle.js', 420, 438 ]
+437 silly gunzTarPerm extractEntry test/unit/compress/test/
+438 silly gunzTarPerm modified mode [ 'test/unit/compress/test/', 493, 511 ]
+439 silly gunzTarPerm extractEntry test/unit/compress/test/issue48.js
+440 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue48.js', 420, 438 ]
+441 silly gunzTarPerm extractEntry test/unit/compress/test/issue29.js
+442 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue29.js', 420, 438 ]
+443 silly gunzTarPerm extractEntry test/unit/compress/test/if.js
+444 silly gunzTarPerm modified mode [ 'test/unit/compress/test/if.js', 420, 438 ]
+445 silly gunzTarPerm extractEntry test/unit/compress/test/issue68.js
+446 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue68.js', 420, 438 ]
+447 silly gunzTarPerm extractEntry test/unit/compress/test/ifreturn2.js
+448 silly gunzTarPerm modified mode [ 'test/unit/compress/test/ifreturn2.js', 420, 438 ]
+449 silly gunzTarPerm extractEntry test/unit/compress/test/issue28.js
+450 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue28.js', 420, 438 ]
+451 silly gunzTarPerm extractEntry test/unit/compress/test/assignment.js
+452 silly gunzTarPerm modified mode [ 'test/unit/compress/test/assignment.js', 420, 438 ]
+453 silly gunzTarPerm extractEntry test/unit/compress/test/issue349.js
+454 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue349.js', 420, 438 ]
+455 silly gunzTarPerm extractEntry test/unit/compress/test/if-not.js
+456 silly gunzTarPerm modified mode [ 'test/unit/compress/test/if-not.js', 420, 438 ]
+457 silly gunzTarPerm extractEntry test/unit/compress/test/issue54.1.js
+458 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue54.1.js', 420, 438 ]
+459 silly gunzTarPerm extractEntry test/unit/compress/test/issue16.js
+460 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue16.js', 420, 438 ]
+461 silly gunzTarPerm extractEntry test/unit/compress/test/forstatement.js
+462 silly gunzTarPerm modified mode [ 'test/unit/compress/test/forstatement.js', 420, 438 ]
+463 silly gunzTarPerm extractEntry test/unit/compress/test/issue372.js
+464 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue372.js', 420, 438 ]
+465 silly gunzTarPerm extractEntry test/unit/compress/test/array3.js
+466 silly gunzTarPerm modified mode [ 'test/unit/compress/test/array3.js', 420, 438 ]
+467 silly gunzTarPerm extractEntry test/unit/compress/test/concatstring.js
+468 silly gunzTarPerm modified mode [ 'test/unit/compress/test/concatstring.js', 420, 438 ]
+469 silly gunzTarPerm extractEntry test/unit/compress/test/array2.js
+470 silly gunzTarPerm modified mode [ 'test/unit/compress/test/array2.js', 420, 438 ]
+471 silly gunzTarPerm extractEntry test/unit/compress/test/var.js
+472 silly gunzTarPerm modified mode [ 'test/unit/compress/test/var.js', 420, 438 ]
+473 silly gunzTarPerm extractEntry test/unit/compress/test/array4.js
+474 silly gunzTarPerm modified mode [ 'test/unit/compress/test/array4.js', 420, 438 ]
+475 silly gunzTarPerm extractEntry test/unit/compress/test/issue69.js
+476 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue69.js', 420, 438 ]
+477 silly gunzTarPerm extractEntry test/unit/compress/test/issue21.js
+478 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue21.js', 420, 438 ]
+479 silly gunzTarPerm extractEntry test/unit/compress/test/issue20.js
+480 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue20.js', 420, 438 ]
+481 silly gunzTarPerm extractEntry test/unit/compress/test/with.js
+482 silly gunzTarPerm modified mode [ 'test/unit/compress/test/with.js', 420, 438 ]
+483 silly gunzTarPerm extractEntry test/unit/compress/test/strict-equals.js
+484 silly gunzTarPerm modified mode [ 'test/unit/compress/test/strict-equals.js', 420, 438 ]
+485 silly gunzTarPerm extractEntry test/unit/compress/test/issue11.js
+486 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue11.js', 420, 438 ]
+487 silly gunzTarPerm extractEntry test/unit/compress/test/1e21.js
+488 silly gunzTarPerm modified mode [ 'test/unit/compress/test/1e21.js', 420, 438 ]
+489 silly gunzTarPerm extractEntry test/unit/compress/test/issue27.js
+490 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue27.js', 420, 438 ]
+491 silly gunzTarPerm extractEntry test/unit/compress/test/infinite.js
+492 silly gunzTarPerm modified mode [ 'test/unit/compress/test/infinite.js', 420, 438 ]
+493 silly gunzTarPerm extractEntry test/unit/compress/test/array1.js
+494 silly gunzTarPerm modified mode [ 'test/unit/compress/test/array1.js', 420, 438 ]
+495 silly gunzTarPerm extractEntry test/unit/compress/test/issue17.js
+496 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue17.js', 420, 438 ]
+497 silly gunzTarPerm extractEntry test/unit/compress/test/issue10.js
+498 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue10.js', 420, 438 ]
+499 silly gunzTarPerm extractEntry test/unit/compress/test/empty-blocks.js
+500 silly gunzTarPerm modified mode [ 'test/unit/compress/test/empty-blocks.js', 420, 438 ]
+501 silly gunzTarPerm extractEntry test/unit/compress/test/issue353.js
+502 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue353.js', 420, 438 ]
+503 silly gunzTarPerm extractEntry test/unit/compress/test/issue13.js
+504 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue13.js', 420, 438 ]
+505 silly gunzTarPerm extractEntry test/unit/compress/test/issue4.js
+506 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue4.js', 420, 438 ]
+507 silly gunzTarPerm extractEntry test/unit/compress/test/null_string.js
+508 silly gunzTarPerm modified mode [ 'test/unit/compress/test/null_string.js', 420, 438 ]
+509 silly gunzTarPerm extractEntry test/unit/compress/test/const.js
+510 silly gunzTarPerm modified mode [ 'test/unit/compress/test/const.js', 420, 438 ]
+511 silly gunzTarPerm extractEntry test/unit/compress/test/issue278.js
+512 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue278.js', 420, 438 ]
+513 silly gunzTarPerm extractEntry test/unit/compress/test/issue9.js
+514 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue9.js', 420, 438 ]
+515 silly gunzTarPerm extractEntry test/unit/compress/test/issue34.js
+516 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue34.js', 420, 438 ]
+517 silly gunzTarPerm extractEntry test/unit/compress/test/issue30.js
+518 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue30.js', 420, 438 ]
+519 silly gunzTarPerm extractEntry test/unit/compress/test/issue14.js
+520 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue14.js', 420, 438 ]
+521 silly gunzTarPerm extractEntry test/unit/compress/test/whitespace.js
+522 silly gunzTarPerm modified mode [ 'test/unit/compress/test/whitespace.js', 420, 438 ]
+523 silly gunzTarPerm extractEntry test/unit/compress/test/issues222_324.js
+524 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issues222_324.js', 420, 438 ]
+525 silly gunzTarPerm extractEntry test/unit/compress/test/issue50.js
+526 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue50.js', 420, 438 ]
+527 silly gunzTarPerm extractEntry test/unit/compress/test/ifreturn.js
+528 silly gunzTarPerm modified mode [ 'test/unit/compress/test/ifreturn.js', 420, 438 ]
+529 silly gunzTarPerm extractEntry test/unit/compress/test/issue53.js
+530 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue53.js', 420, 438 ]
+531 silly gunzTarPerm extractEntry test/unit/compress/test/issue25.js
+532 silly gunzTarPerm modified mode [ 'test/unit/compress/test/issue25.js', 420, 438 ]
+533 silly gunzTarPerm extractEntry test/unit/compress/test/mangle.js
+534 silly gunzTarPerm modified mode [ 'test/unit/compress/test/mangle.js', 420, 438 ]
+535 silly gunzTarPerm extractEntry test/unit/scripts.js
+536 silly gunzTarPerm modified mode [ 'test/unit/scripts.js', 420, 438 ]
+537 silly gunzTarPerm extractEntry test/testconsolidator.js
+538 silly gunzTarPerm modified mode [ 'test/testconsolidator.js', 493, 511 ]
+539 silly gunzTarPerm extractEntry test/testparser.js
+540 silly gunzTarPerm modified mode [ 'test/testparser.js', 493, 511 ]
+541 silly gunzTarPerm extractEntry package.json
+542 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+543 silly gunzTarPerm extractEntry uglify-js.js
+544 silly gunzTarPerm modified mode [ 'uglify-js.js', 420, 438 ]
+545 silly gunzTarPerm extractEntry lib/
+546 silly gunzTarPerm modified mode [ 'lib/', 493, 511 ]
+547 silly gunzTarPerm extractEntry lib/process.js
+548 silly gunzTarPerm modified mode [ 'lib/process.js', 420, 438 ]
+549 http 200 https://registry.npmjs.org/connect/-/connect-2.4.4.tgz
+550 silly gunzTarPerm extractEntry lib/squeeze-more.js
+551 silly gunzTarPerm modified mode [ 'lib/squeeze-more.js', 420, 438 ]
+552 silly gunzTarPerm extractEntry lib/parse-js.js
+553 silly gunzTarPerm modified mode [ 'lib/parse-js.js', 420, 438 ]
+554 silly gunzTarPerm extractEntry lib/consolidator.js
+555 silly gunzTarPerm modified mode [ 'lib/consolidator.js', 420, 438 ]
+556 silly gunzTarPerm extractEntry README.org
+557 silly gunzTarPerm modified mode [ 'README.org', 420, 438 ]
+558 silly gunzTarPerm extractEntry tmp/
+559 silly gunzTarPerm modified mode [ 'tmp/', 493, 511 ]
+560 silly gunzTarPerm extractEntry tmp/hoist.js
+561 silly gunzTarPerm modified mode [ 'tmp/hoist.js', 420, 438 ]
+562 silly gunzTarPerm extractEntry tmp/test.js
+563 silly gunzTarPerm modified mode [ 'tmp/test.js', 493, 511 ]
+564 silly gunzTarPerm extractEntry tmp/instrument.js
+565 silly gunzTarPerm modified mode [ 'tmp/instrument.js', 420, 438 ]
+566 verbose read json /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665057584-0.06207094853743911/package/package.json
+567 silly lockFile 4227f892-7584-0-06207094853743911-package /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665057584-0.06207094853743911/package
+568 verbose from cache /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665057584-0.06207094853743911/package/package.json
+569 verbose tar pack [ '/Users/boyu/.npm/uglify-js/1.3.3/package.tgz',
+569 verbose tar pack   '/var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665057584-0.06207094853743911/package' ]
+570 verbose tarball /Users/boyu/.npm/uglify-js/1.3.3/package.tgz
+571 verbose folder /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665057584-0.06207094853743911/package
+572 silly lockFile 66c167f5--npm-uglify-js-1-3-3-package-tgz /Users/boyu/.npm/uglify-js/1.3.3/package.tgz
+573 verbose lock /Users/boyu/.npm/uglify-js/1.3.3/package.tgz /Users/boyu/.npm/66c167f5--npm-uglify-js-1-3-3-package-tgz.lock
+574 silly lockFile 66c167f5--npm-uglify-js-1-3-3-package-tgz /Users/boyu/.npm/uglify-js/1.3.3/package.tgz
+575 silly lockFile 7774a563-boyu-npm-uglify-js-1-3-3-package /Users/boyu/.npm/uglify-js/1.3.3/package
+576 verbose lock /Users/boyu/.npm/uglify-js/1.3.3/package /Users/boyu/.npm/7774a563-boyu-npm-uglify-js-1-3-3-package.lock
+577 silly lockFile 7774a563-boyu-npm-uglify-js-1-3-3-package /Users/boyu/.npm/uglify-js/1.3.3/package
+578 verbose tar unpack /Users/boyu/.npm/uglify-js/1.3.3/package.tgz
+579 silly lockFile 7774a563-boyu-npm-uglify-js-1-3-3-package /Users/boyu/.npm/uglify-js/1.3.3/package
+580 verbose lock /Users/boyu/.npm/uglify-js/1.3.3/package /Users/boyu/.npm/7774a563-boyu-npm-uglify-js-1-3-3-package.lock
+581 silly gunzTarPerm modes [ '777', '666' ]
+582 silly gunzTarPerm extractEntry package.json
+583 silly gunzTarPerm extractEntry .npmignore
+584 silly gunzTarPerm extractEntry uglify-js.js
+585 silly gunzTarPerm extractEntry bin/uglifyjs
+586 silly gunzTarPerm extractEntry docstyle.css
+587 silly gunzTarPerm extractEntry lib/consolidator.js
+588 silly gunzTarPerm extractEntry lib/parse-js.js
+589 silly gunzTarPerm extractEntry lib/process.js
+590 silly gunzTarPerm extractEntry lib/squeeze-more.js
+591 silly gunzTarPerm extractEntry README.html
+592 silly gunzTarPerm extractEntry README.org
+593 silly gunzTarPerm extractEntry test/beautify.js
+594 silly gunzTarPerm extractEntry test/testconsolidator.js
+595 silly gunzTarPerm extractEntry test/testparser.js
+596 silly gunzTarPerm extractEntry test/unit/scripts.js
+597 silly gunzTarPerm extractEntry test/unit/compress/expected/1e21.js
+598 silly gunzTarPerm extractEntry test/unit/compress/expected/issue17.js
+599 silly gunzTarPerm extractEntry test/unit/compress/expected/issue20.js
+600 silly gunzTarPerm extractEntry test/unit/compress/expected/issue21.js
+601 silly gunzTarPerm extractEntry test/unit/compress/expected/issue25.js
+602 silly gunzTarPerm extractEntry test/unit/compress/expected/issue16.js
+603 silly gunzTarPerm extractEntry test/unit/compress/expected/issue278.js
+604 silly gunzTarPerm extractEntry test/unit/compress/expected/issue28.js
+605 silly gunzTarPerm extractEntry test/unit/compress/expected/issue29.js
+606 silly gunzTarPerm extractEntry test/unit/compress/expected/issue30.js
+607 silly gunzTarPerm extractEntry test/unit/compress/expected/issue34.js
+608 silly gunzTarPerm extractEntry test/unit/compress/expected/issue14.js
+609 silly gunzTarPerm extractEntry test/unit/compress/expected/issue349.js
+610 silly gunzTarPerm extractEntry test/unit/compress/expected/issue13.js
+611 silly gunzTarPerm extractEntry test/unit/compress/expected/issue353.js
+612 silly gunzTarPerm extractEntry test/unit/compress/expected/issue11.js
+613 silly gunzTarPerm extractEntry test/unit/compress/expected/issue372.js
+614 silly gunzTarPerm extractEntry test/unit/compress/expected/issue10.js
+615 silly gunzTarPerm extractEntry test/unit/compress/expected/issue4.js
+616 silly gunzTarPerm extractEntry test/unit/compress/expected/infinite.js
+617 silly gunzTarPerm extractEntry test/unit/compress/expected/issue48.js
+618 silly gunzTarPerm extractEntry test/unit/compress/expected/ifreturn2.js
+619 silly gunzTarPerm extractEntry test/unit/compress/expected/issue50.js
+620 silly gunzTarPerm extractEntry test/unit/compress/expected/ifreturn.js
+621 silly gunzTarPerm extractEntry test/unit/compress/expected/issue53.js
+622 silly gunzTarPerm extractEntry test/unit/compress/expected/if.js
+623 silly gunzTarPerm extractEntry test/unit/compress/expected/issue54.1.js
+624 silly gunzTarPerm extractEntry test/unit/compress/expected/if-not.js
+625 silly gunzTarPerm extractEntry test/unit/compress/expected/issue68.js
+626 silly gunzTarPerm extractEntry test/unit/compress/expected/forstatement.js
+627 silly gunzTarPerm extractEntry test/unit/compress/expected/issue69.js
+628 silly gunzTarPerm extractEntry test/unit/compress/expected/empty-blocks.js
+629 silly gunzTarPerm extractEntry test/unit/compress/expected/issue9.js
+630 silly gunzTarPerm extractEntry test/unit/compress/expected/const.js
+631 silly gunzTarPerm extractEntry test/unit/compress/expected/issues222_324.js
+632 silly gunzTarPerm extractEntry test/unit/compress/expected/concatstring.js
+633 silly gunzTarPerm extractEntry test/unit/compress/expected/mangle.js
+634 silly gunzTarPerm extractEntry test/unit/compress/expected/assignment.js
+635 silly gunzTarPerm extractEntry test/unit/compress/expected/null_string.js
+636 silly gunzTarPerm extractEntry test/unit/compress/expected/array4.js
+637 silly gunzTarPerm extractEntry test/unit/compress/expected/strict-equals.js
+638 silly gunzTarPerm extractEntry test/unit/compress/expected/array3.js
+639 silly gunzTarPerm extractEntry test/unit/compress/expected/var.js
+640 silly gunzTarPerm extractEntry test/unit/compress/expected/array2.js
+641 silly gunzTarPerm extractEntry test/unit/compress/expected/whitespace.js
+642 silly gunzTarPerm extractEntry test/unit/compress/expected/array1.js
+643 silly gunzTarPerm extractEntry test/unit/compress/expected/with.js
+644 silly gunzTarPerm extractEntry test/unit/compress/expected/issue27.js
+645 silly gunzTarPerm extractEntry test/unit/compress/test/1e21.js
+646 silly gunzTarPerm extractEntry test/unit/compress/test/issue17.js
+647 silly gunzTarPerm extractEntry test/unit/compress/test/issue20.js
+648 silly gunzTarPerm extractEntry test/unit/compress/test/issue21.js
+649 silly gunzTarPerm extractEntry test/unit/compress/test/issue25.js
+650 silly gunzTarPerm extractEntry test/unit/compress/test/issue16.js
+651 silly gunzTarPerm extractEntry test/unit/compress/test/issue278.js
+652 silly gunzTarPerm extractEntry test/unit/compress/test/issue28.js
+653 silly gunzTarPerm extractEntry test/unit/compress/test/issue29.js
+654 silly gunzTarPerm extractEntry test/unit/compress/test/issue30.js
+655 silly gunzTarPerm extractEntry test/unit/compress/test/issue34.js
+656 silly gunzTarPerm extractEntry test/unit/compress/test/issue14.js
+657 silly gunzTarPerm extractEntry test/unit/compress/test/issue349.js
+658 silly gunzTarPerm extractEntry test/unit/compress/test/issue13.js
+659 silly gunzTarPerm extractEntry test/unit/compress/test/issue353.js
+660 silly gunzTarPerm extractEntry test/unit/compress/test/issue11.js
+661 silly gunzTarPerm extractEntry test/unit/compress/test/issue372.js
+662 silly gunzTarPerm extractEntry test/unit/compress/test/issue10.js
+663 silly gunzTarPerm extractEntry test/unit/compress/test/issue4.js
+664 silly gunzTarPerm extractEntry test/unit/compress/test/infinite.js
+665 silly gunzTarPerm extractEntry test/unit/compress/test/issue48.js
+666 silly gunzTarPerm extractEntry test/unit/compress/test/ifreturn2.js
+667 silly gunzTarPerm extractEntry test/unit/compress/test/issue50.js
+668 silly gunzTarPerm extractEntry test/unit/compress/test/ifreturn.js
+669 silly gunzTarPerm extractEntry test/unit/compress/test/issue53.js
+670 silly gunzTarPerm extractEntry test/unit/compress/test/if.js
+671 silly gunzTarPerm extractEntry test/unit/compress/test/issue54.1.js
+672 silly gunzTarPerm extractEntry test/unit/compress/test/if-not.js
+673 silly gunzTarPerm extractEntry test/unit/compress/test/issue68.js
+674 silly gunzTarPerm extractEntry test/unit/compress/test/forstatement.js
+675 silly gunzTarPerm extractEntry test/unit/compress/test/issue69.js
+676 silly gunzTarPerm extractEntry test/unit/compress/test/empty-blocks.js
+677 silly gunzTarPerm extractEntry test/unit/compress/test/issue9.js
+678 silly gunzTarPerm extractEntry test/unit/compress/test/const.js
+679 silly gunzTarPerm extractEntry test/unit/compress/test/issues222_324.js
+680 silly gunzTarPerm extractEntry test/unit/compress/test/concatstring.js
+681 silly gunzTarPerm extractEntry test/unit/compress/test/mangle.js
+682 silly gunzTarPerm extractEntry test/unit/compress/test/assignment.js
+683 silly gunzTarPerm extractEntry test/unit/compress/test/null_string.js
+684 silly gunzTarPerm extractEntry test/unit/compress/test/array4.js
+685 silly gunzTarPerm extractEntry test/unit/compress/test/strict-equals.js
+686 silly gunzTarPerm extractEntry test/unit/compress/test/array3.js
+687 silly gunzTarPerm extractEntry test/unit/compress/test/var.js
+688 silly gunzTarPerm extractEntry test/unit/compress/test/array2.js
+689 silly gunzTarPerm extractEntry test/unit/compress/test/whitespace.js
+690 silly gunzTarPerm extractEntry test/unit/compress/test/array1.js
+691 silly gunzTarPerm extractEntry test/unit/compress/test/with.js
+692 silly gunzTarPerm extractEntry test/unit/compress/test/issue27.js
+693 silly gunzTarPerm extractEntry tmp/hoist.js
+694 silly gunzTarPerm extractEntry tmp/instrument.js
+695 silly gunzTarPerm extractEntry tmp/test.js
+696 verbose read json /Users/boyu/.npm/uglify-js/1.3.3/package/package.json
+697 silly lockFile 7774a563-boyu-npm-uglify-js-1-3-3-package /Users/boyu/.npm/uglify-js/1.3.3/package
+698 silly shasum updated bytes 40960
+699 silly shasum updated bytes 40960
+700 silly shasum updated bytes 232
+701 info shasum e15bf7ec593f957e29b820b223185ed60b231b7e
+701 info shasum /Users/boyu/.npm/uglify-js/1.3.3/package.tgz
+702 verbose from cache /Users/boyu/.npm/uglify-js/1.3.3/package/package.json
+703 verbose chmod /Users/boyu/.npm/uglify-js/1.3.3/package.tgz 666
+704 verbose chown /Users/boyu/.npm/uglify-js/1.3.3/package.tgz [ 501, 20 ]
+705 silly lockFile d9a7949c-rg-uglify-js-uglify-js-1-3-3-tgz https://registry.npmjs.org/uglify-js/-/uglify-js-1.3.3.tgz
+706 silly lockFile 7890c84d-uglify-js-1-3-3 uglify-js@1.3.3
+707 silly lockFile 679a1028-uglify-js uglify-js@
+708 http 200 https://registry.npmjs.org/jshint
+709 silly registry.get cb [ 200,
+709 silly registry.get   { vary: 'Accept',
+709 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+709 silly registry.get     etag: '"7PFGJW5OZI8G2JH388LSHANJJ"',
+709 silly registry.get     date: 'Wed, 22 Aug 2012 19:50:56 GMT',
+709 silly registry.get     'content-type': 'application/json',
+709 silly registry.get     'content-length': '67625' } ]
+710 silly addNameRange number 2 { name: 'jshint', range: '', hasData: true }
+711 silly addNameRange versions [ 'jshint',
+711 silly addNameRange   [ '0.1.8',
+711 silly addNameRange     '0.1.9',
+711 silly addNameRange     '0.2.0',
+711 silly addNameRange     '0.2.1',
+711 silly addNameRange     '0.2.2',
+711 silly addNameRange     '0.2.3',
+711 silly addNameRange     '0.3.0',
+711 silly addNameRange     '0.3.1',
+711 silly addNameRange     '0.4.0',
+711 silly addNameRange     '0.5.0',
+711 silly addNameRange     '0.5.1',
+711 silly addNameRange     '0.5.2',
+711 silly addNameRange     '0.5.3',
+711 silly addNameRange     '0.5.4',
+711 silly addNameRange     '0.5.5',
+711 silly addNameRange     '0.5.6',
+711 silly addNameRange     '0.5.7',
+711 silly addNameRange     '0.5.8',
+711 silly addNameRange     '0.5.9',
+711 silly addNameRange     '0.6.0',
+711 silly addNameRange     '0.6.1',
+711 silly addNameRange     '0.6.2',
+711 silly addNameRange     '0.6.3',
+711 silly addNameRange     '0.7.0',
+711 silly addNameRange     '0.7.1',
+711 silly addNameRange     '0.7.2',
+711 silly addNameRange     '0.7.3',
+711 silly addNameRange     '0.8.0' ] ]
+712 verbose addNamed [ 'jshint', '0.8.0' ]
+713 verbose addNamed [ '0.8.0', '0.8.0' ]
+714 silly lockFile d2c58d22-jshint-0-8-0 jshint@0.8.0
+715 verbose lock jshint@0.8.0 /Users/boyu/.npm/d2c58d22-jshint-0-8-0.lock
+716 silly lockFile 927b1b85-pmjs-org-jshint-jshint-0-8-0-tgz https://registry.npmjs.org/jshint/-/jshint-0.8.0.tgz
+717 verbose lock https://registry.npmjs.org/jshint/-/jshint-0.8.0.tgz /Users/boyu/.npm/927b1b85-pmjs-org-jshint-jshint-0-8-0-tgz.lock
+718 verbose addRemoteTarball [ 'https://registry.npmjs.org/jshint/-/jshint-0.8.0.tgz',
+718 verbose addRemoteTarball   '19393131b1bdff8fadb94c104be8425e65fdade4' ]
+719 info retry fetch attempt 1 at 15:51:08
+720 verbose fetch to= /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665068508-0.3869705719407648/tmp.tgz
+721 http GET https://registry.npmjs.org/jshint/-/jshint-0.8.0.tgz
+722 http 200 https://registry.npmjs.org/jshint/-/jshint-0.8.0.tgz
+723 silly shasum updated bytes 38046
+724 info shasum 19393131b1bdff8fadb94c104be8425e65fdade4
+724 info shasum /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665068508-0.3869705719407648/tmp.tgz
+725 verbose tar unpack /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665068508-0.3869705719407648/tmp.tgz
+726 silly lockFile 3f23b269-68508-0-3869705719407648-package /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665068508-0.3869705719407648/package
+727 verbose lock /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665068508-0.3869705719407648/package /Users/boyu/.npm/3f23b269-68508-0-3869705719407648-package.lock
+728 silly gunzTarPerm modes [ '777', '666' ]
+729 silly gunzTarPerm extractEntry package.json
+730 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+731 silly gunzTarPerm extractEntry README.md
+732 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+733 silly gunzTarPerm extractEntry LICENSE
+734 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+735 silly gunzTarPerm extractEntry bin/hint
+736 silly gunzTarPerm modified mode [ 'bin/hint', 493, 511 ]
+737 silly gunzTarPerm extractEntry lib/cli.js
+738 silly gunzTarPerm modified mode [ 'lib/cli.js', 420, 438 ]
+739 silly gunzTarPerm extractEntry lib/hint.js
+740 silly gunzTarPerm modified mode [ 'lib/hint.js', 420, 438 ]
+741 silly gunzTarPerm extractEntry lib/reporters/default.js
+742 silly gunzTarPerm modified mode [ 'lib/reporters/default.js', 420, 438 ]
+743 silly gunzTarPerm extractEntry lib/reporters/jslint_xml.js
+744 silly gunzTarPerm modified mode [ 'lib/reporters/jslint_xml.js', 420, 438 ]
+745 silly gunzTarPerm extractEntry lib/reporters/non_error.js
+746 silly gunzTarPerm modified mode [ 'lib/reporters/non_error.js', 420, 438 ]
+747 silly gunzTarPerm extractEntry packages/jshint/README.md
+748 silly gunzTarPerm modified mode [ 'packages/jshint/README.md', 493, 511 ]
+749 silly gunzTarPerm extractEntry packages/jshint/jshint.js
+750 silly gunzTarPerm modified mode [ 'packages/jshint/jshint.js', 420, 438 ]
+751 verbose read json /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665068508-0.3869705719407648/package/package.json
+752 silly lockFile 3f23b269-68508-0-3869705719407648-package /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665068508-0.3869705719407648/package
+753 verbose from cache /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665068508-0.3869705719407648/package/package.json
+754 verbose tar pack [ '/Users/boyu/.npm/jshint/0.8.0/package.tgz',
+754 verbose tar pack   '/var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665068508-0.3869705719407648/package' ]
+755 verbose tarball /Users/boyu/.npm/jshint/0.8.0/package.tgz
+756 verbose folder /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665068508-0.3869705719407648/package
+757 silly lockFile a1c23726-oyu-npm-jshint-0-8-0-package-tgz /Users/boyu/.npm/jshint/0.8.0/package.tgz
+758 verbose lock /Users/boyu/.npm/jshint/0.8.0/package.tgz /Users/boyu/.npm/a1c23726-oyu-npm-jshint-0-8-0-package-tgz.lock
+759 silly lockFile a1c23726-oyu-npm-jshint-0-8-0-package-tgz /Users/boyu/.npm/jshint/0.8.0/package.tgz
+760 silly lockFile 2e7ae84c-rs-boyu-npm-jshint-0-8-0-package /Users/boyu/.npm/jshint/0.8.0/package
+761 verbose lock /Users/boyu/.npm/jshint/0.8.0/package /Users/boyu/.npm/2e7ae84c-rs-boyu-npm-jshint-0-8-0-package.lock
+762 silly lockFile 2e7ae84c-rs-boyu-npm-jshint-0-8-0-package /Users/boyu/.npm/jshint/0.8.0/package
+763 verbose tar unpack /Users/boyu/.npm/jshint/0.8.0/package.tgz
+764 silly lockFile 2e7ae84c-rs-boyu-npm-jshint-0-8-0-package /Users/boyu/.npm/jshint/0.8.0/package
+765 verbose lock /Users/boyu/.npm/jshint/0.8.0/package /Users/boyu/.npm/2e7ae84c-rs-boyu-npm-jshint-0-8-0-package.lock
+766 silly gunzTarPerm modes [ '777', '666' ]
+767 silly gunzTarPerm extractEntry package.json
+768 silly gunzTarPerm extractEntry README.md
+769 silly gunzTarPerm extractEntry LICENSE
+770 silly gunzTarPerm extractEntry bin/hint
+771 silly gunzTarPerm extractEntry lib/cli.js
+772 silly gunzTarPerm extractEntry lib/hint.js
+773 silly gunzTarPerm extractEntry lib/reporters/default.js
+774 silly gunzTarPerm extractEntry lib/reporters/jslint_xml.js
+775 silly gunzTarPerm extractEntry lib/reporters/non_error.js
+776 silly gunzTarPerm extractEntry packages/jshint/README.md
+777 silly gunzTarPerm extractEntry packages/jshint/jshint.js
+778 verbose read json /Users/boyu/.npm/jshint/0.8.0/package/package.json
+779 silly lockFile 2e7ae84c-rs-boyu-npm-jshint-0-8-0-package /Users/boyu/.npm/jshint/0.8.0/package
+780 silly shasum updated bytes 38057
+781 info shasum 73f426bf8c42a9fc84b55c16a7ea253ecee7105a
+781 info shasum /Users/boyu/.npm/jshint/0.8.0/package.tgz
+782 verbose from cache /Users/boyu/.npm/jshint/0.8.0/package/package.json
+783 verbose chmod /Users/boyu/.npm/jshint/0.8.0/package.tgz 666
+784 verbose chown /Users/boyu/.npm/jshint/0.8.0/package.tgz [ 501, 20 ]
+785 silly lockFile 927b1b85-pmjs-org-jshint-jshint-0-8-0-tgz https://registry.npmjs.org/jshint/-/jshint-0.8.0.tgz
+786 silly lockFile d2c58d22-jshint-0-8-0 jshint@0.8.0
+787 silly lockFile a02a2468-jshint jshint@
+788 silly shasum updated bytes 40960
+789 silly shasum updated bytes 33597
+790 info shasum 8031201b70e7f41b988a75c4c94777079c44c70f
+790 info shasum /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665066368-0.6280411537736654/tmp.tgz
+791 verbose tar unpack /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665066368-0.6280411537736654/tmp.tgz
+792 silly lockFile 78f7c18c-66368-0-6280411537736654-package /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665066368-0.6280411537736654/package
+793 verbose lock /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665066368-0.6280411537736654/package /Users/boyu/.npm/78f7c18c-66368-0-6280411537736654-package.lock
+794 silly gunzTarPerm modes [ '777', '666' ]
+795 silly gunzTarPerm extractEntry package.json
+796 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+797 silly gunzTarPerm extractEntry .npmignore
+798 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+799 silly gunzTarPerm extractEntry LICENSE
+800 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+801 silly gunzTarPerm extractEntry index.js
+802 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+803 silly gunzTarPerm extractEntry test.js
+804 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+805 silly gunzTarPerm extractEntry lib/cache.js
+806 silly gunzTarPerm modified mode [ 'lib/cache.js', 420, 438 ]
+807 silly gunzTarPerm extractEntry lib/connect.js
+808 silly gunzTarPerm modified mode [ 'lib/connect.js', 420, 438 ]
+809 silly gunzTarPerm extractEntry lib/index.js
+810 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+811 silly gunzTarPerm extractEntry lib/patch.js
+812 silly gunzTarPerm modified mode [ 'lib/patch.js', 420, 438 ]
+813 silly gunzTarPerm extractEntry lib/proto.js
+814 silly gunzTarPerm modified mode [ 'lib/proto.js', 420, 438 ]
+815 silly gunzTarPerm extractEntry lib/utils.js
+816 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 438 ]
+817 silly gunzTarPerm extractEntry lib/middleware/basicAuth.js
+818 silly gunzTarPerm modified mode [ 'lib/middleware/basicAuth.js', 420, 438 ]
+819 silly gunzTarPerm extractEntry lib/middleware/errorHandler.js
+820 silly gunzTarPerm modified mode [ 'lib/middleware/errorHandler.js', 420, 438 ]
+821 silly gunzTarPerm extractEntry lib/middleware/favicon.js
+822 silly gunzTarPerm modified mode [ 'lib/middleware/favicon.js', 420, 438 ]
+823 silly gunzTarPerm extractEntry lib/middleware/json.js
+824 silly gunzTarPerm modified mode [ 'lib/middleware/json.js', 420, 438 ]
+825 silly gunzTarPerm extractEntry lib/middleware/limit.js
+826 silly gunzTarPerm modified mode [ 'lib/middleware/limit.js', 420, 438 ]
+827 silly gunzTarPerm extractEntry lib/middleware/directory.js
+828 silly gunzTarPerm modified mode [ 'lib/middleware/directory.js', 420, 438 ]
+829 silly gunzTarPerm extractEntry lib/middleware/methodOverride.js
+830 silly gunzTarPerm modified mode [ 'lib/middleware/methodOverride.js', 420, 438 ]
+831 silly gunzTarPerm extractEntry lib/middleware/multipart.js
+832 silly gunzTarPerm modified mode [ 'lib/middleware/multipart.js', 420, 438 ]
+833 silly gunzTarPerm extractEntry lib/middleware/query.js
+834 silly gunzTarPerm modified mode [ 'lib/middleware/query.js', 420, 438 ]
+835 silly gunzTarPerm extractEntry lib/middleware/responseTime.js
+836 silly gunzTarPerm modified mode [ 'lib/middleware/responseTime.js', 420, 438 ]
+837 silly gunzTarPerm extractEntry lib/middleware/urlencoded.js
+838 silly gunzTarPerm modified mode [ 'lib/middleware/urlencoded.js', 420, 438 ]
+839 silly gunzTarPerm extractEntry lib/middleware/csrf.js
+840 silly gunzTarPerm modified mode [ 'lib/middleware/csrf.js', 420, 438 ]
+841 silly gunzTarPerm extractEntry lib/middleware/session.js
+842 silly gunzTarPerm modified mode [ 'lib/middleware/session.js', 420, 438 ]
+843 silly gunzTarPerm extractEntry lib/middleware/cookieSession.js
+844 silly gunzTarPerm modified mode [ 'lib/middleware/cookieSession.js', 420, 438 ]
+845 silly gunzTarPerm extractEntry lib/middleware/static.js
+846 silly gunzTarPerm modified mode [ 'lib/middleware/static.js', 420, 438 ]
+847 silly gunzTarPerm extractEntry lib/middleware/cookieParser.js
+848 silly gunzTarPerm modified mode [ 'lib/middleware/cookieParser.js', 420, 438 ]
+849 silly gunzTarPerm extractEntry lib/middleware/staticCache.js
+850 silly gunzTarPerm modified mode [ 'lib/middleware/staticCache.js', 420, 438 ]
+851 silly gunzTarPerm extractEntry lib/middleware/compress.js
+852 silly gunzTarPerm modified mode [ 'lib/middleware/compress.js', 420, 438 ]
+853 silly gunzTarPerm extractEntry lib/middleware/timeout.js
+854 silly gunzTarPerm modified mode [ 'lib/middleware/timeout.js', 420, 438 ]
+855 silly gunzTarPerm extractEntry lib/middleware/bodyParser.js
+856 silly gunzTarPerm modified mode [ 'lib/middleware/bodyParser.js', 420, 438 ]
+857 silly gunzTarPerm extractEntry lib/middleware/vhost.js
+858 silly gunzTarPerm modified mode [ 'lib/middleware/vhost.js', 420, 438 ]
+859 silly gunzTarPerm extractEntry lib/middleware/logger.js
+860 silly gunzTarPerm modified mode [ 'lib/middleware/logger.js', 420, 438 ]
+861 silly gunzTarPerm extractEntry lib/middleware/session/cookie.js
+862 silly gunzTarPerm modified mode [ 'lib/middleware/session/cookie.js', 420, 438 ]
+863 silly gunzTarPerm extractEntry lib/middleware/session/memory.js
+864 silly gunzTarPerm modified mode [ 'lib/middleware/session/memory.js', 420, 438 ]
+865 silly gunzTarPerm extractEntry lib/middleware/session/session.js
+866 silly gunzTarPerm modified mode [ 'lib/middleware/session/session.js', 420, 438 ]
+867 silly gunzTarPerm extractEntry lib/middleware/session/store.js
+868 silly gunzTarPerm modified mode [ 'lib/middleware/session/store.js', 420, 438 ]
+869 silly gunzTarPerm extractEntry lib/public/directory.html
+870 silly gunzTarPerm modified mode [ 'lib/public/directory.html', 420, 438 ]
+871 silly gunzTarPerm extractEntry lib/public/error.html
+872 silly gunzTarPerm modified mode [ 'lib/public/error.html', 420, 438 ]
+873 silly gunzTarPerm extractEntry lib/public/favicon.ico
+874 silly gunzTarPerm modified mode [ 'lib/public/favicon.ico', 420, 438 ]
+875 silly gunzTarPerm extractEntry lib/public/icons/page_white_edit.png
+876 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_edit.png', 420, 438 ]
+877 silly gunzTarPerm extractEntry lib/public/icons/page.png
+878 silly gunzTarPerm modified mode [ 'lib/public/icons/page.png', 420, 438 ]
+879 silly gunzTarPerm extractEntry lib/public/icons/page_attach.png
+880 silly gunzTarPerm modified mode [ 'lib/public/icons/page_attach.png', 420, 438 ]
+881 silly gunzTarPerm extractEntry lib/public/icons/page_code.png
+882 silly gunzTarPerm modified mode [ 'lib/public/icons/page_code.png', 420, 438 ]
+883 silly gunzTarPerm extractEntry lib/public/icons/page_copy.png
+884 silly gunzTarPerm modified mode [ 'lib/public/icons/page_copy.png', 420, 438 ]
+885 silly gunzTarPerm extractEntry lib/public/icons/page_delete.png
+886 silly gunzTarPerm modified mode [ 'lib/public/icons/page_delete.png', 420, 438 ]
+887 silly gunzTarPerm extractEntry lib/public/icons/page_edit.png
+888 silly gunzTarPerm modified mode [ 'lib/public/icons/page_edit.png', 420, 438 ]
+889 silly gunzTarPerm extractEntry lib/public/icons/page_error.png
+890 silly gunzTarPerm modified mode [ 'lib/public/icons/page_error.png', 420, 438 ]
+891 silly gunzTarPerm extractEntry lib/public/icons/page_excel.png
+892 silly gunzTarPerm modified mode [ 'lib/public/icons/page_excel.png', 420, 438 ]
+893 silly gunzTarPerm extractEntry lib/public/icons/page_find.png
+894 silly gunzTarPerm modified mode [ 'lib/public/icons/page_find.png', 420, 438 ]
+895 silly gunzTarPerm extractEntry lib/public/icons/page_gear.png
+896 silly gunzTarPerm modified mode [ 'lib/public/icons/page_gear.png', 420, 438 ]
+897 silly gunzTarPerm extractEntry lib/public/icons/page_go.png
+898 silly gunzTarPerm modified mode [ 'lib/public/icons/page_go.png', 420, 438 ]
+899 silly gunzTarPerm extractEntry lib/public/icons/page_green.png
+900 silly gunzTarPerm modified mode [ 'lib/public/icons/page_green.png', 420, 438 ]
+901 silly gunzTarPerm extractEntry lib/public/icons/page_key.png
+902 silly gunzTarPerm modified mode [ 'lib/public/icons/page_key.png', 420, 438 ]
+903 silly gunzTarPerm extractEntry lib/public/icons/page_lightning.png
+904 silly gunzTarPerm modified mode [ 'lib/public/icons/page_lightning.png', 420, 438 ]
+905 silly gunzTarPerm extractEntry lib/public/icons/page_link.png
+906 silly gunzTarPerm modified mode [ 'lib/public/icons/page_link.png', 420, 438 ]
+907 silly gunzTarPerm extractEntry lib/public/icons/page_paintbrush.png
+908 silly gunzTarPerm modified mode [ 'lib/public/icons/page_paintbrush.png', 420, 438 ]
+909 silly gunzTarPerm extractEntry lib/public/icons/page_paste.png
+910 silly gunzTarPerm modified mode [ 'lib/public/icons/page_paste.png', 420, 438 ]
+911 silly gunzTarPerm extractEntry lib/public/icons/page_red.png
+912 silly gunzTarPerm modified mode [ 'lib/public/icons/page_red.png', 420, 438 ]
+913 silly gunzTarPerm extractEntry lib/public/icons/page_refresh.png
+914 silly gunzTarPerm modified mode [ 'lib/public/icons/page_refresh.png', 420, 438 ]
+915 silly gunzTarPerm extractEntry lib/public/icons/page_save.png
+916 silly gunzTarPerm modified mode [ 'lib/public/icons/page_save.png', 420, 438 ]
+917 silly gunzTarPerm extractEntry lib/public/icons/page_white.png
+918 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white.png', 420, 438 ]
+919 silly gunzTarPerm extractEntry lib/public/icons/page_white_acrobat.png
+920 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_acrobat.png', 420, 438 ]
+921 silly gunzTarPerm extractEntry lib/public/icons/page_white_actionscript.png
+922 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_actionscript.png', 420, 438 ]
+923 silly gunzTarPerm extractEntry lib/public/icons/page_white_add.png
+924 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_add.png', 420, 438 ]
+925 silly gunzTarPerm extractEntry lib/public/icons/page_white_c.png
+926 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_c.png', 420, 438 ]
+927 silly gunzTarPerm extractEntry lib/public/icons/page_white_camera.png
+928 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_camera.png', 420, 438 ]
+929 silly gunzTarPerm extractEntry lib/public/icons/page_white_cd.png
+930 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_cd.png', 420, 438 ]
+931 silly gunzTarPerm extractEntry lib/public/icons/page_white_code.png
+932 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_code.png', 420, 438 ]
+933 silly gunzTarPerm extractEntry lib/public/icons/page_white_code_red.png
+934 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_code_red.png', 420, 438 ]
+935 silly gunzTarPerm extractEntry lib/public/icons/page_white_coldfusion.png
+936 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_coldfusion.png', 420, 438 ]
+937 silly gunzTarPerm extractEntry lib/public/icons/page_white_compressed.png
+938 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_compressed.png', 420, 438 ]
+939 silly gunzTarPerm extractEntry lib/public/icons/page_white_copy.png
+940 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_copy.png', 420, 438 ]
+941 silly gunzTarPerm extractEntry lib/public/icons/page_white_cplusplus.png
+942 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_cplusplus.png', 420, 438 ]
+943 silly gunzTarPerm extractEntry lib/public/icons/page_white_csharp.png
+944 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_csharp.png', 420, 438 ]
+945 silly gunzTarPerm extractEntry lib/public/icons/page_white_cup.png
+946 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_cup.png', 420, 438 ]
+947 silly gunzTarPerm extractEntry lib/public/icons/page_white_database.png
+948 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_database.png', 420, 438 ]
+949 silly gunzTarPerm extractEntry lib/public/icons/page_white_delete.png
+950 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_delete.png', 420, 438 ]
+951 silly gunzTarPerm extractEntry lib/public/icons/page_white_dvd.png
+952 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_dvd.png', 420, 438 ]
+953 silly gunzTarPerm extractEntry lib/public/icons/page_add.png
+954 silly gunzTarPerm modified mode [ 'lib/public/icons/page_add.png', 420, 438 ]
+955 silly gunzTarPerm extractEntry lib/public/icons/page_white_error.png
+956 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_error.png', 420, 438 ]
+957 silly gunzTarPerm extractEntry lib/public/icons/page_white_excel.png
+958 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_excel.png', 420, 438 ]
+959 silly gunzTarPerm extractEntry lib/public/icons/page_white_find.png
+960 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_find.png', 420, 438 ]
+961 silly gunzTarPerm extractEntry lib/public/icons/page_white_flash.png
+962 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_flash.png', 420, 438 ]
+963 silly gunzTarPerm extractEntry lib/public/icons/page_white_freehand.png
+964 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_freehand.png', 420, 438 ]
+965 silly gunzTarPerm extractEntry lib/public/icons/page_white_gear.png
+966 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_gear.png', 420, 438 ]
+967 silly gunzTarPerm extractEntry lib/public/icons/page_white_get.png
+968 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_get.png', 420, 438 ]
+969 silly gunzTarPerm extractEntry lib/public/icons/page_white_go.png
+970 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_go.png', 420, 438 ]
+971 silly gunzTarPerm extractEntry lib/public/icons/page_white_h.png
+972 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_h.png', 420, 438 ]
+973 silly gunzTarPerm extractEntry lib/public/icons/page_white_horizontal.png
+974 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_horizontal.png', 420, 438 ]
+975 silly gunzTarPerm extractEntry lib/public/icons/page_white_key.png
+976 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_key.png', 420, 438 ]
+977 silly gunzTarPerm extractEntry lib/public/icons/page_white_lightning.png
+978 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_lightning.png', 420, 438 ]
+979 silly gunzTarPerm extractEntry lib/public/icons/page_white_link.png
+980 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_link.png', 420, 438 ]
+981 silly gunzTarPerm extractEntry lib/public/icons/page_white_magnify.png
+982 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_magnify.png', 420, 438 ]
+983 silly gunzTarPerm extractEntry lib/public/icons/page_white_medal.png
+984 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_medal.png', 420, 438 ]
+985 silly gunzTarPerm extractEntry lib/public/icons/page_white_office.png
+986 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_office.png', 420, 438 ]
+987 silly gunzTarPerm extractEntry lib/public/icons/page_white_paint.png
+988 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_paint.png', 420, 438 ]
+989 silly gunzTarPerm extractEntry lib/public/icons/page_white_paintbrush.png
+990 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_paintbrush.png', 420, 438 ]
+991 silly gunzTarPerm extractEntry lib/public/icons/page_white_paste.png
+992 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_paste.png', 420, 438 ]
+993 silly gunzTarPerm extractEntry lib/public/icons/page_white_php.png
+994 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_php.png', 420, 438 ]
+995 silly gunzTarPerm extractEntry lib/public/icons/page_white_picture.png
+996 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_picture.png', 420, 438 ]
+997 silly gunzTarPerm extractEntry lib/public/icons/page_white_powerpoint.png
+998 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_powerpoint.png', 420, 438 ]
+999 silly gunzTarPerm extractEntry lib/public/icons/page_white_put.png
+1000 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_put.png', 420, 438 ]
+1001 silly gunzTarPerm extractEntry lib/public/icons/page_white_ruby.png
+1002 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_ruby.png', 420, 438 ]
+1003 silly gunzTarPerm extractEntry lib/public/icons/page_white_stack.png
+1004 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_stack.png', 420, 438 ]
+1005 silly gunzTarPerm extractEntry lib/public/icons/page_white_star.png
+1006 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_star.png', 420, 438 ]
+1007 silly gunzTarPerm extractEntry lib/public/icons/page_white_swoosh.png
+1008 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_swoosh.png', 420, 438 ]
+1009 silly gunzTarPerm extractEntry lib/public/icons/page_white_text.png
+1010 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_text.png', 420, 438 ]
+1011 silly gunzTarPerm extractEntry lib/public/icons/page_white_text_width.png
+1012 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_text_width.png', 420, 438 ]
+1013 silly gunzTarPerm extractEntry lib/public/icons/page_white_tux.png
+1014 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_tux.png', 420, 438 ]
+1015 silly gunzTarPerm extractEntry lib/public/icons/page_white_vector.png
+1016 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_vector.png', 420, 438 ]
+1017 silly gunzTarPerm extractEntry lib/public/icons/page_white_visualstudio.png
+1018 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_visualstudio.png', 420, 438 ]
+1019 silly gunzTarPerm extractEntry lib/public/icons/page_white_width.png
+1020 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_width.png', 420, 438 ]
+1021 silly gunzTarPerm extractEntry lib/public/icons/page_white_word.png
+1022 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_word.png', 420, 438 ]
+1023 silly gunzTarPerm extractEntry lib/public/icons/page_white_world.png
+1024 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_world.png', 420, 438 ]
+1025 silly gunzTarPerm extractEntry lib/public/icons/page_white_wrench.png
+1026 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_wrench.png', 420, 438 ]
+1027 silly gunzTarPerm extractEntry lib/public/icons/page_white_zip.png
+1028 silly gunzTarPerm modified mode [ 'lib/public/icons/page_white_zip.png', 420, 438 ]
+1029 silly gunzTarPerm extractEntry lib/public/icons/page_word.png
+1030 silly gunzTarPerm modified mode [ 'lib/public/icons/page_word.png', 420, 438 ]
+1031 silly gunzTarPerm extractEntry lib/public/icons/page_world.png
+1032 silly gunzTarPerm modified mode [ 'lib/public/icons/page_world.png', 420, 438 ]
+1033 silly gunzTarPerm extractEntry lib/public/style.css
+1034 silly gunzTarPerm modified mode [ 'lib/public/style.css', 420, 438 ]
+1035 silly gunzTarPerm extractEntry Readme.md
+1036 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+1037 verbose read json /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665066368-0.6280411537736654/package/package.json
+1038 silly lockFile 78f7c18c-66368-0-6280411537736654-package /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665066368-0.6280411537736654/package
+1039 verbose from cache /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665066368-0.6280411537736654/package/package.json
+1040 verbose tar pack [ '/Users/boyu/.npm/connect/2.4.4/package.tgz',
+1040 verbose tar pack   '/var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665066368-0.6280411537736654/package' ]
+1041 verbose tarball /Users/boyu/.npm/connect/2.4.4/package.tgz
+1042 verbose folder /var/folders/jY/jYC9d7wEGpGr2BNchNKipk+++TI/-Tmp-/npm-18404/1345665066368-0.6280411537736654/package
+1043 silly lockFile e0a3a180-yu-npm-connect-2-4-4-package-tgz /Users/boyu/.npm/connect/2.4.4/package.tgz
+1044 verbose lock /Users/boyu/.npm/connect/2.4.4/package.tgz /Users/boyu/.npm/e0a3a180-yu-npm-connect-2-4-4-package-tgz.lock
+1045 silly lockFile e0a3a180-yu-npm-connect-2-4-4-package-tgz /Users/boyu/.npm/connect/2.4.4/package.tgz
+1046 silly lockFile 43178663-s-boyu-npm-connect-2-4-4-package /Users/boyu/.npm/connect/2.4.4/package
+1047 verbose lock /Users/boyu/.npm/connect/2.4.4/package /Users/boyu/.npm/43178663-s-boyu-npm-connect-2-4-4-package.lock
+1048 silly lockFile 43178663-s-boyu-npm-connect-2-4-4-package /Users/boyu/.npm/connect/2.4.4/package
+1049 verbose tar unpack /Users/boyu/.npm/connect/2.4.4/package.tgz
+1050 silly lockFile 43178663-s-boyu-npm-connect-2-4-4-package /Users/boyu/.npm/connect/2.4.4/package
+1051 verbose lock /Users/boyu/.npm/connect/2.4.4/package /Users/boyu/.npm/43178663-s-boyu-npm-connect-2-4-4-package.lock
+1052 silly gunzTarPerm modes [ '777', '666' ]
+1053 silly gunzTarPerm extractEntry package.json
+1054 silly gunzTarPerm extractEntry .npmignore
+1055 silly gunzTarPerm extractEntry LICENSE
+1056 silly gunzTarPerm extractEntry index.js
+1057 silly gunzTarPerm extractEntry test.js
+1058 silly gunzTarPerm extractEntry lib/cache.js
+1059 silly gunzTarPerm extractEntry lib/connect.js
+1060 silly gunzTarPerm extractEntry lib/index.js
+1061 silly gunzTarPerm extractEntry lib/patch.js
+1062 silly gunzTarPerm extractEntry lib/proto.js
+1063 silly gunzTarPerm extractEntry lib/utils.js
+1064 silly gunzTarPerm extractEntry lib/middleware/basicAuth.js
+1065 silly gunzTarPerm extractEntry lib/middleware/errorHandler.js
+1066 silly gunzTarPerm extractEntry lib/middleware/favicon.js
+1067 silly gunzTarPerm extractEntry lib/middleware/json.js
+1068 silly gunzTarPerm extractEntry lib/middleware/limit.js
+1069 silly gunzTarPerm extractEntry lib/middleware/directory.js
+1070 silly gunzTarPerm extractEntry lib/middleware/methodOverride.js
+1071 silly gunzTarPerm extractEntry lib/middleware/multipart.js
+1072 silly gunzTarPerm extractEntry lib/middleware/query.js
+1073 silly gunzTarPerm extractEntry lib/middleware/responseTime.js
+1074 silly gunzTarPerm extractEntry lib/middleware/urlencoded.js
+1075 silly gunzTarPerm extractEntry lib/middleware/csrf.js
+1076 silly gunzTarPerm extractEntry lib/middleware/session.js
+1077 silly gunzTarPerm extractEntry lib/middleware/cookieSession.js
+1078 silly gunzTarPerm extractEntry lib/middleware/static.js
+1079 silly gunzTarPerm extractEntry lib/middleware/cookieParser.js
+1080 silly gunzTarPerm extractEntry lib/middleware/staticCache.js
+1081 silly gunzTarPerm extractEntry lib/middleware/compress.js
+1082 silly gunzTarPerm extractEntry lib/middleware/timeout.js
+1083 silly gunzTarPerm extractEntry lib/middleware/bodyParser.js
+1084 silly gunzTarPerm extractEntry lib/middleware/vhost.js
+1085 silly gunzTarPerm extractEntry lib/middleware/logger.js
+1086 silly gunzTarPerm extractEntry lib/middleware/session/cookie.js
+1087 silly gunzTarPerm extractEntry lib/middleware/session/memory.js
+1088 silly gunzTarPerm extractEntry lib/middleware/session/session.js
+1089 silly gunzTarPerm extractEntry lib/middleware/session/store.js
+1090 silly gunzTarPerm extractEntry lib/public/directory.html
+1091 silly gunzTarPerm extractEntry lib/public/error.html
+1092 silly gunzTarPerm extractEntry lib/public/favicon.ico
+1093 silly gunzTarPerm extractEntry lib/public/icons/page_white_edit.png
+1094 silly gunzTarPerm extractEntry lib/public/icons/page.png
+1095 silly gunzTarPerm extractEntry lib/public/icons/page_attach.png
+1096 silly gunzTarPerm extractEntry lib/public/icons/page_code.png
+1097 silly gunzTarPerm extractEntry lib/public/icons/page_copy.png
+1098 silly gunzTarPerm extractEntry lib/public/icons/page_delete.png
+1099 silly gunzTarPerm extractEntry lib/public/icons/page_edit.png
+1100 silly gunzTarPerm extractEntry lib/public/icons/page_error.png
+1101 silly gunzTarPerm extractEntry lib/public/icons/page_excel.png
+1102 silly gunzTarPerm extractEntry lib/public/icons/page_find.png
+1103 silly gunzTarPerm extractEntry lib/public/icons/page_gear.png
+1104 silly gunzTarPerm extractEntry lib/public/icons/page_go.png
+1105 silly gunzTarPerm extractEntry lib/public/icons/page_green.png
+1106 silly gunzTarPerm extractEntry lib/public/icons/page_key.png
+1107 silly gunzTarPerm extractEntry lib/public/icons/page_lightning.png
+1108 silly gunzTarPerm extractEntry lib/public/icons/page_link.png
+1109 silly gunzTarPerm extractEntry lib/public/icons/page_paintbrush.png
+1110 silly gunzTarPerm extractEntry lib/public/icons/page_paste.png
+1111 silly gunzTarPerm extractEntry lib/public/icons/page_red.png
+1112 silly gunzTarPerm extractEntry lib/public/icons/page_refresh.png
+1113 silly gunzTarPerm extractEntry lib/public/icons/page_save.png
+1114 silly gunzTarPerm extractEntry lib/public/icons/page_white.png
+1115 silly gunzTarPerm extractEntry lib/public/icons/page_white_acrobat.png
+1116 silly gunzTarPerm extractEntry lib/public/icons/page_white_actionscript.png
+1117 silly gunzTarPerm extractEntry lib/public/icons/page_white_add.png
+1118 silly gunzTarPerm extractEntry lib/public/icons/page_white_c.png
+1119 silly gunzTarPerm extractEntry lib/public/icons/page_white_camera.png
+1120 silly gunzTarPerm extractEntry lib/public/icons/page_white_cd.png
+1121 silly gunzTarPerm extractEntry lib/public/icons/page_white_code.png
+1122 silly gunzTarPerm extractEntry lib/public/icons/page_white_code_red.png
+1123 silly gunzTarPerm extractEntry lib/public/icons/page_white_coldfusion.png
+1124 silly gunzTarPerm extractEntry lib/public/icons/page_white_compressed.png
+1125 silly gunzTarPerm extractEntry lib/public/icons/page_white_copy.png
+1126 silly gunzTarPerm extractEntry lib/public/icons/page_white_cplusplus.png
+1127 silly gunzTarPerm extractEntry lib/public/icons/page_white_csharp.png
+1128 silly gunzTarPerm extractEntry lib/public/icons/page_white_cup.png
+1129 silly gunzTarPerm extractEntry lib/public/icons/page_white_database.png
+1130 silly gunzTarPerm extractEntry lib/public/icons/page_white_delete.png
+1131 silly gunzTarPerm extractEntry lib/public/icons/page_white_dvd.png
+1132 silly gunzTarPerm extractEntry lib/public/icons/page_add.png
+1133 silly gunzTarPerm extractEntry lib/public/icons/page_white_error.png
+1134 silly gunzTarPerm extractEntry lib/public/icons/page_white_excel.png
+1135 silly gunzTarPerm extractEntry lib/public/icons/page_white_find.png
+1136 silly gunzTarPerm extractEntry lib/public/icons/page_white_flash.png
+1137 silly gunzTarPerm extractEntry lib/public/icons/page_white_freehand.png
+1138 silly gunzTarPerm extractEntry lib/public/icons/page_white_gear.png
+1139 silly gunzTarPerm extractEntry lib/public/icons/page_white_get.png
+1140 silly gunzTarPerm extractEntry lib/public/icons/page_white_go.png
+1141 silly gunzTarPerm extractEntry lib/public/icons/page_white_h.png
+1142 silly gunzTarPerm extractEntry lib/public/icons/page_white_horizontal.png
+1143 silly gunzTarPerm extractEntry lib/public/icons/page_white_key.png
+1144 silly gunzTarPerm extractEntry lib/public/icons/page_white_lightning.png
+1145 silly gunzTarPerm extractEntry lib/public/icons/page_white_link.png
+1146 silly gunzTarPerm extractEntry lib/public/icons/page_white_magnify.png
+1147 silly gunzTarPerm extractEntry lib/public/icons/page_white_medal.png
+1148 silly gunzTarPerm extractEntry lib/public/icons/page_white_office.png
+1149 silly gunzTarPerm extractEntry lib/public/icons/page_white_paint.png
+1150 silly gunzTarPerm extractEntry lib/public/icons/page_white_paintbrush.png
+1151 silly gunzTarPerm extractEntry lib/public/icons/page_white_paste.png
+1152 silly gunzTarPerm extractEntry lib/public/icons/page_white_php.png
+1153 silly gunzTarPerm extractEntry lib/public/icons/page_white_picture.png
+1154 silly gunzTarPerm extractEntry lib/public/icons/page_white_powerpoint.png
+1155 silly gunzTarPerm extractEntry lib/public/icons/page_white_put.png
+1156 silly gunzTarPerm extractEntry lib/public/icons/page_white_ruby.png
+1157 silly gunzTarPerm extractEntry lib/public/icons/page_white_stack.png
+1158 silly gunzTarPerm extractEntry lib/public/icons/page_white_star.png
+1159 silly gunzTarPerm extractEntry lib/public/icons/page_white_swoosh.png
+1160 silly gunzTarPerm extractEntry lib/public/icons/page_white_text.png
+1161 silly gunzTarPerm extractEntry lib/public/icons/page_white_text_width.png
+1162 silly gunzTarPerm extractEntry lib/public/icons/page_white_tux.png
+1163 silly gunzTarPerm extractEntry lib/public/icons/page_white_vector.png
+1164 silly gunzTarPerm extractEntry lib/public/icons/page_white_visualstudio.png
+1165 silly gunzTarPerm extractEntry lib/public/icons/page_white_width.png
+1166 silly gunzTarPerm extractEntry lib/public/icons/page_white_word.png
+1167 silly gunzTarPerm extractEntry lib/public/icons/page_white_world.png
+1168 silly gunzTarPerm extractEntry lib/public/icons/page_white_wrench.png
+1169 silly gunzTarPerm extractEntry lib/public/icons/page_white_zip.png
+1170 silly gunzTarPerm extractEntry lib/public/icons/page_word.png
+1171 silly gunzTarPerm extractEntry lib/public/icons/page_world.png
+1172 silly gunzTarPerm extractEntry lib/public/style.css
+1173 silly gunzTarPerm extractEntry Readme.md
+1174 verbose read json /Users/boyu/.npm/connect/2.4.4/package/package.json
+1175 silly lockFile 43178663-s-boyu-npm-connect-2-4-4-package /Users/boyu/.npm/connect/2.4.4/package
+1176 silly shasum updated bytes 40960
+1177 silly shasum updated bytes 33594
+1178 info shasum 006cc99cf23b18d662c5889597037a900d6ccf87
+1178 info shasum /Users/boyu/.npm/connect/2.4.4/package.tgz
+1179 verbose from cache /Users/boyu/.npm/connect/2.4.4/package/package.json
+1180 verbose chmod /Users/boyu/.npm/connect/2.4.4/package.tgz 666
+1181 verbose chown /Users/boyu/.npm/connect/2.4.4/package.tgz [ 501, 20 ]
+1182 silly lockFile 63aa5e9f-js-org-connect-connect-2-4-4-tgz https://registry.npmjs.org/connect/-/connect-2.4.4.tgz
+1183 silly lockFile c3f4df6e-connect-2-4-4 connect@2.4.4
+1184 silly lockFile 6c45e0f3-connect connect@
+1185 silly resolved [ { name: 'recess',
+1185 silly resolved     description: 'A simple, attractive code quality tool for CSS built on top of LESS',
+1185 silly resolved     version: '1.1.6',
+1185 silly resolved     author:
+1185 silly resolved      { name: 'Jacob Thornton',
+1185 silly resolved        email: 'jacob@twitter.com',
+1185 silly resolved        url: 'https://github.com/fat' },
+1185 silly resolved     keywords: [ 'css', 'lint' ],
+1185 silly resolved     licenses: [ [Object] ],
+1185 silly resolved     main: './lib',
+1185 silly resolved     homepage: 'http://twitter.github.com/recess',
+1185 silly resolved     engines: { node: '>= 0.4.0' },
+1185 silly resolved     dependencies:
+1185 silly resolved      { colors: '>= 0.3.0',
+1185 silly resolved        nopt: '>= 1.0.10',
+1185 silly resolved        underscore: '>= 1.2.1',
+1185 silly resolved        watch: '>= 0.5.1',
+1185 silly resolved        less: '>= 1.3.0' },
+1185 silly resolved     directories: { bin: './bin' },
+1185 silly resolved     scripts: { test: 'node test' },
+1185 silly resolved     bin: { recess: './bin/recess' },
+1185 silly resolved     preferGlobal: true,
+1185 silly resolved     readme: 'RECESS [![Build Status](https://secure.travis-ci.org/twitter/recess.png)](http://travis-ci.org/twitter/recess)\n======\n\nDeveloped at Twitter to support our internal styleguide, RECESS is a simple, attractive code quality tool for CSS built on top of LESS.\n\nIncorporate it into your development process as a linter, or integrate it directly into your build system as a compiler, RECESS will keep your source looking clean and super manageable.\n\n\nGENERAL USE\n-----------\n\n```CLI\n$ recess [path] [options]\n```\n\nOPTIONS\n-------\n\n- --compile - compiles your code and outputs it to the terminal. Fixes white space and sort order. Can compile css or less.\n- --compress - compress your compiled code.\n- --config - accepts a path, which specifies a json config object\n- --stripColors - removes color from output (useful when logging)\n- --watch - watch filesystem for changes, useful when compiling Less projects\n- --noIDs - doesn\'t complain about using IDs in your stylesheets\n- --noJSPrefix - doesn\'t complain about styling `.js-` prefixed classnames\n- --noOverqualifying - doesn\'t complain about overqualified selectors (ie: `div#foo.bar`)\n- --noUnderscores - doesn\'t complain about using underscores in your class names\n- --noUniversalSelectors - doesn\'t complain about using the universal `*` selector\n- --prefixWhitespace - adds whitespace prefix to line up vender prefixed properties\n- --strictPropertyOrder - doesn\'t looking into your property ordering\n- --zeroUnits - doesn\'t complain if you add units to values of 0\n\n\nEXAMPLES\n--------\n\nLint all css files\n\n```CLI\n$ recess *.css\n```\n\nLint file, ignore styling of IDs\n\n```CLI\n$ recess ./bootstrap.css --noIds false\n```\n\nCompile and compress .less file, then output it to a new file\n\n```CLI\n$ recess ./bootstrap.less --compress > ./bootstrap-production.css\n```\n\nWatch a directory for changes and auto compile a css file from the changes. *experimental*\n\n```CLI\n$ recess input.less:ouput.css --watch watch/this/dir/for/changes\n```\n\nWatch a single file for changes and auto compile a css file from the changes. *experimental*\n\n```CLI\n$ recess input.less:ouput.css --watch\n```\n\nPROGRAMMATIC API\n----------------\n\nRecess provides a pretty simple programmatic api.\n\n```JS\nvar recess = require(\'recess\')\n```\n\nOnce you\'ve required recess, just pass it a `path` (or array of paths) and an optional `options` object and an optional `callback`:\n\n```js\nrecess([\'../fat.css\', \'../twitter.css\'], { compile: true }, callback)\n```\n\nThe following options (and defaults) are available in the programatic api:\n\n- compile: false\n- compress: false\n- noIDs: true\n- noJSPrefix: true\n- noOverqualifying: true\n- noUnderscores: true\n- noUniversalSelectors: true\n- prefixWhitespace: true\n- strictPropertyOrder: true\n- stripColors: false\n- zeroUnits: true\n\nThe callback is fired when each instance has finished processessing an input. The callback is passed an array of of instances (one for each path). The instances have a bunch of useful things on them like the raw data and an array of output strings.\n\nWhen compiling, access the compiled source through the output property:\n\n```js\nvar recess = require(\'recess\')\n\nrecess(\'./js/fat.css\', { compile: true }, function (err, obj) {\n  if (err) throw err\n  console.log(\n  \tobj // recess instance for fat.css\n  , obj.output // array of loggable content\n  , obj.errors // array of failed lint rules\n  )\n})\n```\n\nINSTALLATION\n------------\n\nTo install recess you need both node and npm installed.\n\n```CLI\n$ npm install recess -g\n```\n\nAUTHORS\n------------\n\n+ **Jacob Thornton**: https://twitter.com/fat\n\nLICENSE\n------------\n\nCopyright 2012 Twitter, Inc.\n\nLicensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0',
+1185 silly resolved     _id: 'recess@1.1.6',
+1185 silly resolved     dist: { shasum: 'b23f92257f63936d30084657160192766d4e4745' },
+1185 silly resolved     _from: 'recess' },
+1185 silly resolved   { name: 'uglify-js',
+1185 silly resolved     description: 'JavaScript parser and compressor/beautifier toolkit',
+1185 silly resolved     author:
+1185 silly resolved      { name: 'Mihai Bazon',
+1185 silly resolved        email: 'mihai.bazon@gmail.com',
+1185 silly resolved        url: 'http://mihai.bazon.net/blog' },
+1185 silly resolved     version: '1.3.3',
+1185 silly resolved     main: './uglify-js.js',
+1185 silly resolved     bin: { uglifyjs: './bin/uglifyjs' },
+1185 silly resolved     repository: { type: 'git', url: 'git@github.com:mishoo/UglifyJS.git' },
+1185 silly resolved     devDependencies: { nodeunit: '0.7.x' },
+1185 silly resolved     scripts: { test: '$(which nodeunit || echo node_modules/nodeunit/bin/nodeunit) test/unit/scripts.js && test/testparser.js && test/testconsolidator.js' },
+1185 silly resolved     readme: '<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"\n               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml"\nlang="en" xml:lang="en">\n<head>\n<title>UglifyJS &ndash; a JavaScript parser/compressor/beautifier</title>\n<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>\n<meta name="generator" content="Org-mode"/>\n<meta name="generated" content="2011-12-09 14:59:08 EET"/>\n<meta name="author" content="Mihai Bazon"/>\n<meta name="description" content="a JavaScript parser/compressor/beautifier in JavaScript"/>\n<meta name="keywords" content="javascript, js, parser, compiler, compressor, mangle, minify, minifier"/>\n<style type="text/css">\n <!--/*--><![CDATA[/*><!--*/\n  html { font-family: Times, serif; font-size: 12pt; }\n  .title  { text-align: center; }\n  .todo   { color: red; }\n  .done   { color: green; }\n  .tag    { background-color: #add8e6; font-weight:normal }\n  .target { }\n  .timestamp { color: #bebebe; }\n  .timestamp-kwd { color: #5f9ea0; }\n  .right  {margin-left:auto; margin-right:0px;  text-align:right;}\n  .left   {margin-left:0px;  margin-right:auto; text-align:left;}\n  .center {margin-left:auto; margin-right:auto; text-align:center;}\n  p.verse { margin-left: 3% }\n  pre {\n\tborder: 1pt solid #AEBDCC;\n\tbackground-color: #F3F5F7;\n\tpadding: 5pt;\n\tfont-family: courier, monospace;\n        font-size: 90%;\n        overflow:auto;\n  }\n  table { border-collapse: collapse; }\n  td, th { vertical-align: top;  }\n  th.right  { text-align:center;  }\n  th.left   { text-align:center;   }\n  th.center { text-align:center; }\n  td.right  { text-align:right;  }\n  td.left   { text-align:left;   }\n  td.center { text-align:center; }\n  dt { font-weight: bold; }\n  div.figure { padding: 0.5em; }\n  div.figure p { text-align: center; }\n  div.inlinetask {\n    padding:10px;\n    border:2px solid gray;\n    margin:10px;\n    background: #ffffcc;\n  }\n  textarea { overflow-x: auto; }\n  .linenr { font-size:smaller }\n  .code-highlighted {background-color:#ffff00;}\n  .org-info-js_info-navigation { border-style:none; }\n  #org-info-js_console-label { font-size:10px; font-weight:bold;\n                               white-space:nowrap; }\n  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;\n                                 font-weight:bold; }\n  /*]]>*/-->\n</style>\n<link rel="stylesheet" type="text/css" href="docstyle.css" />\n<script type="text/javascript">\n<!--/*--><![CDATA[/*><!--*/\n function CodeHighlightOn(elem, id)\n {\n   var target = document.getElementById(id);\n   if(null != target) {\n     elem.cacheClassElem = elem.className;\n     elem.cacheClassTarget = target.className;\n     target.className = "code-highlighted";\n     elem.className   = "code-highlighted";\n   }\n }\n function CodeHighlightOff(elem, id)\n {\n   var target = document.getElementById(id);\n   if(elem.cacheClassElem)\n     elem.className = elem.cacheClassElem;\n   if(elem.cacheClassTarget)\n     target.className = elem.cacheClassTarget;\n }\n/*]]>*///-->\n</script>\n\n</head>\n<body>\n\n<div id="preamble">\n\n</div>\n\n<div id="content">\n<h1 class="title">UglifyJS &ndash; a JavaScript parser/compressor/beautifier</h1>\n\n\n<div id="table-of-contents">\n<h2>Table of Contents</h2>\n<div id="text-table-of-contents">\n<ul>\n<li><a href="#sec-1">1 UglifyJS &mdash; a JavaScript parser/compressor/beautifier </a>\n<ul>\n<li><a href="#sec-1-1">1.1 Unsafe transformations </a>\n<ul>\n<li><a href="#sec-1-1-1">1.1.1 Calls involving the global Array constructor </a></li>\n<li><a href="#sec-1-1-2">1.1.2 <code>obj.toString()</code> ==&gt; <code>obj+“”</code> </a></li>\n</ul>\n</li>\n<li><a href="#sec-1-2">1.2 Install (NPM) </a></li>\n<li><a href="#sec-1-3">1.3 Install latest code from GitHub </a></li>\n<li><a href="#sec-1-4">1.4 Usage </a>\n<ul>\n<li><a href="#sec-1-4-1">1.4.1 API </a></li>\n<li><a href="#sec-1-4-2">1.4.2 Beautifier shortcoming &ndash; no more comments </a></li>\n<li><a href="#sec-1-4-3">1.4.3 Use as a code pre-processor </a></li>\n</ul>\n</li>\n<li><a href="#sec-1-5">1.5 Compression &ndash; how good is it? </a></li>\n<li><a href="#sec-1-6">1.6 Bugs? </a></li>\n<li><a href="#sec-1-7">1.7 Links </a></li>\n<li><a href="#sec-1-8">1.8 License </a></li>\n</ul>\n</li>\n</ul>\n</div>\n</div>\n\n<div id="outline-container-1" class="outline-2">\n<h2 id="sec-1"><span class="section-number-2">1</span> UglifyJS &mdash; a JavaScript parser/compressor/beautifier </h2>\n<div class="outline-text-2" id="text-1">\n\n\n<p>\nThis package implements a general-purpose JavaScript\nparser/compressor/beautifier toolkit.  It is developed on <a href="http://nodejs.org/">NodeJS</a>, but it\nshould work on any JavaScript platform supporting the CommonJS module system\n(and if your platform of choice doesn\'t support CommonJS, you can easily\nimplement it, or discard the <code>exports.*</code> lines from UglifyJS sources).\n</p>\n<p>\nThe tokenizer/parser generates an abstract syntax tree from JS code.  You\ncan then traverse the AST to learn more about the code, or do various\nmanipulations on it.  This part is implemented in <a href="../lib/parse-js.js">parse-js.js</a> and it\'s a\nport to JavaScript of the excellent <a href="http://marijn.haverbeke.nl/parse-js/">parse-js</a> Common Lisp library from <a href="http://marijn.haverbeke.nl/">Marijn Haverbeke</a>.\n</p>\n<p>\n( See <a href="http://github.com/mishoo/cl-uglify-js">cl-uglify-js</a> if you\'re looking for the Common Lisp version of\nUglifyJS. )\n</p>\n<p>\nThe second part of this package, implemented in <a href="../lib/process.js">process.js</a>, inspects and\nmanipulates the AST generated by the parser to provide the following:\n</p>\n<ul>\n<li>ability to re-generate JavaScript code from the AST.  Optionally\n  indented&mdash;you can use this if you want to “beautify” a program that has\n  been compressed, so that you can inspect the source.  But you can also run\n  our code generator to print out an AST without any whitespace, so you\n  achieve compression as well.\n\n</li>\n<li>shorten variable names (usually to single characters).  Our mangler will\n  analyze the code and generate proper variable names, depending on scope\n  and usage, and is smart enough to deal with globals defined elsewhere, or\n  with <code>eval()</code> calls or <code>with{}</code> statements.  In short, if <code>eval()</code> or\n  <code>with{}</code> are used in some scope, then all variables in that scope and any\n  variables in the parent scopes will remain unmangled, and any references\n  to such variables remain unmangled as well.\n\n</li>\n<li>various small optimizations that may lead to faster code but certainly\n  lead to smaller code.  Where possible, we do the following:\n\n<ul>\n<li>foo["bar"]  ==&gt;  foo.bar\n\n</li>\n<li>remove block brackets <code>{}</code>\n\n</li>\n<li>join consecutive var declarations:\n    var a = 10; var b = 20; ==&gt; var a=10,b=20;\n\n</li>\n<li>resolve simple constant expressions: 1 +2 * 3 ==&gt; 7.  We only do the\n    replacement if the result occupies less bytes; for example 1/3 would\n    translate to 0.333333333333, so in this case we don\'t replace it.\n\n</li>\n<li>consecutive statements in blocks are merged into a sequence; in many\n    cases, this leaves blocks with a single statement, so then we can remove\n    the block brackets.\n\n</li>\n<li>various optimizations for IF statements:\n\n<ul>\n<li>if (foo) bar(); else baz(); ==&gt; foo?bar():baz();\n</li>\n<li>if (!foo) bar(); else baz(); ==&gt; foo?baz():bar();\n</li>\n<li>if (foo) bar(); ==&gt; foo&amp;&amp;bar();\n</li>\n<li>if (!foo) bar(); ==&gt; foo||bar();\n</li>\n<li>if (foo) return bar(); else return baz(); ==&gt; return foo?bar():baz();\n</li>\n<li>if (foo) return bar(); else something(); ==&gt; {if(foo)return bar();something()}\n\n</li>\n</ul>\n\n</li>\n<li>remove some unreachable code and warn about it (code that follows a\n    <code>return</code>, <code>throw</code>, <code>break</code> or <code>continue</code> statement, except\n    function/variable declarations).\n\n</li>\n<li>act a limited version of a pre-processor (c.f. the pre-processor of\n    C/C++) to allow you to safely replace selected global symbols with\n    specified values.  When combined with the optimisations above this can\n    make UglifyJS operate slightly more like a compilation process, in\n    that when certain symbols are replaced by constant values, entire code\n    blocks may be optimised away as unreachable.\n</li>\n</ul>\n\n</li>\n</ul>\n\n\n\n</div>\n\n<div id="outline-container-1-1" class="outline-3">\n<h3 id="sec-1-1"><span class="section-number-3">1.1</span> <span class="target">Unsafe transformations</span>  </h3>\n<div class="outline-text-3" id="text-1-1">\n\n\n<p>\nThe following transformations can in theory break code, although they\'re\nprobably safe in most practical cases.  To enable them you need to pass the\n<code>--unsafe</code> flag.\n</p>\n\n</div>\n\n<div id="outline-container-1-1-1" class="outline-4">\n<h4 id="sec-1-1-1"><span class="section-number-4">1.1.1</span> Calls involving the global Array constructor </h4>\n<div class="outline-text-4" id="text-1-1-1">\n\n\n<p>\nThe following transformations occur:\n</p>\n\n\n\n<pre class="src src-js"><span class="org-keyword">new</span> <span class="org-type">Array</span>(1, 2, 3, 4)  =&gt; [1,2,3,4]\nArray(a, b, c)         =&gt; [a,b,c]\n<span class="org-keyword">new</span> <span class="org-type">Array</span>(5)           =&gt; Array(5)\n<span class="org-keyword">new</span> <span class="org-type">Array</span>(a)           =&gt; Array(a)\n</pre>\n\n\n<p>\nThese are all safe if the Array name isn\'t redefined.  JavaScript does allow\none to globally redefine Array (and pretty much everything, in fact) but I\npersonally don\'t see why would anyone do that.\n</p>\n<p>\nUglifyJS does handle the case where Array is redefined locally, or even\nglobally but with a <code>function</code> or <code>var</code> declaration.  Therefore, in the\nfollowing cases UglifyJS <b>doesn\'t touch</b> calls or instantiations of Array:\n</p>\n\n\n\n<pre class="src src-js"><span class="org-comment-delimiter">// </span><span class="org-comment">case 1.  globally declared variable</span>\n  <span class="org-keyword">var</span> <span class="org-variable-name">Array</span>;\n  <span class="org-keyword">new</span> <span class="org-type">Array</span>(1, 2, 3);\n  Array(a, b);\n\n  <span class="org-comment-delimiter">// </span><span class="org-comment">or (can be declared later)</span>\n  <span class="org-keyword">new</span> <span class="org-type">Array</span>(1, 2, 3);\n  <span class="org-keyword">var</span> <span class="org-variable-name">Array</span>;\n\n  <span class="org-comment-delimiter">// </span><span class="org-comment">or (can be a function)</span>\n  <span class="org-keyword">new</span> <span class="org-type">Array</span>(1, 2, 3);\n  <span class="org-keyword">function</span> <span class="org-function-name">Array</span>() { ... }\n\n<span class="org-comment-delimiter">// </span><span class="org-comment">case 2.  declared in a function</span>\n  (<span class="org-keyword">function</span>(){\n    a = <span class="org-keyword">new</span> <span class="org-type">Array</span>(1, 2, 3);\n    b = Array(5, 6);\n    <span class="org-keyword">var</span> <span class="org-variable-name">Array</span>;\n  })();\n\n  <span class="org-comment-delimiter">// </span><span class="org-comment">or</span>\n  (<span class="org-keyword">function</span>(<span class="org-variable-name">Array</span>){\n    <span class="org-keyword">return</span> Array(5, 6, 7);\n  })();\n\n  <span class="org-comment-delimiter">// </span><span class="org-comment">or</span>\n  (<span class="org-keyword">function</span>(){\n    <span class="org-keyword">return</span> <span class="org-keyword">new</span> <span class="org-type">Array</span>(1, 2, 3, 4);\n    <span class="org-keyword">function</span> <span class="org-function-name">Array</span>() { ... }\n  })();\n\n  <span class="org-comment-delimiter">// </span><span class="org-comment">etc.</span>\n</pre>\n\n\n</div>\n\n</div>\n\n<div id="outline-container-1-1-2" class="outline-4">\n<h4 id="sec-1-1-2"><span class="section-number-4">1.1.2</span> <code>obj.toString()</code> ==&gt; <code>obj+“”</code> </h4>\n<div class="outline-text-4" id="text-1-1-2">\n\n\n</div>\n</div>\n\n</div>\n\n<div id="outline-container-1-2" class="outline-3">\n<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Install (NPM) </h3>\n<div class="outline-text-3" id="text-1-2">\n\n\n<p>\nUglifyJS is now available through NPM &mdash; <code>npm install uglify-js</code> should do\nthe job.\n</p>\n</div>\n\n</div>\n\n<div id="outline-container-1-3" class="outline-3">\n<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Install latest code from GitHub </h3>\n<div class="outline-text-3" id="text-1-3">\n\n\n\n\n\n<pre class="src src-sh"><span class="org-comment-delimiter">## </span><span class="org-comment">clone the repository</span>\nmkdir -p /where/you/wanna/put/it\n<span class="org-builtin">cd</span> /where/you/wanna/put/it\ngit clone git://github.com/mishoo/UglifyJS.git\n\n<span class="org-comment-delimiter">## </span><span class="org-comment">make the module available to Node</span>\nmkdir -p ~/.node_libraries/\n<span class="org-builtin">cd</span> ~/.node_libraries/\nln -s /where/you/wanna/put/it/UglifyJS/uglify-js.js\n\n<span class="org-comment-delimiter">## </span><span class="org-comment">and if you want the CLI script too:</span>\nmkdir -p ~/bin\n<span class="org-builtin">cd</span> ~/bin\nln -s /where/you/wanna/put/it/UglifyJS/bin/uglifyjs\n  <span class="org-comment-delimiter"># </span><span class="org-comment">(then add ~/bin to your $PATH if it\'s not there already)</span>\n</pre>\n\n\n</div>\n\n</div>\n\n<div id="outline-container-1-4" class="outline-3">\n<h3 id="sec-1-4"><span class="section-number-3">1.4</span> Usage </h3>\n<div class="outline-text-3" id="text-1-4">\n\n\n<p>\nThere is a command-line tool that exposes the functionality of this library\nfor your shell-scripting needs:\n</p>\n\n\n\n<pre class="src src-sh">uglifyjs [ options... ] [ filename ]\n</pre>\n\n\n<p>\n<code>filename</code> should be the last argument and should name the file from which\nto read the JavaScript code.  If you don\'t specify it, it will read code\nfrom STDIN.\n</p>\n<p>\nSupported options:\n</p>\n<ul>\n<li><code>-b</code> or <code>--beautify</code> &mdash; output indented code; when passed, additional\n  options control the beautifier:\n\n<ul>\n<li><code>-i N</code> or <code>--indent N</code> &mdash; indentation level (number of spaces)\n\n</li>\n<li><code>-q</code> or <code>--quote-keys</code> &mdash; quote keys in literal objects (by default,\n    only keys that cannot be identifier names will be quotes).\n\n</li>\n</ul>\n\n</li>\n<li><code>--ascii</code> &mdash; pass this argument to encode non-ASCII characters as\n  <code>\\uXXXX</code> sequences.  By default UglifyJS won\'t bother to do it and will\n  output Unicode characters instead.  (the output is always encoded in UTF8,\n  but if you pass this option you\'ll only get ASCII).\n\n</li>\n<li><code>-nm</code> or <code>--no-mangle</code> &mdash; don\'t mangle names.\n\n</li>\n<li><code>-nmf</code> or <code>--no-mangle-functions</code> &ndash; in case you want to mangle variable\n  names, but not touch function names.\n\n</li>\n<li><code>-ns</code> or <code>--no-squeeze</code> &mdash; don\'t call <code>ast_squeeze()</code> (which does various\n  optimizations that result in smaller, less readable code).\n\n</li>\n<li><code>-mt</code> or <code>--mangle-toplevel</code> &mdash; mangle names in the toplevel scope too\n  (by default we don\'t do this).\n\n</li>\n<li><code>--no-seqs</code> &mdash; when <code>ast_squeeze()</code> is called (thus, unless you pass\n  <code>--no-squeeze</code>) it will reduce consecutive statements in blocks into a\n  sequence.  For example, "a = 10; b = 20; foo();" will be written as\n  "a=10,b=20,foo();".  In various occasions, this allows us to discard the\n  block brackets (since the block becomes a single statement).  This is ON\n  by default because it seems safe and saves a few hundred bytes on some\n  libs that I tested it on, but pass <code>--no-seqs</code> to disable it.\n\n</li>\n<li><code>--no-dead-code</code> &mdash; by default, UglifyJS will remove code that is\n  obviously unreachable (code that follows a <code>return</code>, <code>throw</code>, <code>break</code> or\n  <code>continue</code> statement and is not a function/variable declaration).  Pass\n  this option to disable this optimization.\n\n</li>\n<li><code>-nc</code> or <code>--no-copyright</code> &mdash; by default, <code>uglifyjs</code> will keep the initial\n  comment tokens in the generated code (assumed to be copyright information\n  etc.).  If you pass this it will discard it.\n\n</li>\n<li><code>-o filename</code> or <code>--output filename</code> &mdash; put the result in <code>filename</code>.  If\n  this isn\'t given, the result goes to standard output (or see next one).\n\n</li>\n<li><code>--overwrite</code> &mdash; if the code is read from a file (not from STDIN) and you\n  pass <code>--overwrite</code> then the output will be written in the same file.\n\n</li>\n<li><code>--ast</code> &mdash; pass this if you want to get the Abstract Syntax Tree instead\n  of JavaScript as output.  Useful for debugging or learning more about the\n  internals.\n\n</li>\n<li><code>-v</code> or <code>--verbose</code> &mdash; output some notes on STDERR (for now just how long\n  each operation takes).\n\n</li>\n<li><code>-d SYMBOL[=VALUE]</code> or <code>--define SYMBOL[=VALUE]</code> &mdash; will replace\n  all instances of the specified symbol where used as an identifier\n  (except where symbol has properly declared by a var declaration or\n  use as function parameter or similar) with the specified value. This\n  argument may be specified multiple times to define multiple\n  symbols - if no value is specified the symbol will be replaced with\n  the value <code>true</code>, or you can specify a numeric value (such as\n  <code>1024</code>), a quoted string value (such as ="object"= or\n  =\'https://github.com\'<code>), or the name of another symbol or keyword   (such as =null</code> or <code>document</code>).\n  This allows you, for example, to assign meaningful names to key\n  constant values but discard the symbolic names in the uglified\n  version for brevity/efficiency, or when used wth care, allows\n  UglifyJS to operate as a form of <b>conditional compilation</b>\n  whereby defining appropriate values may, by dint of the constant\n  folding and dead code removal features above, remove entire\n  superfluous code blocks (e.g. completely remove instrumentation or\n  trace code for production use).\n  Where string values are being defined, the handling of quotes are\n  likely to be subject to the specifics of your command shell\n  environment, so you may need to experiment with quoting styles\n  depending on your platform, or you may find the option\n  <code>--define-from-module</code> more suitable for use.\n\n</li>\n<li><code>-define-from-module SOMEMODULE</code> &mdash; will load the named module (as\n  per the NodeJS <code>require()</code> function) and iterate all the exported\n  properties of the module defining them as symbol names to be defined\n  (as if by the <code>--define</code> option) per the name of each property\n  (i.e. without the module name prefix) and given the value of the\n  property. This is a much easier way to handle and document groups of\n  symbols to be defined rather than a large number of <code>--define</code>\n  options.\n\n</li>\n<li><code>--unsafe</code> &mdash; enable other additional optimizations that are known to be\n  unsafe in some contrived situations, but could still be generally useful.\n  For now only these:\n\n<ul>\n<li>foo.toString()  ==&gt;  foo+""\n</li>\n<li>new Array(x,&hellip;)  ==&gt; [x,&hellip;]\n</li>\n<li>new Array(x) ==&gt; Array(x)\n\n</li>\n</ul>\n\n</li>\n<li><code>--max-line-len</code> (default 32K characters) &mdash; add a newline after around\n  32K characters.  I\'ve seen both FF and Chrome croak when all the code was\n  on a single line of around 670K.  Pass &ndash;max-line-len 0 to disable this\n  safety feature.\n\n</li>\n<li><code>--reserved-names</code> &mdash; some libraries rely on certain names to be used, as\n  pointed out in issue #92 and #81, so this option allow you to exclude such\n  names from the mangler.  For example, to keep names <code>require</code> and <code>$super</code>\n  intact you\'d specify &ndash;reserved-names "require,$super".\n\n</li>\n<li><code>--inline-script</code> &ndash; when you want to include the output literally in an\n  HTML <code>&lt;script&gt;</code> tag you can use this option to prevent <code>&lt;/script</code> from\n  showing up in the output.\n\n</li>\n<li><code>--lift-vars</code> &ndash; when you pass this, UglifyJS will apply the following\n  transformations (see the notes in API, <code>ast_lift_variables</code>):\n\n<ul>\n<li>put all <code>var</code> declarations at the start of the scope\n</li>\n<li>make sure a variable is declared only once\n</li>\n<li>discard unused function arguments\n</li>\n<li>discard unused inner (named) functions\n</li>\n<li>finally, try to merge assignments into that one <code>var</code> declaration, if\n    possible.\n</li>\n</ul>\n\n</li>\n</ul>\n\n\n\n</div>\n\n<div id="outline-container-1-4-1" class="outline-4">\n<h4 id="sec-1-4-1"><span class="section-number-4">1.4.1</span> API </h4>\n<div class="outline-text-4" id="text-1-4-1">\n\n\n<p>\nTo use the library from JavaScript, you\'d do the following (example for\nNodeJS):\n</p>\n\n\n\n<pre class="src src-js"><span class="org-keyword">var</span> <span class="org-variable-name">jsp</span> = require(<span class="org-string">"uglify-js"</span>).parser;\n<span class="org-keyword">var</span> <span class="org-variable-name">pro</span> = require(<span class="org-string">"uglify-js"</span>).uglify;\n\n<span class="org-keyword">var</span> <span class="org-variable-name">orig_code</span> = <span class="org-string">"... JS code here"</span>;\n<span class="org-keyword">var</span> <span class="org-variable-name">ast</span> = jsp.parse(orig_code); <span class="org-comment-delimiter">// </span><span class="org-comment">parse code and get the initial AST</span>\nast = pro.ast_mangle(ast); <span class="org-comment-delimiter">// </span><span class="org-comment">get a new AST with mangled names</span>\nast = pro.ast_squeeze(ast); <span class="org-comment-delimiter">// </span><span class="org-comment">get an AST with compression optimizations</span>\n<span class="org-keyword">var</span> <span class="org-variable-name">final_code</span> = pro.gen_code(ast); <span class="org-comment-delimiter">// </span><span class="org-comment">compressed code here</span>\n</pre>\n\n\n<p>\nThe above performs the full compression that is possible right now.  As you\ncan see, there are a sequence of steps which you can apply.  For example if\nyou want compressed output but for some reason you don\'t want to mangle\nvariable names, you would simply skip the line that calls\n<code>pro.ast_mangle(ast)</code>.\n</p>\n<p>\nSome of these functions take optional arguments.  Here\'s a description:\n</p>\n<ul>\n<li><code>jsp.parse(code, strict_semicolons)</code> &ndash; parses JS code and returns an AST.\n  <code>strict_semicolons</code> is optional and defaults to <code>false</code>.  If you pass\n  <code>true</code> then the parser will throw an error when it expects a semicolon and\n  it doesn\'t find it.  For most JS code you don\'t want that, but it\'s useful\n  if you want to strictly sanitize your code.\n\n</li>\n<li><code>pro.ast_lift_variables(ast)</code> &ndash; merge and move <code>var</code> declarations to the\n  scop of the scope; discard unused function arguments or variables; discard\n  unused (named) inner functions.  It also tries to merge assignments\n  following the <code>var</code> declaration into it.\n\n<p>\n  If your code is very hand-optimized concerning <code>var</code> declarations, this\n  lifting variable declarations might actually increase size.  For me it\n  helps out.  On jQuery it adds 865 bytes (243 after gzip).  YMMV.  Also\n  note that (since it\'s not enabled by default) this operation isn\'t yet\n  heavily tested (please report if you find issues!).\n</p>\n<p>\n  Note that although it might increase the image size (on jQuery it gains\n  865 bytes, 243 after gzip) it\'s technically more correct: in certain\n  situations, dead code removal might drop variable declarations, which\n  would not happen if the variables are lifted in advance.\n</p>\n<p>\n  Here\'s an example of what it does:\n</p></li>\n</ul>\n\n\n\n\n\n<pre class="src src-js"><span class="org-keyword">function</span> <span class="org-function-name">f</span>(<span class="org-variable-name">a</span>, <span class="org-variable-name">b</span>, <span class="org-variable-name">c</span>, <span class="org-variable-name">d</span>, <span class="org-variable-name">e</span>) {\n    <span class="org-keyword">var</span> <span class="org-variable-name">q</span>;\n    <span class="org-keyword">var</span> <span class="org-variable-name">w</span>;\n    w = 10;\n    q = 20;\n    <span class="org-keyword">for</span> (<span class="org-keyword">var</span> <span class="org-variable-name">i</span> = 1; i &lt; 10; ++i) {\n        <span class="org-keyword">var</span> <span class="org-variable-name">boo</span> = foo(a);\n    }\n    <span class="org-keyword">for</span> (<span class="org-keyword">var</span> <span class="org-variable-name">i</span> = 0; i &lt; 1; ++i) {\n        <span class="org-keyword">var</span> <span class="org-variable-name">boo</span> = bar(c);\n    }\n    <span class="org-keyword">function</span> <span class="org-function-name">foo</span>(){ ... }\n    <span class="org-keyword">function</span> <span class="org-function-name">bar</span>(){ ... }\n    <span class="org-keyword">function</span> <span class="org-function-name">baz</span>(){ ... }\n}\n\n<span class="org-comment-delimiter">// </span><span class="org-comment">transforms into ==&gt;</span>\n\n<span class="org-keyword">function</span> <span class="org-function-name">f</span>(<span class="org-variable-name">a</span>, <span class="org-variable-name">b</span>, <span class="org-variable-name">c</span>) {\n    <span class="org-keyword">var</span> <span class="org-variable-name">i</span>, <span class="org-variable-name">boo</span>, <span class="org-variable-name">w</span> = 10, <span class="org-variable-name">q</span> = 20;\n    <span class="org-keyword">for</span> (i = 1; i &lt; 10; ++i) {\n        boo = foo(a);\n    }\n    <span class="org-keyword">for</span> (i = 0; i &lt; 1; ++i) {\n        boo = bar(c);\n    }\n    <span class="org-keyword">function</span> <span class="org-function-name">foo</span>() { ... }\n    <span class="org-keyword">function</span> <span class="org-function-name">bar</span>() { ... }\n}\n</pre>\n\n\n<ul>\n<li><code>pro.ast_mangle(ast, options)</code> &ndash; generates a new AST containing mangled\n  (compressed) variable and function names.  It supports the following\n  options:\n\n<ul>\n<li><code>toplevel</code> &ndash; mangle toplevel names (by default we don\'t touch them).\n</li>\n<li><code>except</code> &ndash; an array of names to exclude from compression.\n</li>\n<li><code>defines</code> &ndash; an object with properties named after symbols to\n    replace (see the <code>--define</code> option for the script) and the values\n    representing the AST replacement value.\n\n</li>\n</ul>\n\n</li>\n<li><code>pro.ast_squeeze(ast, options)</code> &ndash; employs further optimizations designed\n  to reduce the size of the code that <code>gen_code</code> would generate from the\n  AST.  Returns a new AST.  <code>options</code> can be a hash; the supported options\n  are:\n\n<ul>\n<li><code>make_seqs</code> (default true) which will cause consecutive statements in a\n    block to be merged using the "sequence" (comma) operator\n\n</li>\n<li><code>dead_code</code> (default true) which will remove unreachable code.\n\n</li>\n</ul>\n\n</li>\n<li><code>pro.gen_code(ast, options)</code> &ndash; generates JS code from the AST.  By\n  default it\'s minified, but using the <code>options</code> argument you can get nicely\n  formatted output.  <code>options</code> is, well, optional :-) and if you pass it it\n  must be an object and supports the following properties (below you can see\n  the default values):\n\n<ul>\n<li><code>beautify: false</code> &ndash; pass <code>true</code> if you want indented output\n</li>\n<li><code>indent_start: 0</code> (only applies when <code>beautify</code> is <code>true</code>) &ndash; initial\n    indentation in spaces\n</li>\n<li><code>indent_level: 4</code> (only applies when <code>beautify</code> is <code>true</code>) --\n    indentation level, in spaces (pass an even number)\n</li>\n<li><code>quote_keys: false</code> &ndash; if you pass <code>true</code> it will quote all keys in\n    literal objects\n</li>\n<li><code>space_colon: false</code> (only applies when <code>beautify</code> is <code>true</code>) &ndash; wether\n    to put a space before the colon in object literals\n</li>\n<li><code>ascii_only: false</code> &ndash; pass <code>true</code> if you want to encode non-ASCII\n    characters as <code>\\uXXXX</code>.\n</li>\n<li><code>inline_script: false</code> &ndash; pass <code>true</code> to escape occurrences of\n    <code>&lt;/script</code> in strings\n</li>\n</ul>\n\n</li>\n</ul>\n\n\n</div>\n\n</div>\n\n<div id="outline-container-1-4-2" class="outline-4">\n<h4 id="sec-1-4-2"><span class="section-number-4">1.4.2</span> Beautifier shortcoming &ndash; no more comments </h4>\n<div class="outline-text-4" id="text-1-4-2">\n\n\n<p>\nThe beautifier can be used as a general purpose indentation tool.  It\'s\nuseful when you want to make a minified file readable.  One limitation,\nthough, is that it discards all comments, so you don\'t really want to use it\nto reformat your code, unless you don\'t have, or don\'t care about, comments.\n</p>\n<p>\nIn fact it\'s not the beautifier who discards comments &mdash; they are dumped at\nthe parsing stage, when we build the initial AST.  Comments don\'t really\nmake sense in the AST, and while we could add nodes for them, it would be\ninconvenient because we\'d have to add special rules to ignore them at all\nthe processing stages.\n</p>\n</div>\n\n</div>\n\n<div id="outline-container-1-4-3" class="outline-4">\n<h4 id="sec-1-4-3"><span class="section-number-4">1.4.3</span> Use as a code pre-processor </h4>\n<div class="outline-text-4" id="text-1-4-3">\n\n\n<p>\nThe <code>--define</code> option can be used, particularly when combined with the\nconstant folding logic, as a form of pre-processor to enable or remove\nparticular constructions, such as might be used for instrumenting\ndevelopment code, or to produce variations aimed at a specific\nplatform.\n</p>\n<p>\nThe code below illustrates the way this can be done, and how the\nsymbol replacement is performed.\n</p>\n\n\n\n<pre class="src src-js">CLAUSE1: <span class="org-keyword">if</span> (<span class="org-keyword">typeof</span> DEVMODE === <span class="org-string">\'undefined\'</span>) {\n    DEVMODE = <span class="org-constant">true</span>;\n}\n\n<span class="org-function-name">CLAUSE2</span>: <span class="org-keyword">function</span> init() {\n    <span class="org-keyword">if</span> (DEVMODE) {\n        console.log(<span class="org-string">"init() called"</span>);\n    }\n    ....\n    DEVMODE &amp;amp;&amp;amp; console.log(<span class="org-string">"init() complete"</span>);\n}\n\n<span class="org-function-name">CLAUSE3</span>: <span class="org-keyword">function</span> reportDeviceStatus(<span class="org-variable-name">device</span>) {\n    <span class="org-keyword">var</span> <span class="org-variable-name">DEVMODE</span> = device.mode, <span class="org-variable-name">DEVNAME</span> = device.name;\n    <span class="org-keyword">if</span> (DEVMODE === <span class="org-string">\'open\'</span>) {\n        ....\n    }\n}\n</pre>\n\n\n<p>\nWhen the above code is normally executed, the undeclared global\nvariable <code>DEVMODE</code> will be assigned the value <b>true</b> (see <code>CLAUSE1</code>)\nand so the <code>init()</code> function (<code>CLAUSE2</code>) will write messages to the\nconsole log when executed, but in <code>CLAUSE3</code> a locally declared\nvariable will mask access to the <code>DEVMODE</code> global symbol.\n</p>\n<p>\nIf the above code is processed by UglifyJS with an argument of\n<code>--define DEVMODE=false</code> then UglifyJS will replace <code>DEVMODE</code> with the\nboolean constant value <b>false</b> within <code>CLAUSE1</code> and <code>CLAUSE2</code>, but it\nwill leave <code>CLAUSE3</code> as it stands because there <code>DEVMODE</code> resolves to\na validly declared variable.\n</p>\n<p>\nAnd more so, the constant-folding features of UglifyJS will recognise\nthat the <code>if</code> condition of <code>CLAUSE1</code> is thus always false, and so will\nremove the test and body of <code>CLAUSE1</code> altogether (including the\notherwise slightly problematical statement <code>false = true;</code> which it\nwill have formed by replacing <code>DEVMODE</code> in the body).  Similarly,\nwithin <code>CLAUSE2</code> both calls to <code>console.log()</code> will be removed\naltogether.\n</p>\n<p>\nIn this way you can mimic, to a limited degree, the functionality of\nthe C/C++ pre-processor to enable or completely remove blocks\ndepending on how certain symbols are defined - perhaps using UglifyJS\nto generate different versions of source aimed at different\nenvironments\n</p>\n<p>\nIt is recommmended (but not made mandatory) that symbols designed for\nthis purpose are given names consisting of <code>UPPER_CASE_LETTERS</code> to\ndistinguish them from other (normal) symbols and avoid the sort of\nclash that <code>CLAUSE3</code> above illustrates.\n</p>\n</div>\n</div>\n\n</div>\n\n<div id="outline-container-1-5" class="outline-3">\n<h3 id="sec-1-5"><span class="section-number-3">1.5</span> Compression &ndash; how good is it? </h3>\n<div class="outline-text-3" id="text-1-5">\n\n\n<p>\nHere are updated statistics.  (I also updated my Google Closure and YUI\ninstallations).\n</p>\n<p>\nWe\'re still a lot better than YUI in terms of compression, though slightly\nslower.  We\'re still a lot faster than Closure, and compression after gzip\nis comparable.\n</p>\n<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">\n<caption></caption>\n<colgroup><col class="left" /><col class="left" /><col class="right" /><col class="left" /><col class="right" /><col class="left" /><col class="right" />\n</colgroup>\n<thead>\n<tr><th scope="col" class="left">File</th><th scope="col" class="left">UglifyJS</th><th scope="col" class="right">UglifyJS+gzip</th><th scope="col" class="left">Closure</th><th scope="col" class="right">Closure+gzip</th><th scope="col" class="left">YUI</th><th scope="col" class="right">YUI+gzip</th></tr>\n</thead>\n<tbody>\n<tr><td class="left">jquery-1.6.2.js</td><td class="left">91001 (0:01.59)</td><td class="right">31896</td><td class="left">90678 (0:07.40)</td><td class="right">31979</td><td class="left">101527 (0:01.82)</td><td class="right">34646</td></tr>\n<tr><td class="left">paper.js</td><td class="left">142023 (0:01.65)</td><td class="right">43334</td><td class="left">134301 (0:07.42)</td><td class="right">42495</td><td class="left">173383 (0:01.58)</td><td class="right">48785</td></tr>\n<tr><td class="left">prototype.js</td><td class="left">88544 (0:01.09)</td><td class="right">26680</td><td class="left">86955 (0:06.97)</td><td class="right">26326</td><td class="left">92130 (0:00.79)</td><td class="right">28624</td></tr>\n<tr><td class="left">thelib-full.js (DynarchLIB)</td><td class="left">251939 (0:02.55)</td><td class="right">72535</td><td class="left">249911 (0:09.05)</td><td class="right">72696</td><td class="left">258869 (0:01.94)</td><td class="right">76584</td></tr>\n</tbody>\n</table>\n\n\n</div>\n\n</div>\n\n<div id="outline-container-1-6" class="outline-3">\n<h3 id="sec-1-6"><span class="section-number-3">1.6</span> Bugs? </h3>\n<div class="outline-text-3" id="text-1-6">\n\n\n<p>\nUnfortunately, for the time being there is no automated test suite.  But I\nran the compressor manually on non-trivial code, and then I tested that the\ngenerated code works as expected.  A few hundred times.\n</p>\n<p>\nDynarchLIB was started in times when there was no good JS minifier.\nTherefore I was quite religious about trying to write short code manually,\nand as such DL contains a lot of syntactic hacks<sup><a class="footref" name="fnr.1" href="#fn.1">1</a></sup> such as “foo == bar ?  a\n= 10 : b = 20”, though the more readable version would clearly be to use\n“if/else”.\n</p>\n<p>\nSince the parser/compressor runs fine on DL and jQuery, I\'m quite confident\nthat it\'s solid enough for production use.  If you can identify any bugs,\nI\'d love to hear about them (<a href="http://groups.google.com/group/uglifyjs">use the Google Group</a> or email me directly).\n</p>\n</div>\n\n</div>\n\n<div id="outline-container-1-7" class="outline-3">\n<h3 id="sec-1-7"><span class="section-number-3">1.7</span> Links </h3>\n<div class="outline-text-3" id="text-1-7">\n\n\n<ul>\n<li>Twitter: <a href="http://twitter.com/UglifyJS">@UglifyJS</a>\n</li>\n<li>Project at GitHub: <a href="http://github.com/mishoo/UglifyJS">http://github.com/mishoo/UglifyJS</a>\n</li>\n<li>Google Group: <a href="http://groups.google.com/group/uglifyjs">http://groups.google.com/group/uglifyjs</a>\n</li>\n<li>Common Lisp JS parser: <a href="http://marijn.haverbeke.nl/parse-js/">http://marijn.haverbeke.nl/parse-js/</a>\n</li>\n<li>JS-to-Lisp compiler: <a href="http://github.com/marijnh/js">http://github.com/marijnh/js</a>\n</li>\n<li>Common Lisp JS uglifier: <a href="http://github.com/mishoo/cl-uglify-js">http://github.com/mishoo/cl-uglify-js</a>\n</li>\n</ul>\n\n\n</div>\n\n</div>\n\n<div id="outline-container-1-8" class="outline-3">\n<h3 id="sec-1-8"><span class="section-number-3">1.8</span> License </h3>\n<div class="outline-text-3" id="text-1-8">\n\n\n<p>\nUglifyJS is released under the BSD license:\n</p>\n\n\n\n<pre class="example">Copyright 2010 (c) Mihai Bazon &lt;mihai.bazon@gmail.com&gt;\nBased on parse-js (http://marijn.haverbeke.nl/parse-js/).\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n    * Redistributions of source code must retain the above\n      copyright notice, this list of conditions and the following\n      disclaimer.\n\n    * Redistributions in binary form must reproduce the above\n      copyright notice, this list of conditions and the following\n      disclaimer in the documentation and/or other materials\n      provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER “AS IS” AND ANY\nEXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\nPURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE\nLIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,\nOR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\nPROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR\nPROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\nTHEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR\nTORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF\nTHE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGE.\n</pre>\n\n\n<div id="footnotes">\n<h2 class="footnotes">Footnotes: </h2>\n<div id="text-footnotes">\n<p class="footnote"><sup><a class="footnum" name="fn.1" href="#fnr.1">1</a></sup> I even reported a few bugs and suggested some fixes in the original\n    <a href="http://marijn.haverbeke.nl/parse-js/">parse-js</a> library, and Marijn pushed fixes literally in minutes.\n</p></div>\n</div>\n</div>\n\n</div>\n</div>\n</div>\n\n<div id="postamble">\n<p class="date">Date: 2011-12-09 14:59:08 EET</p>\n<p class="author">Author: Mihai Bazon</p>\n<p class="creator">Org version 7.7 with Emacs version 23</p>\n<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>\n\n</div>\n</body>\n</html>\n',
+1185 silly resolved     _id: 'uglify-js@1.3.3',
+1185 silly resolved     dist: { shasum: 'e15bf7ec593f957e29b820b223185ed60b231b7e' },
+1185 silly resolved     _from: 'uglify-js' },
+1185 silly resolved   { name: 'jshint',
+1185 silly resolved     version: '0.8.0',
+1185 silly resolved     description: 'A CLI for JSHint',
+1185 silly resolved     homepage: 'http://github.com/jshint/node-jshint',
+1185 silly resolved     author:
+1185 silly resolved      { name: 'Brent Lintner',
+1185 silly resolved        email: 'brent.lintner@gmail.com',
+1185 silly resolved        url: 'http://github.com/brentlintner' },
+1185 silly resolved     licenses: [ [Object] ],
+1185 silly resolved     bin: { jshint: './bin/hint' },
+1185 silly resolved     main: 'packages/jshint/jshint',
+1185 silly resolved     files:
+1185 silly resolved      [ 'packages/jshint/README.markdown',
+1185 silly resolved        'packages/jshint/jshint.js',
+1185 silly resolved        'README.md',
+1185 silly resolved        'LICENSE',
+1185 silly resolved        'bin/hint',
+1185 silly resolved        'lib' ],
+1185 silly resolved     dependencies: { cli: '0.4.3', minimatch: '0.0.x' },
+1185 silly resolved     devDependencies: { 'jasmine-node': '1.0.x' },
+1185 silly resolved     preferGlobal: true,
+1185 silly resolved     readme: '# node-jshint\n\nA command line interface and npm package for jshint.\n\n## Install\n\nTo use jshint from any location (for npm v1.x) you need to install using the global (-g) flag.\n\n    npm install -g jshint\n\n## Usage\n\n    jshint -h\n\nYou can also require JSHint itself as a module.\n\n    var jshint = require(\'jshint\');\n\nNote: If you are using npm v1.x be sure to install jshint locally (without the -g flag) or link it globally.\n\n## Text Editor Plugins\n\n* [gedit-node-jshint](https://github.com/niftylettuce/gedit-node-jshint) - Simply use CTRL+J in gedit to run JSHint using `node-jshint`.\n* [vim syntastic](https://github.com/scrooloose/syntastic) - Run node-jshint at each file save.\n* [sublime-jshint](https://github.com/uipoet/sublime-jshint) - `F7` or `command-B` on any .js file. `F4` next error line,column. `shift-F4` previous error line,column.\n\n## Custom Reporters\n\nSpecify a custom reporter module (see example/reporter.js).\n\n    --reporter path/to/reporter.js\n\nUse a jslint compatible xml reporter.\n\n    --jslint-reporter\n\nShow additional non-error data generated by jshint (unused globals etc).\n\n    --show-non-errors\n\n## Configuration Options\n\n**Note:** This behavior described below is very different from versions prior to `0.6`.\n\nThe CLI uses the default options that come with JSHint. To have your own configuration apply, there are several methods you can use:\n\n### Specify Manually\n\nSetting the `--config=/path/to/your/config` command line option to specify your own configuration file outside of the directory tree for your project.\n\n### Within your Project\'s Directory Tree\n\nWhen the CLI is called, and a configuration file isn\'t specified already, `node-jshint` will attempt to locate one for you starting in `pwd`. (or "present working directory") If this does not yield a `.jshintrc` file, it will move one level up (`..`) the directory tree all the way up to the filesystem root. If a file is found, it stops immediately and uses that set of configuration.\n\nThis setup allows you to set up **one** configuration file for your entire project. (place it in the root folder) As long as you run `jshint` from anywhere within your project directory tree, the same configuration file will be used.\n\n### Home Directory\n\nIf all the methods above do not yield a `.jshintrc` to use, the last place that will be checked is your user\'s `$HOME` directory.\n\n## File Extensions\n\nDefault extension for files is ".js". If you want to use JSHint with other file extensions (.json), you need to pass this extra extension as an option :\n\n    --extra-ext .json\n\n## Ignoring Files and Directories\n\nIf there is a .jshintignore file in your project\'s directory tree, (also provided you run `jshint` from within your project\'s directory) then any directories or files specified will be skipped over. (behaves just like a `.gitignore` file)\n\n**Note:** Pattern matching uses minimatch, with the nocase [option](https://github.com/isaacs/minimatch). When there is no match, it performs a left side match (when no forward slashes present and path is a directory).\n\n## Installing dependencies for development\n\n    ./configure\n\n## Build Commands\n\n    jake -T\n\n## Project Guidelines\n\n* All tests are passing.\n* No (new) JSHint errors are introduced.\n',
+1185 silly resolved     _id: 'jshint@0.8.0',
+1185 silly resolved     dist: { shasum: '73f426bf8c42a9fc84b55c16a7ea253ecee7105a' },
+1185 silly resolved     _from: 'jshint' },
+1185 silly resolved   { name: 'connect',
+1185 silly resolved     version: '2.4.4',
+1185 silly resolved     description: 'High performance middleware framework',
+1185 silly resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+1185 silly resolved     repository: { type: 'git', url: 'git://github.com/senchalabs/connect.git' },
+1185 silly resolved     author:
+1185 silly resolved      { name: 'TJ Holowaychuk',
+1185 silly resolved        email: 'tj@vision-media.ca',
+1185 silly resolved        url: 'http://tjholowaychuk.com' },
+1185 silly resolved     dependencies:
+1185 silly resolved      { qs: '0.4.2',
+1185 silly resolved        formidable: '1.0.11',
+1185 silly resolved        crc: '0.2.0',
+1185 silly resolved        cookie: '0.0.4',
+1185 silly resolved        bytes: '0.1.0',
+1185 silly resolved        send: '0.0.4',
+1185 silly resolved        fresh: '0.1.0',
+1185 silly resolved        pause: '0.0.1',
+1185 silly resolved        debug: '*' },
+1185 silly resolved     devDependencies: { should: '*', mocha: '*', jade: '*', dox: '*' },
+1185 silly resolved     main: 'index',
+1185 silly resolved     engines: { node: '>= 0.5.0' },
+1185 silly resolved     readme: '# Connect\n\n  Connect is an extensible HTTP server framework for [node](http://nodejs.org), providing high performance "plugins" known as _middleware_.\n\n Connect is bundled with over _20_ commonly used middleware, including\n a logger, session support, cookie parser, and [more](http://senchalabs.github.com/connect). Be sure to view the 2.x [documentation](http://senchalabs.github.com/connect/).\n\n```js\nvar connect = require(\'connect\')\n  , http = require(\'http\');\n\nvar app = connect()\n  .use(connect.favicon())\n  .use(connect.logger(\'dev\'))\n  .use(connect.static(\'public\'))\n  .use(connect.directory(\'public\'))\n  .use(connect.cookieParser())\n  .use(connect.session({ secret: \'my secret here\' }))\n  .use(function(req, res){\n    res.end(\'Hello from Connect!\\n\');\n  });\n\nhttp.createServer(app).listen(3000);\n```\n\n## Middleware\n\n  - csrf\n  - basicAuth\n  - bodyParser\n  - json\n  - multipart\n  - urlencoded\n  - cookieParser\n  - directory\n  - compress\n  - errorHandler\n  - favicon\n  - limit\n  - logger\n  - methodOverride\n  - query\n  - responseTime\n  - session\n  - static\n  - staticCache\n  - vhost\n  - subdomains\n  - cookieSession\n\n## Running Tests\n\nfirst:\n\n    $ npm install -d\n\nthen:\n\n    $ make test\n\n## Authors\n\n Below is the output from [git-summary](http://github.com/visionmedia/git-extras).\n\n\n     project: connect\n     commits: 2033\n     active : 301 days\n     files  : 171\n     authors: \n      1414\tTj Holowaychuk          69.6%\n       298\tvisionmedia             14.7%\n       191\tTim Caswell             9.4%\n        51\tTJ Holowaychuk          2.5%\n        10\tRyan Olds               0.5%\n         8\tAstro                   0.4%\n         5\tNathan Rajlich          0.2%\n         5\tJakub Nešetřil          0.2%\n         3\tDaniel Dickison         0.1%\n         3\tDavid Rio Deiros        0.1%\n         3\tAlexander Simmerl       0.1%\n         3\tAndreas Lind Petersen   0.1%\n         2\tAaron Heckmann          0.1%\n         2\tJacques Crocker         0.1%\n         2\tFabian Jakobs           0.1%\n         2\tBrian J Brennan         0.1%\n         2\tAdam Malcontenti-Wilson 0.1%\n         2\tGlen Mailer             0.1%\n         2\tJames Campos            0.1%\n         1\tTrent Mick              0.0%\n         1\tTroy Kruthoff           0.0%\n         1\tWei Zhu                 0.0%\n         1\tcomerc                  0.0%\n         1\tdarobin                 0.0%\n         1\tnateps                  0.0%\n         1\tMarco Sanson            0.0%\n         1\tArthur Taylor           0.0%\n         1\tAseem Kishore           0.0%\n         1\tBart Teeuwisse          0.0%\n         1\tCameron Howey           0.0%\n         1\tChad Weider             0.0%\n         1\tCraig Barnes            0.0%\n         1\tEran Hammer-Lahav       0.0%\n         1\tGregory McWhirter       0.0%\n         1\tGuillermo Rauch         0.0%\n         1\tJae Kwon                0.0%\n         1\tJakub Nesetril          0.0%\n         1\tJoshua Peek             0.0%\n         1\tJxck                    0.0%\n         1\tAJ ONeal                0.0%\n         1\tMichael Hemesath        0.0%\n         1\tMorten Siebuhr          0.0%\n         1\tSamori Gorse            0.0%\n         1\tTom Jensen              0.0%\n\n## Node Compatibility\n\n  Connect `< 1.x` is compatible with node 0.2.x\n\n\n  Connect `1.x` is compatible with node 0.4.x\n\n\n  Connect (_master_) `2.x` is compatible with node 0.6.x\n\n## CLA\n\n [http://sencha.com/cla](http://sencha.com/cla)\n\n## License\n\nView the [LICENSE](https://github.com/senchalabs/connect/blob/master/LICENSE) file. The [Silk](http://www.famfamfam.com/lab/icons/silk/) icons used by the `directory` middleware created by/copyright of [FAMFAMFAM](http://www.famfamfam.com/).\n',
+1185 silly resolved     _id: 'connect@2.4.4',
+1185 silly resolved     dist: { shasum: '006cc99cf23b18d662c5889597037a900d6ccf87' },
+1185 silly resolved     _from: 'connect' } ]
+1186 info install recess@1.1.6 into /usr/local/lib
+1187 info install uglify-js@1.3.3 into /usr/local/lib
+1188 info install jshint@0.8.0 into /usr/local/lib
+1189 info install connect@2.4.4 into /usr/local/lib
+1190 info installOne recess@1.1.6
+1191 info installOne uglify-js@1.3.3
+1192 info installOne jshint@0.8.0
+1193 info installOne connect@2.4.4
+1194 verbose from cache /Users/boyu/.npm/recess/1.1.6/package/package.json
+1195 verbose from cache /Users/boyu/.npm/uglify-js/1.3.3/package/package.json
+1196 verbose from cache /Users/boyu/.npm/jshint/0.8.0/package/package.json
+1197 verbose from cache /Users/boyu/.npm/connect/2.4.4/package/package.json
+1198 info /usr/local/lib/node_modules/recess unbuild
+1199 verbose read json /usr/local/lib/node_modules/recess/package.json
+1200 info /usr/local/lib/node_modules/uglify-js unbuild
+1201 verbose read json /usr/local/lib/node_modules/uglify-js/package.json
+1202 info /usr/local/lib/node_modules/jshint unbuild
+1203 verbose read json /usr/local/lib/node_modules/jshint/package.json
+1204 info /usr/local/lib/node_modules/connect unbuild
+1205 verbose read json /usr/local/lib/node_modules/connect/package.json
+1206 verbose tar unpack /Users/boyu/.npm/recess/1.1.6/package.tgz
+1207 verbose tar unpack /Users/boyu/.npm/uglify-js/1.3.3/package.tgz
+1208 verbose tar unpack /Users/boyu/.npm/jshint/0.8.0/package.tgz
+1209 verbose tar unpack /Users/boyu/.npm/connect/2.4.4/package.tgz
+1210 silly lockFile 367b34d8-sr-local-lib-node-modules-recess /usr/local/lib/node_modules/recess
+1211 verbose lock /usr/local/lib/node_modules/recess /Users/boyu/.npm/367b34d8-sr-local-lib-node-modules-recess.lock
+1212 silly lockFile d9101ca4-local-lib-node-modules-uglify-js /usr/local/lib/node_modules/uglify-js
+1213 verbose lock /usr/local/lib/node_modules/uglify-js /Users/boyu/.npm/d9101ca4-local-lib-node-modules-uglify-js.lock
+1214 silly lockFile 60c9d5e1-sr-local-lib-node-modules-jshint /usr/local/lib/node_modules/jshint
+1215 verbose lock /usr/local/lib/node_modules/jshint /Users/boyu/.npm/60c9d5e1-sr-local-lib-node-modules-jshint.lock
+1216 silly lockFile 9154972f-r-local-lib-node-modules-connect /usr/local/lib/node_modules/connect
+1217 verbose lock /usr/local/lib/node_modules/connect /Users/boyu/.npm/9154972f-r-local-lib-node-modules-connect.lock
+1218 silly gunzTarPerm modes [ '777', '666' ]
+1219 silly gunzTarPerm modes [ '777', '666' ]
+1220 silly gunzTarPerm modes [ '777', '666' ]
+1221 silly gunzTarPerm modes [ '777', '666' ]
+1222 error Error: EACCES, mkdir '/usr/local/lib/node_modules/recess'
+1222 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/recess']
+1222 error   errno: 3,
+1222 error   code: 'EACCES',
+1222 error   path: '/usr/local/lib/node_modules/recess',
+1222 error   fstream_type: 'Directory',
+1222 error   fstream_path: '/usr/local/lib/node_modules/recess',
+1222 error   fstream_class: 'DirWriter',
+1222 error   fstream_stack:
+1222 error    [ 'DirWriter._create (/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23)',
+1222 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:51:17',
+1222 error      'Object.oncomplete (fs.js:297:15)' ] }
+1223 error Please try running this command again as root/Administrator.
+1224 error System Darwin 10.8.0
+1225 error command "node" "/usr/local/bin/npm" "install" "recess" "connect" "uglify-js" "jshint" "-g"
+1226 error cwd /Users/boyu/Dropbox/Michigan/RSS/twitter-bootstrap-320b75d/docs/assets/css
+1227 error node -v v0.8.7
+1228 error npm -v 1.1.49
+1229 error path /usr/local/lib/node_modules/recess
+1230 error fstream_path /usr/local/lib/node_modules/recess
+1231 error fstream_type Directory
+1232 error fstream_class DirWriter
+1233 error code EACCES
+1234 error errno 3
+1235 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/recess'
+1236 error fstream_stack DirWriter._create (/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23)
+1236 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:51:17
+1236 error fstream_stack Object.oncomplete (fs.js:297:15)
+1237 verbose exit [ 3, true ]

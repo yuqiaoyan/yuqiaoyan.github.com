@@ -1,21 +1,193 @@
----
-layout: default
-title: "TESTING"
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bonnie portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="docs/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="docs/assets/css/my.css" rel="stylesheet">
+   <link href="docs/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+
+  </head>
+
+  <body>
+  <div id = "wrapper">
+  <div class = "container-fluid top-line"> </div>
+
+  <div class = "container">
+  	
 
 
 
-    <!-- MAIN CONTENT -->
-     <h3>Blog Posts</h3>
-    <div>
-<ul class = "posts">
-  {% for post in site.posts %}
-  <li>
-    <h3> <a href ="{{post.url}}"> {{post.title}}</a>
-      <span class = "post-date"> {{post.date | date_to_string}} </span>
-    </h3>
-  </li>
-  {% endfor %}
-</ul>
+  	<!-- navigation -->
+  	<div id = "top-nav" class = "row-fluid">
+  		<p id = "title">  Projects by <span id = "me">Bonnie Yu </span> </p>
+
+  		<!-- IE6-8 not supported for the circles 
+  		TODO: Add script support if lt IE9
+  		-->
+
+  		<div id = "btn-nav" class = "span6 "> 
+  			 <ul class = "nav">
+  				<li>
+  				<a href = "#web" id = "btn-web" class = "circle">
+  				Web
+  				</a>
+  				</li>
+  				<li>
+  				<a href = "#data" id = "btn-data" class = "circle">
+  				Data
+  				</a>
+  				</li>
+  				<li>
+  				<a href = "#design" id = "btn-design" class = "circle">
+  				Design
+  				</a>
+  				</li>
+  			</ul>
+  		</div>
+
+  		
+  		
+
+  		<div id = "social-nav" class = "span2">
+  			 <a href = "http://bonnieyu.tumblr.com/" id = "tumblr"></a>
+        <a href = "http://www.linkedin.com/pub/bonnie-yu/2/a18/8a5/" id = "linkedIn"></a> 
+  			<!-- <a href = "#" class = "so-nav tumblr"> </a>-->
+  		</div>
+
+  		<div id = "text-nav" class = "span4"> 
+  			<ul>
+  				<li>
+  					<a href = "about.html"> About </a>
+  				</li>
+  				<li>
+  					 <a href = "resume.pdf" target = "_blank"> Resume </a>
+  				</li>
+  			</ul> 
+  		</div>
+
+  	</div>
+
+  	<!-- GALLERY -->
+
+  	<div id = "web" class = "header left-align">
+  		Web
+  	</div>
+
+  	<div class = "row">
+  		<div class = "span12 left-align">
+	  		<ul class = "thumbnails">
+	  			<li class = "span4">
+					<a href = "kdd.html" class = "gal-pic"> 
+						<img src = "img/thumbnail/kdd2012.jpg" alt = "kdd 2012">
+					</img>
+					</a>
+					
+					<p class = "gal-content"> KDD 2012 Matching System is a web application that recommends expert 
+researchers to students for the conference, attended by 1000+ participants</p>
+					</li>
+	  			<li class = "span4">
+	  				<a href = "mentorship.html" class = "gal-pic">
+	  				<img src = "img/thumbnail/um_mentor.jpg" alt = "kdd 2012">
+		  			</img>
+		  		</a>
+		  			
+		  			<p class = "gal-content"> Prototype for University of Michigan's Mentorship  program </p>
+	  			</li>
+	  		</ul>
+  		</div>
+  	</div>
+
+  	<div id = "data" class = "header left-align">
+  		Data
+  	</div>
+
+    <div class = "row">
+      <div class = "span12 left-align">
+        <ul class = "thumbnails">
+          <li class = "span4">
+          <a href = "facebook.html" class = "gal-pic"> 
+            <img src = "img/thumbnail/facebook.jpg" alt = "facebook post analysis">
+          </img>
+          </a>
+          
+          <p class = "gal-content"> Can we understand user sentiment using Facebook post content? How effective is 
+sentiment analysis with an adapted corpus? I explore these questions.</p>
+          </li>
+          <li class = "span4">
+            <a href = "twitter_retweet.html" class = "gal-pic">
+            <img src = "img/thumbnail/twitter.jpg" alt = "twitter visualization">
+            </img>
+          </a>
+            
+            <p class = "gal-content"> A visualization and analysis of tweets spreading after Muammar Gahdafi's death </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  	  
+  	<div id = "design" class = "header left-align">
+  		 Design
+  	</div>
+
+        <div class = "row">
+      <div class = "span12 left-align">
+        <ul class = "thumbnails">
+          <li class = "span4">
+          <a href = "be_the_link.html" class = "gal-pic"> 
+            <img src = "img/thumbnail/be_the_link.jpg" alt = "facebook post analysis">
+          </img>
+          </a>
+          
+          <p class = "gal-content"> Web design for Be The Link</p>
+          </li>
+          <li class = "span4">
+            <a href = "twitter_seasons.html" class = "gal-pic">
+            <img src = "img/thumbnail/twitter_winter.jpg" alt = "twitter visualization">
+            </img>
+          </a>
+            
+            <p class = "gal-content"> A Season based Background for Twitter </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+
+  </div>
+   <!-- FOOTER -->
+
+  	<div id = "footer">
+  	<div class = "container">
+  	© Bonnie Yu. All Rights Reserved.<br>
+  	yubonnie at umich.edu
+  	</div> 
+  </div>
+
 </div>
 
+
+
+  <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="docs/assets/js/bootstrap-collapse.js"></script>
+    
+
+
+  </body>
+</html>
