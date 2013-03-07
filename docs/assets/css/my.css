@@ -353,18 +353,29 @@ a.gal-pic> img:hover {
 	font-weight: bold;
 }
 
-.about_em{
+#name{
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 24px;
 	letter-spacing: 1px;
 	margin: 0px 3px 0px 3px;
 	color: #3B5998;
 }
 
+.about_em{
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin: 0px 2px 0px 2px;
+	color: #3B5998;
+}
+
+.about_header{
+	font-size: 21px;
+	color: #3B5998;
+	margin-bottom: 20px;
+	line-height: 30px;
+}
 
 .about_text{
-	text-align: center;
-	margin-top: 10px;
 	font-size: 14px;
 	font-family: "adelle-1", "adelle-2", georgia, serif;
 }
