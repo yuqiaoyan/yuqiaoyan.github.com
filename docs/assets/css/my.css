@@ -389,12 +389,18 @@ a.gal-pic> img:hover {
 	margin: 0px 0px 10px 0px;
 }
 
-.about_list li{
+.process_list{
+	margin-left: -15px;
+}
+
+.process_list li{
 	display: inline-block;
 	list-style: none;
-	margin: 15px 0px 15px 10px;
+	margin: 5px 0px 0px 10px;
+	
+	/*
 	background-color: #FDF9EF;
-	/*border: 1px solid #CA0002;*/
+	border: 1px solid #CA0002;*/
 	color: #3B5998;
 	padding: 0px 5px 0px 5px;
 	line-height: 24px;
@@ -403,6 +409,10 @@ a.gal-pic> img:hover {
           border-radius: 3px;
     letter-spacing: 1px;
 
+}
+
+.process_arrow{
+	margin: 0px 0px 0px 15px;
 }
 
 
