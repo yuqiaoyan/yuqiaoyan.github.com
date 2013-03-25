@@ -6,6 +6,8 @@ body{
 	min-width: 800px;
 }
 
+
+
 #top-nav{
 	border-bottom: 1px solid #CA0002;
 	padding-top: 10px;
@@ -306,12 +308,19 @@ a.gal-pic> img:hover {
 	font-size: 21px;
 	color: #3B5998;
 	margin-bottom: 30px;
+
+}
+
+h2{
+	font-family: "proxima-nova-thin", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+
 }
 
 .gal-header{
-	font-size: 21px;
+	font-size: 2em;
 	color: #3B5998;
-	font-weight: 500;
+	font-family: "proxima-nova-thin", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 
@@ -396,6 +405,7 @@ a.gal-pic> img:hover {
 .process_list li{
 	display: inline-block;
 	list-style: none;
+	width: 200px;
 	margin: 5px 0px 0px 10px;
 	
 	/*
