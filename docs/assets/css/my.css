@@ -190,12 +190,13 @@ a:hover{
 	height: 39px;
 	display:block;
 	float:left;
-	background:transparent url("../../../img/icons/linkedIn.png") center top no-repeat;
+	background:transparent url("../../../img/icons/linkedIn.jpg") center top no-repeat;
 }
 
 #linkedIn:hover{
 margin-left: 10px;
-background:transparent url("../../../img/icons/linkedIn_red.png") center top no-repeat;
+background-position:0px -36px;
+
 
 }
 
@@ -204,12 +205,18 @@ background:transparent url("../../../img/icons/linkedIn_red.png") center top no-
 	height: 39px;
 	display:block;
 	float: left;
-	background:transparent url("../../../img/icons/tumblr.png") center top no-repeat;
+	/*background-image: url("../../../img/icons/tumblr.jpg");*/
+	background:transparent url("../../../img/icons/tumblr.jpg") center top no-repeat;
+	/*transition: background 1s;
+	-moz-transition:background 1s; 
+-webkit-transition:background 1s; 
+-o-transition:background 1s; */ 
 }
 
 #tumblr:hover{
-	background:transparent url("../../../img/icons/tumblr_red.png") center top no-repeat;
 
+/*	background:transparent url("../../../img/icons/tumblr_red.png") center top no-repeat;*/
+	background-position:0px -36px;
 }
 
 hr.thin{
@@ -303,6 +310,12 @@ a.gal-pic> img:hover {
 	float:left;
 }
 
+.ipad{
+	background-image:url('../../../img/ipad_black_bg.jpg'); 
+	height:600px;
+	background-repeat:no-repeat;
+}
+
 /* GENERAL TYPOGRAPHY */
 .header{
 	font-size: 21px;
@@ -314,7 +327,8 @@ a.gal-pic> img:hover {
 h2{
 	font-family: "proxima-nova-thin", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
-
+	font-weight: normal;
+	color: #3B5998;
 }
 
 .gal-header{
@@ -347,6 +361,13 @@ h2{
 	/*list-style: none;*/
 	font-family: Open Sans;
 	}
+
+.supplement{
+	border-top: 1px solid #ddd;
+	margin-top: 35px;
+	padding: 5px 0px 0px 25px;
+	/*background-color: #FDF9EF;*/
+}
 
 /*.resume-list-test > li:before{
 	content: "»";
@@ -410,8 +431,9 @@ h2{
 	
 	/*
 	background-color: #FDF9EF;
-	border: 1px solid #CA0002;*/
-	color: #3B5998;
+	border: 1px solid #CA0002;
+	color: #3B5998;*/
+	
 	padding: 0px 5px 0px 5px;
 	line-height: 24px;
 	-webkit-border-radius: 3px;
