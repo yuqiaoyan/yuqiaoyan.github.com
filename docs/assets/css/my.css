@@ -369,6 +369,36 @@ h2{
 	/*background-color: #FDF9EF;*/
 }
 
+.intro{
+	margin-top: 35px;
+	padding: 5px 0px 0px 25px;
+	margin-bottom: -20px;
+
+}
+
+.video{
+	float: left;
+	clear: both;
+	margin-top: 25px;
+}
+
+.video-description{
+
+	margin-top: 25px;
+}
+
+.videoR{
+	float: right;
+	clear: both;
+	margin-top: 25px;
+
+}
+.video-descriptionR{
+	float:left;
+	clear: both;
+	margin-top: 25px;
+}
+
 /*.resume-list-test > li:before{
 	content: "»";
 	font-size: 20px;
