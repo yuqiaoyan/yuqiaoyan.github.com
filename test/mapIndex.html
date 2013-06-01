@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+    	<title> map safety </title>
+    </head>
+    
+    <body>
+    	<div id = "content">
+    	<div>
+    	<!-- add javascript -->
+    	<script type="text/javascript" src="js/jquery.js"></script>
+
+    	<script type="text/javascript">
+
+    	var start = "Powell St. BART Station, Market Street, San Francisco, CA";
+    	var end = "860 Eddy Street, San Francisco, CA";
+    	var baseURL = 'https://maps.googleapis.com/maps/api/directions/json?';
+    	var gMapURL = baseURL + "origin=" + start + "&destination=" + "destination=" + end + "&sensor=true";
+
+    		$.get(
+    			gMapURL,
+    			function(data){
+    				$('#content').html(data);
+    			}
+    		);
+    	</script>
+    </body>
+</html>
