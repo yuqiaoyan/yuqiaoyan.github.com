@@ -11,13 +11,15 @@ var checkRun = [];
 var markersArray = [];
 var clusterArray = [];
 
+
 function load() {
 	navigator.geolocation.getCurrentPosition(userLocation, error);
 }
 
 var userLocation = function(pos) {
-	var lat = pos.coords.latitude;
-	var lng = pos.coords.longitude;
+	var lat = 37.7750;
+	var lng = -122.4183;
+
 	initialize(lat, lng);
 }
 
@@ -38,8 +40,8 @@ var error = function(error) {
 		
 
 		var mapOptions = {
-			zoom: 12,
-			center: new google.maps.LatLng(37.7750, -122.4183),
+			zoom: 15,
+			center: new google.maps.LatLng(lat, lng),
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
 
@@ -75,6 +77,7 @@ var error = function(error) {
 			if (status == google.maps.DirectionsStatus.OK) {
 				directionsDisplay.setDirections(response);
 				directionsDisplay.setRouteIndex(number);
+				// console.log(JSON.stringify(response))
 			}
 		});
 		updateMarkers(number, routeCrimePts);
@@ -91,7 +94,7 @@ var error = function(error) {
 		}
 
 		var mcOptions = {
-			gridSize: 150,
+			gridSize: 40,
 			maxZoom: 20
 		};
 		var markerCluster = new MarkerClusterer(map, markers, mcOptions);
@@ -113,6 +116,8 @@ var error = function(error) {
 			var selectedLines = new Object;
 			selectedLines.array = [];
 			selectedLines.last = 0;
+			selectedLines.via;
+			selectedLines.duration;
 			selectedLines.swap = function(curr) {
 				var temp = selectedLines.array[selectedLines.last];
 				selectedLines.array[selectedLines.last] = selectedLines.array[curr];
@@ -131,8 +136,15 @@ var error = function(error) {
 			};
 
 			directionsService.route(request, function(response, status) {
-				console.log("hi");
-				routeResponse = response;
+				
+				// console.log(response.routes[routeNum].legs[0].via_waypoints.length);
+				// for (var i = 0; i < response.routes[routeNum].legs[0].via_waypoints.length; i++) {
+					selectedLines.via = response.routes[routeNum].summary;
+					console.log(selectedLines.via);
+				// };
+				selectedLines.duration =response.routes[routeNum].legs[0].duration.text;
+				// console.log(selectedLines.via);
+				console.log(selectedLines.duration);
 				if (status == google.maps.DirectionsStatus.OK) {
 
 					// var routeNum = 0;
@@ -194,6 +206,8 @@ var error = function(error) {
 					// console.log("total crimes is " + selectedLines.totalCrimes);
 				}
 				routeCrimePts[routeNum] = selectedLines;
+	
+
 			});
 
 		} else {
@@ -228,7 +242,7 @@ var error = function(error) {
 			
 		};
 		var mcOptions = {
-			gridSize: 150,
+			gridSize: 200,
 			maxZoom: 20
 		};
 		var markerCluster = new MarkerClusterer(map, markers, mcOptions);
@@ -319,4 +333,7 @@ var error = function(error) {
 		};
 	}
 
-google.maps.event.addDomListener(window, 'load', load)
+$(document).delegate('#page3', 'pageinit', function(){
+	
+	load();
+});
