@@ -2,9 +2,27 @@
 	border: 1px solid #ddd;
 }
 
+/* FONTS */
+@font-face{
+	font-family:futura;
+	src: url("fonts/Futura.ttc") format('truetype');
+}
+
+@font-face{
+	font-family:social;
+	src: url("fonts/Socialico.ttf") format('truetype');
+}
+
+@font-face{
+	font-family:museo-slab;
+	src: url("fonts/Museo_Slab_500_2.otf");
+}
+
 .nav-general{
-	background-color: #FF3C1F;
+	/*background-color: #FF3C1F;*/
+	background-color: #FF671F;
 	border: none;
+	clear: both;
 }
 
 #top-nav{
@@ -46,12 +64,45 @@
 	border-bottom: 1px solid white;
 }
 
-
-#content-wrapper{
-	margin-top: 55px;
+body{
+	/*background-color: #F8F9FA;*/
 }
 
 /* FOOTER */
+
+
+.social-nav{
+	margin-top: -13px;
+	
+}
+
+#linkedIn{
+	margin-left: 30px;
+	width: 30px;
+	height: 30px;
+	display:block;
+	float:left;
+	background:transparent url("../img/icons/social_icons.png") no-repeat;
+}
+
+#linkedIn:hover{
+	margin-left: 30px;
+	background-position:-30px 0px;
+}
+
+#tumblr{
+	
+	width: 30px;
+	height: 30px;
+	display:block;
+	float:left;
+	background:transparent url("../img/icons/social_icons.png") -60px 0px;
+}
+
+#tumblr:hover{
+	
+	background-position:-90px 0px;
+}
 .copyright{
 	width: 100%;
 	text-align: center;
@@ -83,13 +134,8 @@
 	text-align: center;	
 }
 
+
 /* RELAYOUT FOR RESPONSIVE */
-
-@media (min-width: 480px){
-
-
-	
-}
 
 
 @media (max-width: 480px) {
@@ -120,7 +166,6 @@
 		margin-right: auto;
 		text-align: center;	}
 
-	#content-wrapper{
-		margin-top: 110px;
-	}
+
 }
+
