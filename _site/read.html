@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bonnie portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
+
+   </head>
+
+   <body>
+   	<header id="top-nav" class = "navbar navbar-inverse navbar-fixed-top nav-general" role="banner">
+   		<div class = "container">
+   			<a href = "index.html" id = "me"> bonnieyu </a>
+   			<span id = "main-nav" class="navbar-right">
+	   			<ul class = "nav navbar-nav">
+          <li> <a href="index.html">PORTFOLIO</a></li>
+            <li> <a href="about.html">ABOUT</a></li>
+            <li> <a href="resume.pdf">RESUME</a></li>
+	   			</ul>
+	   		</span>
+   		</div>
+
+   	</header>
+   	
+
+	<div id="content-wrapper">
+   		<div class="proj-snippet">
+			<h2 class = "proj-title">Read+</h2>
+			<h6 class = "proj-type">Interaction Design</h6>
+			<p class = "proj-descrip">
+			Read+ is a concept design for the iPad to help readers reference and compare materials on other pages without leaving your current page. Many papers and reports refer to graphs and tables on other pages in a PDF file. Without this information, it can be challenging to understand the current text. <br><br>
+      Play the video to see my proposed <strong> Window Slicing </strong> solution.</p>	
+   		</div>   	
+
+   	<!-- PROJECT SHOWCASE -->
+   		
+   		<div class = "showcase">
+
+            <video controls>
+              <source src = "video/reading_wireframe_slim.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+      </div>
+
+      <!-- Section -->
+      <div class = "section">
+        <h2 class = "proj-title">Design Overview</h2>
+        <p> The most common tasks and gestures in reading is
+      <ul class = "simple_list">
+        <li> Page Flipping activated by swiping and/or tapping </li>
+        <li> Highlighting activated by an icon and then selecting by touch </li>
+        <li> Contrast activated by an icon </li>
+        <li> Zoom activated by an icon and then manipulation through a menu </li>
+      </ul>
+      There are also common operating system level features on the iPhone and iPad. For example, if you hold and select text, a menu pops up that allows you to copy and paste. Two of my key tasks include page comparison and summarization. These are useful tasks but I expect these tasks to be less used. How do we introduce new functionality without interfering with these common gestures?</p>
+    <p>
+      My page comparison design feature requires the user to slice from the leftmost bezel to the right (or vice versa) so we don't interfere with the page swipe. When the user touches the bezel edge, a line starts appearing to provide the user feedback that he can "slice" the window. </p> 
+      <p>   
+      My page summarization (in progress) feature has two ways to activate: an icon (that is deeper in the menu system) and 3 finger pinch gesture to enter a page summary mode. Once in the page summary mode, each page contains a summary of the content in the previous/next five pages. 
+    </p>
+
+      <h4> Design Process </h4>
+        <ul class = "process_list">
+          <li> Problem Scoping  </li>
+          <li> Sketching </li>
+          <li> Scenario Writing </li>
+          <li> Storyboard </li>
+          <li> Wireframes  </li>
+          <li> Design Analysis </li>
+          <li> Medium Fi Prototype </li>
+        </ul>
+      </div>
+
+      <!-- Section -->
+      <div class = "section">
+        <h2 class = "proj-title"> Wireframe</h2>
+
+        <p> The below image is a wireframe showing the initial window slicing concept.</p>
+        <img src = "img/gal/reader_08.jpg">
+      </div>
+      <div class = "section">
+         <h2 class = "proj-title"> Sketches </h2>
+
+        <p> Have you ever stopped reading a text and then gone back to it a few weeks later realizing that you've forgotten much of the information? Below are sketches of an idea on how to get a quick summary of a text to reducate yourself.</p>
+        <img src = "img/gal/summary_sketches.jpg">
+      </div>
+ 	
+	</div>
+  <footer class="nav-footer">
+      <div class = "copyright">
+        © Bonnie Yu 2014
+      </div>
+      <div class = "center-links social-nav">
+        <ul class ="nav">
+          <li> <a href="http://www.linkedin.com/pub/bonnie-yu/2/a18/8a5/" id="linkedIn"></a> </li>
+          <li> <a href="http://bonnieyu.tumblr.com/" id="tumblr"></a></li>
+        </ul>
+      </div>
+    </footer>
+   </body>
+
+</html>
