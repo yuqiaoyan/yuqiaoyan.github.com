@@ -107,6 +107,10 @@
   color: #fff;
   text-decoration: none;
 }
+#main-wrapper{
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #content-wrapper{
   
@@ -118,6 +122,8 @@
   /* background-color: aliceblue; 
   background-color: #F8F9FA;*/
 }
+
+
 
 .section{
   border-top: 1px solid #ddd;
@@ -265,8 +271,12 @@ a.thumbnail:hover {
 }
 
 @media (max-width: 480px){
-    #content-wrapper{
+    #main-wrapper{
     margin-top: 150px;
+  }
+
+  #content-wrapper{
+    margin-bottom: 20px;
   }
 
 .proj-snippet{
@@ -300,9 +310,13 @@ a.thumbnail:hover {
 }
 
 @media (min-width: 481px) and (max-width: 768px){
-  #content-wrapper{
+  #main-wrapper{
     margin-top: 95px;
     width: 100%;
+  }
+
+  #content-wrapper{
+    margin-bottom: 20px;
   }
 
   .proj-snippet{
@@ -328,7 +342,7 @@ a.thumbnail:hover {
 }
 
 @media (min-width: 769px) and (max-width: 992px){
-  #content-wrapper{
+  #main-wrapper{
     margin-top: 95px;
     width: 750px;
   }
@@ -346,7 +360,7 @@ a.thumbnail:hover {
 
 @media (min-width: 993px) and (max-width: 1440px){
   /* max-width based on MacBook Air resolution */
-  #content-wrapper{
+  #main-wrapper{
     margin-top: 95px;
     width: 970px;
   }
@@ -363,7 +377,7 @@ a.thumbnail:hover {
 }
 
 @media (min-width: 1441px){
-  #content-wrapper{
+  #main-wrapper{
     margin-top: 95px;
     width: 1170px;
   }
