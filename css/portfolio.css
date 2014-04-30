@@ -182,7 +182,7 @@ img{
 a.gal-pic > img {
   display: block;
   line-height: 20px;
-  max-width: 302px;
+  width: 300px;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
