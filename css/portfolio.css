@@ -270,6 +270,20 @@ a.thumbnail:hover {
   color: #555555;
 }
 
+.img_wrapper{
+  width: 100%;
+}
+
+.center-img{
+  display: block;
+  width: 65%;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (max-width: 480px){
     #main-wrapper{
     margin-top: 150px;

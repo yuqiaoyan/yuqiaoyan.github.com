@@ -34,9 +34,8 @@
 			<h2 class = "proj-title">Safewalk</h2>
 			<h6 class = "proj-type">Hackathon, Mobile App</h6>
 			<p class = "proj-descrip">
-			2nd Place winner at the AT&amp;T Mobile Hackathon. I with one other developer, designed and developed Safewalk, a mobile app that provides users recommendations on the safest walking route to their destination based on crime reports. </p>
-      <p class = "proj-descrip"> During a trip to San Francisco, I was ambushed and robbed. When I spoke to the police, they informed that crime rates had been rising in the union square area. Unfortunately I was new to the area, and current mapping programs don't readily provide this information so I wasn't aware.</p>
-       <p class = "proj-descrip">This motivated me to build Safewalk so people traveling to new areas or looking to move to a new location can be made aware of the safety of the area. </p>	
+			2nd Place winner at the ATT Mobile Hackathon. I with two other developers, designed and developed Safewalk, a mobile app that provides users recommendations on the safest walking route to their destination based on crime reports. </p>
+  
    		</div>   	
 
    	<!-- PROJECT SHOWCASE -->
@@ -53,9 +52,31 @@
  	
 	</div>
 
+  <div class="section">
+    <h2 class = "proj-title"> Why create safewalk? </h2>
+    <p>During a trip to San Francisco, I was ambushed and robbed near the Blue Bottle cafe by Union Square. When I spoke to the police, they informed me that crime rates had been rising. <a href = "http://www.sfexaminer.com/sanfrancisco/sf-sees-highest-crime-rate-since-2008/Content?oid=2636673"> SF Examiner reports </a> that there's been a double-digit jump in thefts and robberies. The police mentioned it was especially bad by 3rd and Mission. Everything before that "line" was ok, but once you past the line that where travelers run into trouble. Unfortunately I was new to the area, and I wasn't aware.</p>
+    <div class="img_wrapper">
+    <img src ="img/gal/safewalk_crime_report.jpg" alt="crime-report" class = "center-img">
+    </div>
+    <p>Checking crime information is not part of people’s everyday workflow. Popular mapping apps like Google Maps recommend map routes to optimize for SPEED of getting from point A to point B. Waze, recently acquired by Google, provide real time traffic reports like “Police” but rather than raise awareness of police crime reports the “Police” feature helps users evade cops and avoid traffic tickets.</p> 
+    <p>Other apps like <a href= "http://sanfrancisco.crimespotting.org/map/">crimespotting</a> attempt to raise awareness of crimes in an area by providing a mapping visualization. This does not solve the users need to be able to quickly look for directions when they are on the go. Using crimespotting, users need to carefully inspect and consume the map information which most users will not do.  </p>
+
+    <div class="img_wrapper">
+    <img src ="img/gal/safewalk_crimespotting.png" alt="crimespotting" class = "center-img">
+  </div>
+
+    <emphasis>No mapping application incorporates crime data to recommend map routes that are FAST and SAFE for citizens. I built Safewalk so people traveling to new areas or looking to move to a new location can be made aware of the safety of the area.</emphasis>
+
+  </div>
+
   <div class = "section">
+    <h2 class = "proj-title">Building Safewalk at AT&amp;T Hackathon</h2>
+      <h4>Data, data, data </h4>
+      <p>Our team brainstormed and researched on what data can help users understand the safety of their routes. We hypothesized that the amount of crime reports and street lights could be great start. We found that the Open Data project <a href="https://data.sfgov.org/"> San Francisco data</a> provides crime reports with lat, long information.</p>
+      <p>The challenge now was to incorporate the data into our algorithm to find people safe routes. By collecting a set of routes from map APIs like Google Maps, we could then integrate the crime data at the street level !  </p>
+      <h4>Final Product </h4>
       <ul class="showcase-shots">
-        <li> <img src = "img/gal/safewalk00.png" alt="Tic-Tac-Toe-Prototype">
+        <li> <img src = "img/gal/safewalk00.png" alt="homepage">
           <div class = "caption">
                 <h5> User enters the route</h5>
             </div></li>
@@ -76,6 +97,43 @@
         </li>
       </ul>
     </div>
+    <div class = "section">
+    <h2 class = "proj-title">Exploring New Designs Post Hackathon</h2>
+    <p> After the hackathon, we had friends test our mobile app to get feedback. As the main designer for the app, I collected the feedback and identified 3 major problems. </p>
+    <ol>
+      <li> Map visualization is hard for our users to understand. Users don’t understand the difference in the colors </li>
+      <li> Users need a way to disambiguate and verify their destinations so they feel confident about the route </li>
+      <li> Users are confused by the mix of Android and iOS-like mobile patterns </li>
+    </ol>
+    <h4> Improving our map visualization so users can quickly decide what route to take </h4>
+
+    <p>Improving the map visualization was one of the most difficult design challenges. The map needs to communicate many key pieces of information - the route, why we are recommending this route, the necessary crime information, how to understand the crime information, and how you can interact and customize the map. Most users are only able to pick up 3-4 pieces of information at a glance. We wanted users to be able to quickly rationalize the information they are seeing. </p>
+
+    <p> My new designs solves this problem by </p>
+    <ul>
+      <li> adding a legend so users can understand what each of the colors mean </li>
+      <li> overlaying a heatmap of the dangerous “zones” so users can quickly identify danger spots in their route </li>
+      <li> adding a text overview of the danger zones users will pass by to help users quickly select their route </li>
+    </ul> 
+    <ul class="showcase-shots">
+        <li> <img src = "img/gal/safewalk_FindLocation.png" alt="FindLocation">
+          <div class = "caption">
+                <h5> A heatmap and legend helps identify danger</h5>
+            </div></li>
+            <li><img src ="img/gal/safewalk-routeSelect.png" alt="MaterialsforSprayPainting">
+            <div class = "caption">
+                <h5> A text overview helps compare routes</h5>
+            </div>
+        </li>
+    </ul>
+    <h4> Disambiguating and verifying destinations</h4>
+    <p> It’s common in mapping programs to have prepopulate the start location with their current location and provide autosuggest functionality to help users quickly select the correct destination. I also decided to include a map below the start and end location so users can visually verify the locations. </p>
+
+    <h4> Android design patterns </h4>
+    <p> One of the feedback we received was that the design should follow common mobile platform design patterns. We decided to focus on the Android platform, and updated our app to follow common Android patterns such as including the <a href="http://developer.android.com/design/patterns/navigation.html"> “Up” button </a> on all our screens and removing the rounded corners look. We also leveraged the free <a href = "http://developer.android.com/design/downloads/index.html"> Android vector design pack </a> that Google provides. </p>
+    <img src = "img/gal/safewalk_Autosuggest.png" style="display: block;width: 240px; margin-left: auto; margin-right: auto;">
+
+  </div>
 
   
 </div>
