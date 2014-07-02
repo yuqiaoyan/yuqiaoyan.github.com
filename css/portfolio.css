@@ -38,6 +38,10 @@
   font-size: 1.15em;
 }
 
+.img-border{
+  border: 1px solid #ddd;
+}
+
 .showcase{
  /* width: 700px;*/
   margin-left: 380px;

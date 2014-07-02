@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bonnie portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
+
+   </head>
+
+   <body>
+   	<header id="top-nav" class = "navbar navbar-inverse navbar-fixed-top nav-general" role="banner">
+   		<div class = "container">
+   			<a href = "index.html" id = "me"> bonnieyu </a>
+   			<span id = "main-nav" class="navbar-right">
+	   			<ul class = "nav navbar-nav">
+	   				<li> <a href="index.html">PORTFOLIO</a></li>
+	   				<li> <a href="about.html">ABOUT</a></li>
+	   				<li> <a href="resume.pdf">RESUME</a></li>
+	   			</ul>
+	   		</span>
+   		</div>
+
+   	</header>
+        <div id="main-wrapper">
+   	
+
+	<div id="content-wrapper">
+   		<div class="proj-snippet">
+			<h2 class = "proj-title">Strava Redesign</h2>
+			<h6 class = "proj-type">Web Design</h6>
+			<p class = "proj-descrip">
+			Design explorations to simplify the information hierarchy of Strava's Web app </p>
+  
+   		</div>   	
+
+   	<!-- PROJECT SHOWCASE -->
+   		
+   		<div class = "showcase">
+
+            
+            <img src = "img/gal/strava09.png" alt="information architecture">
+            
+            <div class = "caption">
+		            <h5> A Redesign of the Strava Web App </h5>
+		        </div>
+      </div>
+ 	
+	</div>
+
+  <div class="section">
+    <h2 class = "proj-title"> Why redesign Strava? </h2>
+    <p><a href="strava.com">Strava</a> is an app that tracks and motivates athletes to improve their athletic capabilities. I use Strava to track my cycling and hiking activities. I really enjoy the simplicity of Strava's Android app, but I can't say that simplicity translated to Strava's web app. </p>
+
+  <p>Here are a few examples why: </p>
+    <ul>
+      <li> Strava's 2 tiered navigation model buries information in different pages. For the longest time, I couldn't find my estimated power curve stats! </li>
+      <li> The inconsistencies across the Strava Android and Strava web app causes me confusion. Why are notifications in the Dashboard as a tab on the web app, and an icon on the top nav in the mobile app? </li>
+      <li> I'm always wondering: How can I quickly get my stats and progress? </li>
+    </ul>
+
+
+    <div class="img_wrapper">
+    <img src ="img/gal/strava00.png" alt="stravaScreenshot" class = "center-img">
+    <figcaption> <i>A screenshot of Strava's current dashboard. The two tier tabbed hierarchy makes it harder for users to find Strava's other features</i> </figcaption>
+  </div>
+  <br>
+
+    <p>As a Strava user and UX profressional, I'd say Strava's web app is ready for new design explorations! In this design exercise, I want to solve the user experience problems I encountered, and explore new ways to promote the value of Strava's Premium subscription. After all Strava needs revenue to keep providing its services to me :) </p>
+    <p>For the redesign, my goals were:</p>
+    <ul>
+      <li>Simplify the navigation and content model of Strava's web app </li>
+      <li>Create more consistency between the mobile and web app </li>
+      <li>Continue to motivate users to do physical activities </li>
+      <li>Continue to promote Premium features to convert nonpaying users to Strava subscribers</li>
+    </ul>
+   
+ 
+
+  </div>
+
+  <div class = "section">
+    <h2 class = "proj-title">Mapping out Strava's Information Architecture </h2>
+      <p>I started out my design process by mapping out Strava's information architecture to understand if I can simplify their current model.</p>
+       <img src ="img/gal/strava01.JPG" alt="stravaWebInfo Architecture" class = "center-img img-border">
+    <img src ="img/gal/strava02.JPG" alt="stravaAndroidInfo Architecture" class = "center-img img-border">
+       <p> My initial analysis of their information architecture boiled down to these problems </p>
+    <p>
+Duplicate Pages - Why is there an activity feed under the Dashboard and My Activities under Training? </p>
+<p>
+Many pages with similar functionality -  Why is there a Segment Explore, Segment Search, Activity Search, Athelete Search, and Club search?  </p>
+<p>
+Strava's Android and web app have inconsistent information architectures</p>
+     
+    </div>
+    <div class = "section">
+    <h2 class = "proj-title">A Simpler Information Hierarchy</h2>
+    <p> Before jumping into the designs, I listed a number of organizational changes and recommendations in the chart below based on my understanding of Strava's functionality. My focus was to combine pages with similar functionality.</p>
+    <img src ="img/gal/strava03.jpg" alt="strava recommendations" class = "center-img img-border">
+    <p> <i>Disclaimer: One of the challenges with this type of redesign is I lack Strava's user engagement data to help with my design decisions. </i></p>
+
+  </div>
+   <div class = "section">
+    <h2 class = "proj-title">Design Recommendations</h2>
+      <h4> Move notifications next to the user's profile icon so the placement is similar to the Android app</h4>
+      <img src ="img/gal/strava04.png" alt="strava recommendations" class = "center-img img-border">
+      <h4>Combine different searches to reduce the number of surfaces users need to retrieve an answer </h4>
+
+    <h5>Design 1: A simple update to combine Segment Explore and Segment Search</h5>
+    <p> wireframe example </p>
+    <img src ="img/gal/strava05.png" alt="strava recommendations" class = "center-img img-border">
+    <h5>Design 2:  Combine Segment Explore, Segment Search, Activity Search, Athelete Search, Club</h5>
+    <p>A more aggressive approach to simplifying the navigation model is to combine all search activities into one Search box. A common web trend is to rely on a big Search box and filters to provided a single access point for users to answer their questions.</p>
+    <p> wireframe example </p>
+    <img src ="img/gal/strava06.png" alt="strava recommendations" class = "center-img img-border">
+
+    <h4> Redesign the Dashboard experience</h4>
+    <p>What about the all important Dashboard? There are a few problems that really bug me. </p>
+    <ol>
+      <li>Many items are tucked away in the Dashboard like "My Segments," "My Routes," and a few premium features like "Heatmaps" so I rarely make use of these features. </li>
+      <li>I keep wondering where I can find my stats </li>
+      <li>I'm a premium member. What can I get out of my premium membership when I don't have a power meter or heart rate monitor? </li>
+    </ol>
+    <p>One aspect I love about the Dashboard is the social stream. I really like seeing what other people are doing. The social aspect of Strava is also one of its main value props so I kept the social stream in all of my redesigns. </p>
+
+    <h5> Design 1: Help me review my progress and understand the value of Strava's Premium membership</h5>
+    <p> In this first design, I want to highlight two big changes.</p>
+    <p>How can I motivate to work harder? I added a quick stats view above the social stream. To motivate me to keep riding, I placed a small calendar to the right, so I can see how many days in a row I've ridden. In fact if I ride more than 3 days in a row, I gave myself a trophy :)</p>
+    <p> How can I get more value from my premium membership? I've noticed that a few of the premium features such as Power Curve and Fitness and Freshness requires additional gear. What if Strava and a company like Garmin can offer a discount on their heart rate monitors to Premium members? A heart rate monitor would make the Premium membership more valuable to Strava members. Of course, there's complexities in making a partnership like this - who would fund the discount - but it could be worth exploring if Strava Premium members with heart rate monitors are sticky. </p>
+
+    <p> medium fidelity design </p>
+    <img src ="img/gal/strava07.png" alt="strava recommendations" class = "center-img img-border">
+    <h5> Design 1a: Make my progress view more visual !</h5>
+    <p>This is a quick iteration on design 1 where I add more images to the stats view to improve the aesthetics of the design.  </p>
+    <p> medium fidelity design </p>
+    <img src ="img/gal/strava08.png" alt="strava recommendations" class = "center-img img-border">
+    <h5> Design 1a: Make my progress view more visual !</h5>
+    <h5> Design 2: Help Me Get an At a Glance View of Strava </h5>
+    <p> Many of the above designs were incremental in nature, because I wanted to keep the social stream as it is. What if I moved away from the social stream? 
+In this exploration, I reduced the width of the social stream to about 1/3 of the content module and moved it to the right rail. This immediately opened up new design space. Many news organizations today show a main module that has an "infinite" stream of content. I took a cue from this design and made a main content space.</p>
+<p> Each row includes its own set of content. Now we can bring a lot of content that's been hidden in the tab menu to our new content space ! You'll notice I experimented with adding challengs straight into the dashboard.  
+When users scroll down, Strava can also expose premium features in either the social or the main stream to convert users to the Strava Premium membership</p>
+<p>medium fidelity design</p>
+<img src ="img/gal/strava09.png" alt="strava recommendations" class = "center-img img-border">
+<p>I really like working on Design 2, because it opens up many new possibilities. The challenge here will be working with Strava's data to decide order and placement of the content in this stream.</p>
+</div>
+<div class = "section">
+    <h2 class = "proj-title">Final Thoughts</h2>
+    <p> At the end of the day good UX is about iterating and redesigning based on your user's feedback. Since the Strava web app is in production, Strava has the opportunity to do some experiments to get both user engagement data. A few potential data points to measure success include: time on Dashboard page, number of active customers over the next 30 days, conversion rate of premium subscribers. A/B testing is best with granular redesigns (change this font color to green instead of blue); these redesigns are too big to be so cut and dry but we can get a sense of the overall impact of the new designs. Combining both user research study to get verbal feedback and user engagement data can help Strava understand if these new designs help users get more out of their Strava experience!</p>
+</div>
+
+
+
+
+  
+</div>
+
+   	<footer class="nav-footer">
+      <div class = "copyright">
+        © Bonnie Yu 2014
+      </div>
+      <div class = "center-links social-nav">
+        <ul class ="nav">
+          <li> <a href="http://www.linkedin.com/pub/bonnie-yu/2/a18/8a5/" id="linkedIn"></a> </li>
+          <li> <a href="http://bonnieyu.tumblr.com/" id="tumblr"></a></li>
+        </ul>
+      </div>
+    </footer>
+   </body>
+
+</html>
