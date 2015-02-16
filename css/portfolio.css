@@ -88,8 +88,9 @@
 .showcase-shots > li > img{
   width: 240px;
   margin-top: 15px;
-  margin-left: 35px;
+  margin-left: 17px;
   margin-bottom: 35px;
+  margin-right: 17px;
 }
 
 .button{
