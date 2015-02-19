@@ -394,6 +394,20 @@ a.thumbnail:hover {
      margin-left: 375px;
   }
 
+  #safewalkShowcase{
+    margin-left: 375px;
+  }
+
+  #safewalkShowcase > img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+  #safewalkShowcase > .caption{
+    width: 75%;
+  }
+
   
 }
 
@@ -421,6 +435,20 @@ a.thumbnail:hover {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+  }
+
+  #safewalkShowcase{
+    margin-left: 575px;
+  }
+
+  #safewalkShowcase > img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+  #safewalkShowcase > .caption{
+    width: 75%;
   }
 
   
