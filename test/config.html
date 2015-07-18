@@ -12,17 +12,17 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 	<!-- Timepicker CSS Files -->
-	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
-	<link rel="stylesheet" type="text/css" href="http://cdn.jtsage.com/datebox/latest/jqm-datebox.min.css">
+<!-- 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+	<link rel="stylesheet" type="text/css" href="http://cdn.jtsage.com/datebox/latest/jqm-datebox.min.css"> -->
 
 	<!-- Timepicker script -->
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
 	<script type="text/javascript" src="http://cdn.jtsage.com/datebox/latest/jqm-datebox.core.min.js"></script>
 	<script type="text/javascript" src="http://dev.jtsage.com/cdn/datebox/latest/jqm-datebox.mode.flipbox.min.js"></script>	
-	<script type="text/javascript" src="http://cdn.jtsage.com/datebox/i18n/jquery.mobile.datebox.i18n.en_US.utf8.js"></script>
+	<script type="text/javascript" src="http://cdn.jtsage.com/datebox/i18n/jquery.mobile.datebox.i18n.en_US.utf8.js"></script>-->
 
-	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+	<!-- <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ > -->
 
 	<style>
 
@@ -200,7 +200,7 @@
 				<h3 class="brand"> Zenprentice </h3>
 				<p> A Journey to Mindfulness </p>
 			</div>
-			<img id="mainPhoto" src = "images/journeyPhoto.png"> 
+			<img id="mainPhoto" src = "images/journeyPhoto.png" alt="Journey Photo"> 
 		</div>
 
 		<div class = "saying">
@@ -235,7 +235,7 @@
 		<div id="reminder">
 				<p class = "subheader"> Reminder Time </p>
 
-				<input type="text" id="reminderTimeInput" data-role="datebox" data-options='{"mode":"timeflipbox", "overrideClearButton": "Clear","closeCallback": "inputNewTime" }' >		 
+<!-- 				<input type="text" id="reminderTimeInput" data-role="datebox" data-options='{"mode":"timeflipbox", "overrideClearButton": "Clear","closeCallback": "inputNewTime" }' >		  -->
 		</div>
 
 		<div id="appContent">
@@ -268,7 +268,7 @@
 
 
 	</div>
-	<script>
+	<script type="text/javascript">
 
 		// {levelName, levelInstructions}
 		var LEVEL_NAME_ARRAY = ["Breath 1","Breath 2","Sound 1","Sound 2"];
@@ -290,6 +290,7 @@
 		var getReminderTime = function(url){
 		/* parses URL to get the reminder time */
 			var timeString = "3:00PM";
+			timeString = null;
 
 			return timeString;
 
@@ -407,8 +408,8 @@
 		$("#progressInfo").append(progressHTML);
 
 		//TESTING SETTINGS
-		var options = {level:-1};
-		window.location.href = 'pebblejs://close#' + encodeURIComponent(JSON.stringify(options));
+		// var options = {level:10};
+		// window.location.href = 'pebblejs://close#' + encodeURIComponent(JSON.stringify(options));
 
 
 	</script>
