@@ -144,6 +144,8 @@
 	padding-bottom: 15px;
 }
 
+.center { margin: 0 auto; display:block; }
+
 .center-links{
 	width: 100%;
 	margin-left: auto;
