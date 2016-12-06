@@ -55,83 +55,69 @@
 
 
     <div class = "section">
-    <h2 class = "proj-title">The Problem</h2>
-    <p>  </p>
-    <p>Text input is important in a number of scenarios such as searching for items, inputting pins, etc. When we start up our VR experience, one of our first tasks is to find the app we want to launch either by browsing or searching. I was inspired to start this project when I noticed how much I struggled to search for apps in VR, and how unnatural it felt to input text. This awkwardness felt similar to text input for gaming consoles (e.g. Xbox) where typically you use an analog stick or d-pad to select characters. </p>
+      <h2 class = "proj-title">The Problem</h2>
+      <p>  </p>
+      <p>Text input is important in a number of scenarios such as searching for items, inputting pins, etc. When we start up our VR experience, one of our first tasks is to find an app to launch either by browsing or searching. I was inspired to start this project when I noticed how much I struggled to search for apps in VR, and how unnatural it felt to input text. Is there a way to input text for a search in a more natural and comfortable way? That's the problem I'm trying to solve. </p>
 
-    <p> How does text input work in VR? We use keyboards to input text on desktop and on mobile, so most VR apps provide a giant digital QWERTY keyboard to input text. Users will select characters either by </p>
-    <ol>
-    <li> Using our wrist or arms to move a laser pointer to select </li> 
-    <li> Push an analog stick to select (similar to the console solution) </li>
-    <li> Hover over a character and clicking a touchpad to select</li>
-    </ol>
+      <p> To start, how does text input work in VR? Most VR apps provide a giant digital QWERTY keyboard to input text, which makes sense because this is similar to how we input text in desktop and mobile. Users select characters either by </p>
+      <ol>
+      <li> Moving a laser pointer with our wrist/arm </li> 
+      <li> Pushing an analog stick to select (similar to the console solution) </li>
+      <li> Hovering over a character and clicking a touchpad to select (e.g. SteamVR keyboard)</li>
+      </ol>
 
-    <p> All three of these solutions work, but why does this feel awkward? To start, </p>
+      <p> All three of these solutions work, but why does this feel awkward? A "natural" input solution doesn't require us to "think" about how to communicate the text. Handwriting feels "natural," because we have practiced it since we are children, so there is limited cognitive load for us to write. Typing on a physical keyboard is something many people today have adapted, and it is well designed for fast and accurate input, especially for languages with ASCII based character, so that feels pretty good</p>
+    
 
-    <p>  On the desktop, text iput is fairly easy for languages that use ASCII characters, because the physical keyboard was designed for fast and relatively accurate input for ASCII.  </p>
-
-  </div>
-
-  <div class = "img_wrapper">
-  <iframe width="768" height="432" src="https://www.youtube.com/embed/cpXel0GfoLw" frameborder="0" allowfullscreen></iframe>
-
-          <p>
-          <figcaption> An interaction that supports gaze input. When the user's gaze gets close to the flower, a semi transparent sphere appears to indicate that the object is interactable. When the user's gaze moves on the flower itself, then the flower snaps to the cursor.</figcaption></p>
-            
-  </div>
-
-  <br/>
-  <br/>
-   <br/>
-
-  <div class = "img_wrapper">
-  <iframe width="768" height="432" src="https://www.youtube.com/embed/gPD_bG7rAyQ" frameborder="0" allowfullscreen></iframe>
-
-          <p>
-          <figcaption> Similar as above except it supports using the Oculus remote button for input to drop and pick up the flower </figcaption></p>
-            
-  </div>
-
-  <br/>
-   <br/>
-  <br/>
-
-     <div class = "img_wrapper">
-          <img src = "img/gal/StarryVR.PNG" alt="starryVR">
+    <div class = "img_wrapper">
+          <img src = "img/gal/keyboard00.jpg" alt="SteamVR Keyboard">
           <p style='margin-top:20px'>
-          <figcaption > Screenshot from Starry VR a game prototype from GDC 2015 game jam. See my <a href="https://medium.com/@Bonnieyu/gamejam-2015-and-building-a-simple-vr-app-2ed1e6437533#.fik72ocmg"> medium post </a>for a recap of the event and thoughts!</figcaption></p>
+          <figcaption > Screenshot of the SteamVR keyboard</figcaption></p>
             
       </div>
+
+      <p> The SteamVR keyboard is an example of a VR keyboard that feels very unnatural. The keyboard is split in half with the left side of the keyboard controlled by the left touchpad, and the right by the right touchpad. It's awkward because this is a new way of input to many of us and it's a bit confusing. We don't frequently interact with a split keyboard and it's not clear why each touchpad can only interact with a set amount of keys. Yes the iOS keyboard can be split, but it is not the default state and there is a physical separation between the keyboard itself that makes sense for the keyboard to be split visually. </p>
+
+      <p> I can imagine users acclimating to the SteamVR keyboard to a degree at some point. Is there a more natural form of input for text though? For this exercise, I scoped the problem to text input for search queries. </p>
+    </div>
+
+
+   <div class = "section">
+      <h2 class = "proj-title">The Idea</h2>
+      <p>  </p>
+      <p>What if users can write their search? We've been writing since we were kids, so we are very familiar with this form of input, which makes it easier to pick up. Handwriting certainly won't win in any speed competition, but with autocomplete smartness the length of search queries doesn't have to be very long.</p>
+
+      <p> To test this idea I built a basic prototype with Unity. The scene is set up so that you can search through a store catalog. By writing letters on a whiteboard, I run OCR and use that as your input query, and return results. I had a few users test this prototype and they agreed that this form of input felt more "natural" than the digital keyboard they have experienced on VR so far. However, there were times where the OCR would not recognize the writing correctly and rewriting the query can be frustrating. </p> 
+
+      <div class = "img_wrapper">
+           <iframe width="768" height="432" src="https://www.youtube.com/embed/gPD_bG7rAyQ" frameborder="0" allowfullscreen></iframe>
+
+          <p>
+          <figcaption> Vide of unity prototype. </figcaption></p>
+            
+      </div>
+
+      <p> If you would like to try the prototype, you can find the code <a href="https://github.com/yuqiaoyan/VR-UXConcepts"> here </a>. Please note this is a prototype! There are a number of cases that the prototype does not account for (e.g. if you are taller than I am, the whiteboard may seem low.). Also the OCR results would be improved if the writing was written with lines instead of cubes. 
+  </div>
+
+  
+
+  <br/>
+   <br/>
+  <br/>
+
 
 
   <!-- Section -->
 
   <div class = "section">
-     <h2 class = "proj-title">3D Model Sketches</h2>
+     <h2 class = "proj-title">Final Thoughts</h2>
+     <p> Using handwriting for search input can feel more natural. The biggest area of concern is how accurate the OCR results are. With keyboard input users will also make mistakes so the question is is OCR good enough to be acceptable for users. </p>
+     <p>For next steps, I want more users to test this prototype out and continue to collect more feedback. In addition, I plan on exploring other UX concepts such as voice input or other types of keyboards. I think there is room for improvement.</p> 
       <br/>
        <br/>
 
-    <!-- PROJECT SHOWCASE -->
-      
-      <div class = "img_wrapper">
-          <div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/b8b1df45d8e740bdaa87daeb06e19879/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-
-<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-    <a href="https://sketchfab.com/models/b8b1df45d8e740bdaa87daeb06e19879?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Chess Scene v1.5</a>
-    by <a href="https://sketchfab.com/bonnie?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">bonnie</a>
-    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-</p>
-</div>
-          <p>
-          <figcaption> Playing around with Blender!</figcaption></p>
-            
-      </div>
-
-      <br>
-      <br>
-  
   </div>
-</div>
 
 
 
