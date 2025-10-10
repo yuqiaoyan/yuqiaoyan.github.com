@@ -323,11 +323,16 @@ a.thumbnail:hover {
 
   .thumbnails{
     margin-left: 0px;
-    padding-left: 28px;
+    padding-left: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .thumbnails > li{
     margin-left: 0px;
+    float: none;
   }
 }
 
@@ -356,11 +361,25 @@ a.thumbnail:hover {
     width: 100%;
     height: 100%;
   }
-  
+
   .process_list{
     margin-bottom: 50px;
   }
-  
+
+  .thumbnails{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .thumbnails > li{
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
 }
 
 @media (min-width: 769px) and (max-width: 992px){
@@ -452,7 +471,22 @@ a.thumbnail:hover {
     width: 75%;
   }
 
-  
+  /* Fix thumbnail gallery layout */
+  .thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+
+  .thumbnails > li {
+    flex: 0 0 calc(33.333% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    float: none;
+  }
+
+
 }
 
 

@@ -176,6 +176,10 @@
 }
 
 @media (max-width: 480px) {
+  .about-page #content-wrapper {
+    padding-top: 0;
+  }
+
   #hero-content {
     max-width: 800px;
     margin: 50px auto 0;
@@ -201,6 +205,6 @@
   }
 
   #hero-section {
-    padding: 100px 15px 60px 15px;
+    padding: 30px 15px 60px 15px;
   }
 }
