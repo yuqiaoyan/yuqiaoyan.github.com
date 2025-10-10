@@ -1,8 +1,10 @@
 /* About Page Specific Styles */
 
-/* About Page Override - Remove default margin-top since hero section handles spacing */
-.about-page #main-wrapper {
-  margin-top: 0;
+/* About Page Override - Remove default margin-top only on larger screens where hero section handles spacing */
+@media (min-width: 481px) {
+  .about-page #main-wrapper {
+    margin-top: 0;
+  }
 }
 
 /* Hero Section */
@@ -196,5 +198,9 @@
   #aboutme {
     font-size: 1.1em;
     padding: 0 15px;
+  }
+
+  #hero-section {
+    padding: 100px 15px 60px 15px;
   }
 }
