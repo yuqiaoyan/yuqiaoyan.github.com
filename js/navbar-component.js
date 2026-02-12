@@ -10,6 +10,7 @@ class SiteNavbar extends HTMLElement {
               <li><a href="portfolio.html" data-page="portfolio">PORTFOLIO</a></li>
               <li><a href="https://www.tumblr.com/blog/sketchbonnieyu">SKETCHES</a></li>
               <li><a href="index.html" data-page="about">ABOUT</a></li>
+              <li><a href="https://bonnieyu.substack.com/" target="_blank" rel="noopener noreferrer">SUBSTACK</a></li>
               <li><a href="https://www.linkedin.com/pub/bonnie-yu/2/a18/8a5/">LINKEDIN</a></li>
             </ul>
           </span>

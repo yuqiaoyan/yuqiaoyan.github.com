@@ -88,6 +88,89 @@
   transform: rotate(45deg);
 }
 
+/* Testimonials Section */
+#testimonials-section {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 70px 15px;
+  background: linear-gradient(135deg, #fff9f5 0%, #fef8f3 100%);
+  border-bottom: 1px solid #eee;
+}
+
+#testimonials-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#testimonials-heading {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.8em;
+  font-weight: 300;
+  color: #F8963A;
+  text-align: center;
+  margin-bottom: 50px;
+  letter-spacing: 0.05em;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  align-items: start;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 35px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #F8963A;
+  position: relative;
+}
+
+.quote-mark {
+  font-family: Georgia, serif;
+  font-size: 4em;
+  color: #F8963A;
+  opacity: 0.3;
+  line-height: 0.8;
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-family: museo-slab, Georgia, serif;
+  font-size: 1.05em;
+  line-height: 1.7;
+  color: #676767;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.testimonial-text:last-of-type {
+  margin-bottom: 25px;
+}
+
+.testimonial-attribution {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.testimonial-author {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #FF671F;
+  margin-bottom: 5px;
+}
+
+.testimonial-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.95em;
+  color: #999;
+  margin-bottom: 0;
+}
+
 
 /* Enhanced About Content */
 #aboutme {
@@ -163,6 +246,28 @@
     margin-bottom: 30px;
   }
 
+  #testimonials-section {
+    padding: 50px 15px;
+  }
+
+  #testimonials-heading {
+    font-size: 2em;
+    margin-bottom: 35px;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .testimonial-card {
+    padding: 28px;
+  }
+
+  .testimonial-text {
+    font-size: 1em;
+  }
+
   #aboutme {
     margin: 60px auto;
     padding: 0 20px;
@@ -197,6 +302,35 @@
   #hero-photo {
     width: 140px;
     height: 140px;
+  }
+
+  #testimonials-section {
+    padding: 40px 15px;
+  }
+
+  #testimonials-heading {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+  }
+
+  .testimonial-card {
+    padding: 25px;
+  }
+
+  .quote-mark {
+    font-size: 3em;
+  }
+
+  .testimonial-text {
+    font-size: 0.95em;
+  }
+
+  .testimonial-author {
+    font-size: 1em;
+  }
+
+  .testimonial-title {
+    font-size: 0.9em;
   }
 
   #aboutme {
