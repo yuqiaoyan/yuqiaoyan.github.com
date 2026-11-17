@@ -10,6 +10,7 @@ class SiteNavbar extends HTMLElement {
               <li><a href="portfolio.html" data-page="portfolio">PORTFOLIO</a></li>
               <li><a href="https://www.tumblr.com/blog/sketchbonnieyu">SKETCHES</a></li>
               <li><a href="index.html" data-page="about">ABOUT</a></li>
+              <li><a href="tmj.html" data-page="tmj">TMJ APP</a></li>
               <li><a href="https://bonnieyu.substack.com/" target="_blank" rel="noopener noreferrer">SUBSTACK</a></li>
               <li><a href="https://www.linkedin.com/pub/bonnie-yu/2/a18/8a5/">LINKEDIN</a></li>
             </ul>
@@ -39,9 +40,11 @@ class SiteNavbar extends HTMLElement {
       const pageName = link.getAttribute('data-page');
 
       // Check if this link corresponds to current page
+      const isTmj = currentPage === 'tmj.html' || currentPage === 'tmj';
       if ((currentPage === 'index.html' && pageName === 'about') ||
           (currentPage === 'portfolio.html' && pageName === 'portfolio') ||
-          (currentPage.includes('.html') && currentPage !== 'index.html' && currentPage !== 'portfolio.html' && pageName === 'portfolio')) {
+          (isTmj && pageName === 'tmj') ||
+          (!isTmj && currentPage.includes('.html') && currentPage !== 'index.html' && currentPage !== 'portfolio.html' && pageName === 'portfolio')) {
         link.style.color = 'white';
       }
     });
